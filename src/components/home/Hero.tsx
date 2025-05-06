@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative bg-wk-lightgray overflow-hidden">
       <div className="container-custom relative z-10 py-16 md:py-24 lg:py-32">
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div>
+          <div data-aos="fade-right" data-aos-delay="100">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-wk-charcoal mb-6">
               Empowering Communities, <span className="text-wk-red">Changing Lives</span>
             </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
               </Button>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block" data-aos="fade-left" data-aos-delay="300">
             <div className="bg-gray-300 h-[400px] rounded-lg flex items-center justify-center text-gray-500">
               Hero Image Placeholder
             </div>

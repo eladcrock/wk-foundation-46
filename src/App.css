@@ -109,3 +109,58 @@ body {
 .hero-gradient {
   background: linear-gradient(135deg, rgba(191,42,55,0.9) 0%, rgba(212,175,55,0.7) 100%), #222222;
 }
+
+/* Custom animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.slide-in-right {
+  transform: translateX(50px);
+  opacity: 0;
+  animation: slideInRight 0.5s ease-out forwards;
+}
+
+.slide-in-left {
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideInLeft 0.5s ease-out forwards;
+}
+
+.zoom-in {
+  transform: scale(0.9);
+  opacity: 0;
+  animation: zoomIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Apply transitions to all links and buttons */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Smooth page transitions */
+.page-transition {
+  animation: fadeIn 0.5s ease-out;
+}
+

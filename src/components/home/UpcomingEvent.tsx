@@ -8,11 +8,15 @@ const UpcomingEvent = () => {
     <section className="bg-wk-lightblue section-padding">
       <div className="container-custom">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-gray-300 h-[300px] rounded-lg flex items-center justify-center text-gray-500 order-2 md:order-1">
+          <div 
+            className="bg-gray-300 h-[300px] rounded-lg flex items-center justify-center text-gray-500 order-2 md:order-1"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             Event Image Placeholder
           </div>
           
-          <div className="order-1 md:order-2">
+          <div className="order-1 md:order-2" data-aos="fade-left" data-aos-delay="300">
             <div className="inline-flex items-center bg-white px-4 py-2 rounded-full mb-6">
               <Calendar className="w-5 h-5 text-wk-blue mr-2" />
               <span className="text-wk-dark font-medium">Upcoming Event</span>

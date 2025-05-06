@@ -28,7 +28,7 @@ const ProgramHighlights = () => {
   return (
     <section className="section-padding">
       <div className="container-custom">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-wk-dark mb-4">Our Programs</h2>
           <p className="text-wk-gray max-w-2xl mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
@@ -36,8 +36,13 @@ const ProgramHighlights = () => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {programs.map((program) => (
-            <Card key={program.id} className="shadow-lg hover:shadow-xl transition-shadow">
+          {programs.map((program, index) => (
+            <Card 
+              key={program.id} 
+              className="shadow-lg hover:shadow-xl transition-shadow"
+              data-aos="fade-up"
+              data-aos-delay={100 * (index + 1)}
+            >
               <CardHeader>
                 <div className="bg-gray-200 h-[160px] -mt-6 -mx-6 mb-4 rounded-t-lg flex items-center justify-center text-gray-500">
                   Program Image
@@ -57,7 +62,7 @@ const ProgramHighlights = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+        <div className="text-center mt-12" data-aos="fade-up" data-aos-delay="400">
           <Button asChild size="lg" className="bg-wk-teal hover:bg-teal-600">
             <Link to="/programs">View All Programs</Link>
           </Button>
