@@ -11,16 +11,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-sm sticky top-0 z-50">
+    <nav className="bg-wk-charcoal shadow-sm sticky top-0 z-50 text-white">
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-wk-blue">
+          <Link to="/" className="text-2xl font-bold text-wk-gold">
             WK Foundation
           </Link>
           
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden focus:outline-none" 
+            className="md:hidden focus:outline-none text-white" 
             onClick={toggleMenu}
           >
             <svg 
@@ -50,22 +50,22 @@ const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-wk-dark hover:text-wk-blue transition font-medium">
+            <Link to="/" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Home
             </Link>
-            <Link to="/events" className="text-wk-dark hover:text-wk-blue transition font-medium">
+            <Link to="/events" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Events
             </Link>
-            <Link to="/programs" className="text-wk-dark hover:text-wk-blue transition font-medium">
+            <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Programs
             </Link>
-            <Link to="/about" className="text-wk-dark hover:text-wk-blue transition font-medium">
+            <Link to="/about" className="text-gray-300 hover:text-wk-gold transition font-medium">
               About
             </Link>
-            <Link to="/contact" className="text-wk-dark hover:text-wk-blue transition font-medium">
+            <Link to="/contact" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Contact
             </Link>
-            <Button asChild className="bg-wk-teal hover:bg-teal-600">
+            <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
               <Link to="/donate">Donate</Link>
             </Button>
           </div>
@@ -77,40 +77,40 @@ const Navbar = () => {
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/" 
-                className="text-wk-dark hover:text-wk-blue transition font-medium"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/events" 
-                className="text-wk-dark hover:text-wk-blue transition font-medium"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Events
               </Link>
               <Link 
                 to="/programs" 
-                className="text-wk-dark hover:text-wk-blue transition font-medium"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Programs
               </Link>
               <Link 
                 to="/about" 
-                className="text-wk-dark hover:text-wk-blue transition font-medium"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 About
               </Link>
               <Link 
                 to="/contact" 
-                className="text-wk-dark hover:text-wk-blue transition font-medium"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
               </Link>
-              <Button asChild className="bg-wk-teal hover:bg-teal-600 w-full">
+              <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full">
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>

@@ -9,14 +9,14 @@ interface CallToActionProps {
 
 const CallToAction = ({ compact = false }: CallToActionProps) => {
   return (
-    <div className={`bg-gradient-to-r from-wk-red/10 to-wk-gold/10 ${compact ? 'py-12' : 'py-20'}`}>
+    <div className={`bg-wk-charcoal/90 ${compact ? 'py-12' : 'py-20'}`}>
       <div className="container-custom text-center">
         {!compact && (
-          <h2 className="text-3xl md:text-4xl font-bold text-wk-charcoal mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-wk-gold mb-6">
             Join the Wahiawa Kajukenbo Community
           </h2>
         )}
-        <p className={`text-wk-gray ${compact ? 'mb-6' : 'mb-8'} max-w-2xl mx-auto text-lg`}>
+        <p className={`text-gray-300 ${compact ? 'mb-6' : 'mb-8'} max-w-2xl mx-auto text-lg`}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-5 items-center">
