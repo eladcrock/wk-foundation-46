@@ -54,12 +54,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				wk: {
-					blue: '#4A90E2',
-					teal: '#3BAEA0',
-					lightblue: '#D5EDF8',
-					lightgray: '#F9FAFB',
-					gray: '#6B7280',
-					dark: '#374151'
+					red: '#BF2A37',       // Primary - Deep red for strength
+					gold: '#D4AF37',      // Secondary - Gold for tradition
+					charcoal: '#2D2D2D',  // Dark text
+					lightgray: '#F8F8F8', // Light background
+					gray: '#6B7280',      // Medium gray text
+					lightred: '#F8E6E7'   // Light red background
 				}
 			},
 			borderRadius: {

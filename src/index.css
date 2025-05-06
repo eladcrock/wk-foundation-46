@@ -14,17 +14,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 210 100% 59%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 357 63% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 173 55% 46%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 45 65% 52%;
+    --secondary-foreground: 0 0% 12%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 195 81% 90%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 357 63% 95%;
+    --accent-foreground: 357 63% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -49,11 +49,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-wk-blue text-white font-medium px-6 py-3 rounded-md hover:bg-blue-600 transition-all;
+    @apply bg-wk-red text-white font-medium px-6 py-3 rounded-md hover:bg-red-700 transition-all;
   }
   
   .btn-secondary {
-    @apply bg-wk-teal text-white font-medium px-6 py-3 rounded-md hover:bg-teal-600 transition-all;
+    @apply bg-wk-gold text-wk-charcoal font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-all;
   }
   
   .section-padding {

@@ -34,7 +34,7 @@ const Donate = () => {
         <section className="bg-wk-lightgray py-16 md:py-24">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-wk-dark mb-6">Support Our Mission</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-wk-charcoal mb-6">Support Our Mission</h1>
               <p className="text-lg text-wk-gray mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
                 Proin gravida dolor sit amet lacus accumsan et viverra.
@@ -48,7 +48,7 @@ const Donate = () => {
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h2 className="text-3xl font-bold text-wk-dark mb-6">Make a Difference</h2>
+                <h2 className="text-3xl font-bold text-wk-charcoal mb-6">Make a Difference</h2>
                 <p className="text-wk-gray mb-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
                   Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
@@ -59,29 +59,29 @@ const Donate = () => {
                   sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 </p>
                 
-                <div className="bg-wk-lightblue p-6 rounded-lg mb-6">
-                  <h3 className="text-xl font-semibold text-wk-dark mb-4">Your Impact</h3>
+                <div className="bg-wk-lightred p-6 rounded-lg mb-6">
+                  <h3 className="text-xl font-semibold text-wk-charcoal mb-4">Your Impact</h3>
                   <ul className="space-y-3">
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-wk-gray">$25 provides materials for one youth in the BREATHE program</span>
                     </li>
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-wk-gray">$50 sponsors a senior for one month of boxing classes</span>
                     </li>
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-wk-gray">$100 supports a self-defense workshop for 5 women</span>
                     </li>
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       <span className="text-wk-gray">$250 helps fund program supplies and equipment</span>
@@ -93,10 +93,10 @@ const Donate = () => {
               <div>
                 <Card className="shadow-lg">
                   <CardContent className="pt-6">
-                    <h3 className="text-2xl font-bold text-wk-blue mb-6">Donate Now</h3>
+                    <h3 className="text-2xl font-bold text-wk-red mb-6">Donate Now</h3>
                     
                     <div className="mb-6">
-                      <h4 className="text-wk-dark font-medium mb-3">Select Amount</h4>
+                      <h4 className="text-wk-charcoal font-medium mb-3">Select Amount</h4>
                       <RadioGroup 
                         value={donationAmount} 
                         onValueChange={handleAmountChange}
@@ -128,11 +128,11 @@ const Donate = () => {
                     </div>
                     
                     <div className="mb-6">
-                      <h4 className="text-wk-dark font-medium mb-4">Payment Method</h4>
+                      <h4 className="text-wk-charcoal font-medium mb-4">Payment Method</h4>
                       <div className="grid grid-cols-2 gap-4">
                         <Button 
                           variant="outline"
-                          className="flex items-center justify-center py-6 border-2 border-wk-blue"
+                          className="flex items-center justify-center py-6 border-2 border-wk-red"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M7.08,10.28a.47.47,0,0,0-.46.52.45.45,0,0,0,.46.44.47.47,0,0,0,.46-.51A.44.44,0,0,0,7.08,10.28Zm9.12-3.55V9.85h3.92V18H9.51V9.85h5.13V8.53a1.73,1.73,0,0,0-1.73-1.73H9.8V3.92h6.13C21.59,3.92,21.59,6.73,16.2,6.73ZM5.6,6.73V9.85h.86V6.73H7.9V9.85h.85V6.73h.86v3.7a1.66,1.66,0,0,1,.52,1.21,1.74,1.74,0,0,1-1.72,1.73,1.15,1.15,0,0,1-.29,0A1.76,1.76,0,0,1,6.45,11.6a1.66,1.66,0,0,1,.52-1.21v-3.7Z"></path>
@@ -154,36 +154,36 @@ const Donate = () => {
                       </div>
                     </div>
                     
-                    <Button className="w-full bg-wk-blue hover:bg-blue-600">
+                    <Button className="w-full bg-wk-red hover:bg-red-700">
                       Proceed to Payment
                     </Button>
                     
                     <div className="mt-6 text-center text-sm text-wk-gray">
                       <p>
-                        WK Foundation is a registered 501(c)(3) nonprofit organization.<br />
+                        Wahaiwa Kajukenbo Foundation is a registered 501(c)(3) nonprofit organization.<br />
                         All donations are tax-deductible.
                       </p>
                     </div>
                   </CardContent>
                 </Card>
                 
-                <div className="mt-8 bg-wk-lightblue p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-wk-dark mb-4">Other Ways to Donate</h4>
+                <div className="mt-8 bg-wk-lightred p-6 rounded-lg">
+                  <h4 className="text-lg font-semibold text-wk-charcoal mb-4">Other Ways to Donate</h4>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      <span className="text-wk-gray">Mail a check to: WK Foundation, 123 Main St, Anytown, CA 12345</span>
+                      <span className="text-wk-gray">Mail a check to: Wahaiwa Kajukenbo Foundation, 123 Main St, Anytown, CA 12345</span>
                     </li>
                     <li className="flex items-start">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                       </svg>
                       <span className="text-wk-gray">Make an in-kind donation (contact us for details)</span>
                     </li>
                     <li className="flex items-start">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                       <span className="text-wk-gray">Set up a recurring donation (monthly, quarterly, or annually)</span>
@@ -191,7 +191,7 @@ const Donate = () => {
                   </ul>
                   
                   <div className="mt-4">
-                    <Link to="/contact" className="text-wk-blue hover:underline font-medium">
+                    <Link to="/contact" className="text-wk-red hover:underline font-medium">
                       Contact us for more information
                     </Link>
                   </div>
