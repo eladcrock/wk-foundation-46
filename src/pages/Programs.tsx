@@ -14,7 +14,7 @@ const Programs = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&q=80&w=2000" 
               alt="Our Programs" 
               className="w-full h-full object-cover opacity-10"
             />
@@ -37,7 +37,7 @@ const Programs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&q=80&w=1200" 
                   alt="BREATHE Youth Anti-Bullying Program" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -91,7 +91,7 @@ const Programs = () => {
               
               <div className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1616279969862-e71f99212c11?auto=format&fit=crop&q=80&w=1200" 
                   alt="Senior Boxing Program" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -106,7 +106,7 @@ const Programs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1593810450967-f9c6652bae15?auto=format&fit=crop&q=80&w=1200" 
                   alt="Women's Self Defense Program" 
                   className="w-full h-[400px] object-cover"
                 />

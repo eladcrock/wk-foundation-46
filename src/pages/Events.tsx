@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -15,7 +16,7 @@ const Events = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1574894078563-01e879b89809?auto=format&fit=crop&q=80&w=2000" 
               alt="Upcoming Events" 
               className="w-full h-full object-cover opacity-10"
             />
@@ -39,7 +40,7 @@ const Events = () => {
               <div className="grid md:grid-cols-2">
                 <div className="min-h-[400px] relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=1200" 
+                    src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=1200" 
                     alt="Ohana Fest 2023" 
                     className="w-full h-full object-cover"
                   />
@@ -88,19 +89,19 @@ const Events = () => {
                   id: 1,
                   title: "Community Fundraiser",
                   date: "November 6, 2023",
-                  image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800"
+                  image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800"
                 },
                 {
                   id: 2,
                   title: "Self-Defense Workshop",
                   date: "November 12, 2023",
-                  image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=800"
+                  image: "https://images.unsplash.com/photo-1593810450973-9471e1a22dd6?auto=format&fit=crop&q=80&w=800"
                 },
                 {
                   id: 3,
                   title: "Junior Tournament",
                   date: "November 18, 2023",
-                  image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+                  image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=800"
                 }
               ].map((event) => (
                 <Card key={event.id} className="shadow-lg hover:shadow-xl transition-shadow border border-white/10 bg-wk-darkgray text-white">

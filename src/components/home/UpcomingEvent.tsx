@@ -14,7 +14,7 @@ const UpcomingEvent = () => {
             data-aos-delay="200"
           >
             <img 
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=1200" 
+              src="https://images.unsplash.com/photo-1574894078563-01e879b89809?auto=format&fit=crop&q=80&w=1200" 
               alt="Ohana Fest 2023" 
               className="w-full h-[300px] object-cover"
             />

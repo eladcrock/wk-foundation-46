@@ -9,25 +9,25 @@ const About = () => {
     {
       name: "Jane Smith",
       title: "Founder & President",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?auto=format&fit=crop&q=80&w=400",
       bio: "Jane has been practicing Kajukenbo for over 20 years and is dedicated to sharing its principles with the community."
     },
     {
       name: "John Davis",
       title: "Vice President",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400",
       bio: "John brings over 15 years of nonprofit leadership experience to the foundation."
     },
     {
       name: "Sarah Johnson",
       title: "Treasurer",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
       bio: "Sarah has a background in finance and is passionate about making martial arts accessible to all."
     },
     {
       name: "Michael Lee",
       title: "Secretary",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
       bio: "Michael has been involved with the foundation since its inception and coordinates community outreach."
     },
   ];
@@ -36,22 +36,22 @@ const About = () => {
     {
       name: "Lisa Wong",
       title: "Program Director",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
     },
     {
       name: "Robert Taylor",
       title: "Community Outreach",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400",
     },
     {
       name: "Emma Miller",
       title: "Events Coordinator",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400",
     },
     {
       name: "David Chen",
       title: "Volunteer Coordinator",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=400",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400",
     },
   ];
 
@@ -63,7 +63,7 @@ const About = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1540539234-c14a20fb7c7b?auto=format&fit=crop&q=80&w=2000" 
               alt="About Us" 
               className="w-full h-full object-cover opacity-10"
             />
@@ -86,7 +86,7 @@ const About = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1517438322307-e67111335449?auto=format&fit=crop&q=80&w=1200" 
                   alt="Mission Statement" 
                   className="w-full h-[400px] object-cover"
                 />

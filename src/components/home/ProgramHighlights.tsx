@@ -10,21 +10,21 @@ const ProgramHighlights = () => {
       title: "BREATHE",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "senior-boxing",
       title: "Senior Boxing",
       description: "Fitness Program for Seniors",
       body: "Stay active, build strength, and foster community with our specialized boxing program for seniors.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1616279969862-e71f99212c11?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "self-defense",
       title: "Women's Self Defense",
       description: "Empowerment Through Training",
       body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1593810450967-f9c6652bae15?auto=format&fit=crop&q=80&w=800"
     },
   ];
 

@@ -7,8 +7,8 @@ const Hero = () => {
     <div className="relative bg-wk-dark overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1527576539890-dfa815648363?auto=format&fit=crop&q=80&w=2000" 
-          alt="Martial Arts Training" 
+          src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=2000" 
+          alt="Martial Arts Community Training" 
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-wk-charcoal/90 to-wk-charcoal/40"></div>
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="hidden md:block" data-aos="fade-left" data-aos-delay="300">
             <div className="relative overflow-hidden rounded-lg shadow-xl border border-white/10">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1517438322307-e67111335449?auto=format&fit=crop&q=80&w=1200" 
                 alt="Kajukenbo Training" 
                 className="w-full h-[400px] object-cover"
               />
