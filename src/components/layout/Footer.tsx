@@ -15,13 +15,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-wk-charcoal text-white pt-16 pb-8">
+    <footer className="bg-wk-dark text-white pt-16 pb-8 border-t border-white/10">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div className="mb-8 md:mb-0">
             <h3 className="text-2xl font-bold text-wk-gold mb-4">WK Foundation</h3>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+              Building strength, character and community through the traditions and 
+              values of Kajukenbo martial arts training.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-wk-gold transition-colors">
@@ -103,7 +104,7 @@ const Footer = () => {
               <Button asChild className="bg-wk-red hover:bg-red-700 w-full">
                 <Link to="/contact">Get Involved</Link>
               </Button>
-              <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full">
+              <Button asChild className="bg-wk-purple hover:bg-purple-700 text-white w-full">
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>

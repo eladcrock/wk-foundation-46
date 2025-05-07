@@ -31,72 +31,78 @@ const Donate = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-wk-lightgray py-16 md:py-24">
-          <div className="container-custom">
+        <section className="bg-wk-dark py-16 md:py-24 relative overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2000" 
+              alt="Support Our Mission" 
+              className="w-full h-full object-cover opacity-10"
+            />
+          </div>
+          <div className="container-custom relative z-10">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-wk-charcoal mb-6">Support Our Mission</h1>
-              <p className="text-lg text-wk-gray mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
-                Proin gravida dolor sit amet lacus accumsan et viverra.
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Support Our Mission</h1>
+              <p className="text-lg text-gray-300 mb-8">
+                Your generosity helps us continue providing quality martial arts programs 
+                to our community and supports our mission of building strength, character, and community.
               </p>
             </div>
           </div>
         </section>
 
         {/* Donation Options */}
-        <section className="section-padding">
+        <section className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h2 className="text-3xl font-bold text-wk-charcoal mb-6">Make a Difference</h2>
-                <p className="text-wk-gray mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
-                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                <h2 className="text-3xl font-bold text-white mb-6">Make a Difference</h2>
+                <p className="text-gray-300 mb-4">
+                  Your donation directly supports our programs that serve youth, seniors, and women in our community. 
+                  Every contribution, no matter the size, helps us continue our mission.
                 </p>
-                <p className="text-wk-gray mb-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
-                  Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar 
-                  sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                <p className="text-gray-300 mb-6">
+                  As a 501(c)(3) nonprofit organization, your donations are tax-deductible and help us maintain 
+                  affordable access to our programs for all members of our community.
                 </p>
                 
-                <div className="bg-wk-lightred p-6 rounded-lg mb-6">
-                  <h3 className="text-xl font-semibold text-wk-charcoal mb-4">Your Impact</h3>
+                <div className="bg-wk-lightpurple p-6 rounded-lg mb-6">
+                  <h3 className="text-xl font-semibold text-wk-dark mb-4">Your Impact</h3>
                   <ul className="space-y-3">
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-wk-gray">$25 provides materials for one youth in the BREATHE program</span>
+                      <span className="text-wk-dark">$25 provides materials for one youth in the BREATHE program</span>
                     </li>
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-wk-gray">$50 sponsors a senior for one month of boxing classes</span>
+                      <span className="text-wk-dark">$50 sponsors a senior for one month of boxing classes</span>
                     </li>
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-wk-gray">$100 supports a self-defense workshop for 5 women</span>
+                      <span className="text-wk-dark">$100 supports a self-defense workshop for 5 women</span>
                     </li>
                     <li className="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span className="text-wk-gray">$250 helps fund program supplies and equipment</span>
+                      <span className="text-wk-dark">$250 helps fund program supplies and equipment</span>
                     </li>
                   </ul>
                 </div>
               </div>
               
               <div>
-                <Card className="shadow-lg">
+                <Card className="shadow-lg bg-wk-darkgray border border-white/10">
                   <CardContent className="pt-6">
-                    <h3 className="text-2xl font-bold text-wk-red mb-6">Donate Now</h3>
+                    <h3 className="text-2xl font-bold text-wk-gold mb-6">Donate Now</h3>
                     
                     <div className="mb-6">
-                      <h4 className="text-wk-charcoal font-medium mb-3">Select Amount</h4>
+                      <h4 className="text-white font-medium mb-3">Select Amount</h4>
                       <RadioGroup 
                         value={donationAmount} 
                         onValueChange={handleAmountChange}
@@ -105,7 +111,7 @@ const Donate = () => {
                         {suggestedAmounts.map((amount) => (
                           <div key={amount} className="flex items-center space-x-2">
                             <RadioGroupItem value={amount} id={`amount-${amount}`} />
-                            <Label htmlFor={`amount-${amount}`} className="font-medium">
+                            <Label htmlFor={`amount-${amount}`} className="font-medium text-gray-300">
                               {amount === "custom" ? "Custom" : `$${amount}`}
                             </Label>
                           </div>
@@ -114,25 +120,25 @@ const Donate = () => {
                       
                       {donationAmount === "custom" && (
                         <div className="mt-4">
-                          <Label htmlFor="custom-amount">Enter Amount ($)</Label>
+                          <Label htmlFor="custom-amount" className="text-gray-300">Enter Amount ($)</Label>
                           <Input
                             id="custom-amount"
                             type="number"
                             placeholder="Enter amount"
                             value={customAmount}
                             onChange={handleCustomAmountChange}
-                            className="mt-1"
+                            className="mt-1 bg-wk-charcoal border-white/20 text-white"
                           />
                         </div>
                       )}
                     </div>
                     
                     <div className="mb-6">
-                      <h4 className="text-wk-charcoal font-medium mb-4">Payment Method</h4>
+                      <h4 className="text-white font-medium mb-4">Payment Method</h4>
                       <div className="grid grid-cols-2 gap-4">
                         <Button 
                           variant="outline"
-                          className="flex items-center justify-center py-6 border-2 border-wk-red"
+                          className="flex items-center justify-center py-6 border-2 border-wk-purple text-white"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M7.08,10.28a.47.47,0,0,0-.46.52.45.45,0,0,0,.46.44.47.47,0,0,0,.46-.51A.44.44,0,0,0,7.08,10.28Zm9.12-3.55V9.85h3.92V18H9.51V9.85h5.13V8.53a1.73,1.73,0,0,0-1.73-1.73H9.8V3.92h6.13C21.59,3.92,21.59,6.73,16.2,6.73ZM5.6,6.73V9.85h.86V6.73H7.9V9.85h.85V6.73h.86v3.7a1.66,1.66,0,0,1,.52,1.21,1.74,1.74,0,0,1-1.72,1.73,1.15,1.15,0,0,1-.29,0A1.76,1.76,0,0,1,6.45,11.6a1.66,1.66,0,0,1,.52-1.21v-3.7Z"></path>
@@ -141,7 +147,7 @@ const Donate = () => {
                         </Button>
                         <Button 
                           variant="outline"
-                          className="flex items-center justify-center py-6 border-2"
+                          className="flex items-center justify-center py-6 border-2 text-white"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19.5,7.17h-15a.5.5,0,0,0-.5.5v9.16a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V7.67A.5.5,0,0,0,19.5,7.17Z"></path>
@@ -154,11 +160,11 @@ const Donate = () => {
                       </div>
                     </div>
                     
-                    <Button className="w-full bg-wk-red hover:bg-red-700">
+                    <Button className="w-full bg-wk-purple hover:bg-purple-700 text-white">
                       Proceed to Payment
                     </Button>
                     
-                    <div className="mt-6 text-center text-sm text-wk-gray">
+                    <div className="mt-6 text-center text-sm text-gray-300">
                       <p>
                         Wahaiwa Kajukenbo Foundation is a registered 501(c)(3) nonprofit organization.<br />
                         All donations are tax-deductible.
@@ -167,31 +173,31 @@ const Donate = () => {
                   </CardContent>
                 </Card>
                 
-                <div className="mt-8 bg-wk-lightred p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-wk-charcoal mb-4">Other Ways to Donate</h4>
+                <div className="mt-8 bg-wk-lightpurple p-6 rounded-lg">
+                  <h4 className="text-lg font-semibold text-wk-dark mb-4">Other Ways to Donate</h4>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      <span className="text-wk-gray">Mail a check to: Wahaiwa Kajukenbo Foundation, 123 Main St, Anytown, CA 12345</span>
+                      <span className="text-wk-dark">Mail a check to: Wahaiwa Kajukenbo Foundation, 123 Main St, Anytown, CA 12345</span>
                     </li>
                     <li className="flex items-start">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                       </svg>
-                      <span className="text-wk-gray">Make an in-kind donation (contact us for details)</span>
+                      <span className="text-wk-dark">Make an in-kind donation (contact us for details)</span>
                     </li>
                     <li className="flex items-start">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-red mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-purple mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
-                      <span className="text-wk-gray">Set up a recurring donation (monthly, quarterly, or annually)</span>
+                      <span className="text-wk-dark">Set up a recurring donation (monthly, quarterly, or annually)</span>
                     </li>
                   </ul>
                   
                   <div className="mt-4">
-                    <Link to="/contact" className="text-wk-red hover:underline font-medium">
+                    <Link to="/contact" className="text-wk-purple hover:underline font-medium">
                       Contact us for more information
                     </Link>
                   </div>

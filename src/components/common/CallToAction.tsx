@@ -9,7 +9,7 @@ interface CallToActionProps {
 
 const CallToAction = ({ compact = false }: CallToActionProps) => {
   return (
-    <div className={`bg-wk-charcoal/90 ${compact ? 'py-12' : 'py-20'}`}>
+    <div className={`bg-gradient-to-br from-wk-charcoal to-wk-dark ${compact ? 'py-12' : 'py-20'}`}>
       <div className="container-custom text-center">
         {!compact && (
           <h2 
@@ -25,7 +25,8 @@ const CallToAction = ({ compact = false }: CallToActionProps) => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+          Become part of our 'ohana and help us continue to build strength, 
+          character and community through martial arts training.
         </p>
         <div 
           className="flex flex-col sm:flex-row justify-center gap-5 items-center"
@@ -37,7 +38,7 @@ const CallToAction = ({ compact = false }: CallToActionProps) => {
               Get Involved <ArrowRight size={16} />
             </Link>
           </Button>
-          <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal min-w-[180px] h-12 text-base">
+          <Button asChild className="bg-wk-purple hover:bg-purple-700 min-w-[180px] h-12 text-base text-white">
             <Link to="/donate" className="flex items-center justify-center gap-2">
               Donate Now <ArrowRight size={16} />
             </Link>

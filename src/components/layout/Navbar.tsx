@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-wk-charcoal shadow-sm sticky top-0 z-50 text-white">
+    <nav className="bg-wk-dark shadow-md sticky top-0 z-50 text-white border-b border-white/10">
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-wk-gold">
@@ -65,7 +65,7 @@ const Navbar = () => {
             <Link to="/contact" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Contact
             </Link>
-            <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
+            <Button asChild className="bg-wk-purple hover:bg-purple-700 text-white">
               <Link to="/donate">Donate</Link>
             </Button>
           </div>
@@ -110,7 +110,7 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-              <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full">
+              <Button asChild className="bg-wk-purple hover:bg-purple-700 text-white w-full">
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>

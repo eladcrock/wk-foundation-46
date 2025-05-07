@@ -56,10 +56,16 @@ export default {
 				wk: {
 					red: '#BF2A37',       // Primary - Deep red for strength
 					gold: '#D4AF37',      // Secondary - Gold for tradition
-					charcoal: '#2D2D2D',  // Dark text
+					charcoal: '#1A1F2C',  // Dark text/background
 					lightgray: '#F8F8F8', // Light background
 					gray: '#6B7280',      // Medium gray text
-					lightred: '#F8E6E7'   // Light red background
+					lightred: '#F8E6E7',   // Light red background
+					purple: '#7E69AB',     // Alternative to red for donate page
+					lightpurple: '#E5DEFF', // Light purple background
+					dark: '#221F26',      // Dark background
+					blue: '#0EA5E9',      // Blue accent
+					teal: '#0FA0CE',      // Teal accent
+					darkgray: '#403E43'   // Dark gray for cards
 				}
 			},
 			borderRadius: {

@@ -9,29 +9,32 @@ const ProgramHighlights = () => {
       id: "breathe",
       title: "BREATHE",
       description: "Youth Anti-Bullying Initiative",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+      body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "senior-boxing",
       title: "Senior Boxing",
       description: "Fitness Program for Seniors",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+      body: "Stay active, build strength, and foster community with our specialized boxing program for seniors.",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "self-defense",
       title: "Women's Self Defense",
       description: "Empowerment Through Training",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
+      body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
+      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800"
     },
   ];
 
   return (
-    <section className="section-padding">
+    <section className="section-padding bg-wk-dark">
       <div className="container-custom">
         <div className="text-center mb-12" data-aos="fade-up">
-          <h2 className="text-3xl md:text-4xl font-bold text-wk-dark mb-4">Our Programs</h2>
-          <p className="text-wk-gray max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Programs</h2>
+          <p className="text-gray-300 max-w-2xl mx-auto">
+            Serving our community with specialized martial arts programs designed for all ages and abilities.
           </p>
         </div>
         
@@ -39,19 +42,25 @@ const ProgramHighlights = () => {
           {programs.map((program, index) => (
             <Card 
               key={program.id} 
-              className="shadow-lg hover:shadow-xl transition-shadow"
+              className="shadow-lg hover:shadow-xl transition-shadow border border-white/10 bg-wk-darkgray text-white"
               data-aos="fade-up"
               data-aos-delay={100 * (index + 1)}
             >
-              <CardHeader>
-                <div className="bg-gray-200 h-[160px] -mt-6 -mx-6 mb-4 rounded-t-lg flex items-center justify-center text-gray-500">
-                  Program Image
+              <CardHeader className="p-0">
+                <div className="h-[200px] overflow-hidden rounded-t-lg">
+                  <img 
+                    src={program.image} 
+                    alt={program.title} 
+                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
+                  />
                 </div>
-                <CardTitle className="text-wk-blue">{program.title}</CardTitle>
-                <CardDescription>{program.description}</CardDescription>
+                <div className="p-6">
+                  <CardTitle className="text-wk-gold">{program.title}</CardTitle>
+                  <CardDescription className="text-gray-300">{program.description}</CardDescription>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-wk-gray">{program.body}</p>
+                <p className="text-gray-300">{program.body}</p>
               </CardContent>
               <CardFooter>
                 <Button asChild className="w-full bg-wk-blue hover:bg-blue-600">
