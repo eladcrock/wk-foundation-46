@@ -33,7 +33,7 @@ const CallToAction = ({ compact = false }: CallToActionProps) => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          <Button asChild className="bg-wk-red hover:bg-red-700 min-w-[180px] h-12 text-base">
+          <Button asChild className="bg-wk-red hover:bg-red-700 min-w-[180px] h-12 text-base text-white">
             <Link to="/contact" className="flex items-center justify-center gap-2">
               Get Involved <ArrowRight size={16} />
             </Link>

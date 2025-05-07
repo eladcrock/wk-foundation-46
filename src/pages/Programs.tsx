@@ -14,7 +14,7 @@ const Programs = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1609267258572-7097ce4a350e?auto=format&fit=crop&q=80&w=2000" 
               alt="Our Programs" 
               className="w-full h-full object-cover opacity-10"
             />
@@ -37,7 +37,7 @@ const Programs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=1200" 
                   alt="BREATHE Youth Anti-Bullying Program" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -58,7 +58,7 @@ const Programs = () => {
                   develop resilience, and build supportive peer relationships.
                 </p>
                 
-                <Button asChild className="bg-wk-blue hover:bg-blue-600">
+                <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
                   <Link to="/contact">Get Involved</Link>
                 </Button>
               </div>
@@ -84,14 +84,14 @@ const Programs = () => {
                   while also experiencing the mental benefits of stress reduction, increased focus, and social connection.
                 </p>
                 
-                <Button asChild className="bg-wk-blue hover:bg-blue-600">
+                <Button asChild className="bg-wk-red hover:bg-red-700 text-white">
                   <Link to="/contact">Get Involved</Link>
                 </Button>
               </div>
               
               <div className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1616279969862-e71f99212c11?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80&w=1200" 
                   alt="Senior Boxing Program" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -106,7 +106,7 @@ const Programs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1593810450967-f9c6652bae15?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1470468969717-61d5d54fd036?auto=format&fit=crop&q=80&w=1200" 
                   alt="Women's Self Defense Program" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -127,7 +127,7 @@ const Programs = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button asChild className="bg-wk-blue hover:bg-blue-600">
+                  <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
                     <Link to="/contact">Get Involved</Link>
                   </Button>
                 </div>
