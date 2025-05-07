@@ -50,11 +50,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
-                  Programs
-                </Link>
-              </li>
-              <li>
                 <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
                   About Us
                 </Link>
@@ -91,16 +86,8 @@ const Footer = () => {
         
         <Separator className="my-8 bg-gray-700" />
         
-        <div className="text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center">
+        <div className="text-sm text-gray-400 flex justify-center">
           <p>&copy; {currentYear} Wahiawa Kajukenbo Foundation. All rights reserved.</p>
-          <div className="mt-4 md:mt-0">
-            <Link to="/privacy" className="hover:text-wk-gold transition-colors mr-4">
-              Privacy Policy
-            </Link>
-            <Link to="/terms" className="hover:text-wk-gold transition-colors">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
