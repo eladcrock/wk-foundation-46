@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer className="bg-wk-dark text-white pt-16 pb-8 border-t border-white/10">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
             <h3 className="text-2xl font-bold text-wk-gold mb-4">WK Foundation</h3>
             <p className="text-gray-300 mb-6">
@@ -38,7 +38,6 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-wk-gold">Quick Links</h4>
             <ul className="space-y-3">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
@@ -64,27 +63,6 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-wk-gold">Programs</h4>
-            <ul className="space-y-3">
-              <li>
-                <Link to="/programs#breathe" className="text-gray-300 hover:text-wk-gold transition-colors">
-                  BREATHE
-                </Link>
-              </li>
-              <li>
-                <Link to="/programs#senior-boxing" className="text-gray-300 hover:text-wk-gold transition-colors">
-                  Senior Boxing
-                </Link>
-              </li>
-              <li>
-                <Link to="/programs#self-defense" className="text-gray-300 hover:text-wk-gold transition-colors">
-                  Women's Self Defense
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
             <h4 className="text-lg font-semibold mb-4 text-wk-gold">Contact Us</h4>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
@@ -104,7 +82,7 @@ const Footer = () => {
               <Button asChild className="bg-wk-red hover:bg-red-700 w-full">
                 <Link to="/contact">Get Involved</Link>
               </Button>
-              <Button asChild className="bg-wk-purple hover:bg-purple-700 text-white w-full">
+              <Button asChild className="bg-wk-blue hover:bg-blue-600 text-white w-full">
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>

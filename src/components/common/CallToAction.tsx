@@ -38,7 +38,7 @@ const CallToAction = ({ compact = false }: CallToActionProps) => {
               Get Involved <ArrowRight size={16} />
             </Link>
           </Button>
-          <Button asChild className="bg-wk-purple hover:bg-purple-700 min-w-[180px] h-12 text-base text-white">
+          <Button asChild className="bg-wk-blue hover:bg-blue-600 min-w-[180px] h-12 text-base text-white">
             <Link to="/donate" className="flex items-center justify-center gap-2">
               Donate Now <ArrowRight size={16} />
             </Link>
