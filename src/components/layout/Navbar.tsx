@@ -25,7 +25,7 @@ const Navbar = () => {
             WK Foundation
           </Link>
           
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 ml-auto">
             {/* T4L Logo */}
             <a 
               href="https://train4life.info" 
