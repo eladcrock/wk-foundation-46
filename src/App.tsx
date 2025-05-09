@@ -18,7 +18,7 @@ import NotFound from "./pages/NotFound";
 AOS.init({
   duration: 800,
   easing: 'ease-out',
-  once: false, // Changed to false to ensure animations play on every page
+  once: false, // Keep animation playing on every scroll
   offset: 100,
 });
 

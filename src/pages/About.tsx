@@ -70,7 +70,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
           <div className="container-custom relative z-10">
-            <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
+            <div className="max-w-3xl mx-auto text-center" data-aos="fade-up" data-aos-duration="800">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About Us</h1>
               <p className="text-lg text-gray-300 mb-8">
                 Learn about our mission, history, and the dedicated team behind the 
@@ -84,7 +84,7 @@ const About = () => {
         <section className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="rounded-lg overflow-hidden shadow-xl" data-aos="fade-right">
+              <div className="rounded-lg overflow-hidden shadow-xl" data-aos="fade-right" data-aos-duration="800">
                 <img 
                   src="https://images.unsplash.com/photo-1517438322307-e67111335449?auto=format&fit=crop&q=80&w=1200" 
                   alt="Mission Statement" 
@@ -92,7 +92,7 @@ const About = () => {
                 />
               </div>
               
-              <div data-aos="fade-left">
+              <div data-aos="fade-left" data-aos-duration="800">
                 <h2 className="text-3xl font-bold text-wk-gold mb-6">Mission Statement</h2>
                 <p className="text-gray-300 mb-4">
                   The Wahiawa Kajukenbo Foundation is dedicated to building strength, character, and community 
@@ -114,10 +114,10 @@ const About = () => {
         {/* Our Story */}
         <section className="section-padding bg-wk-dark">
           <div className="container-custom">
-            <div className="text-center mb-12" data-aos="fade-up">
+            <div className="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Story</h2>
             </div>
-            <div className="max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+            <div className="max-w-3xl mx-auto" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
               <p className="text-gray-300 mb-4">
                 Founded in 2010, the Wahiawa Kajukenbo Foundation grew from a small community martial arts class 
                 into a nonprofit organization dedicated to serving the diverse needs of our community through 
@@ -141,7 +141,7 @@ const About = () => {
         {/* Board of Directors */}
         <section className="section-padding bg-wk-charcoal">
           <div className="container-custom">
-            <div className="text-center mb-12" data-aos="fade-up">
+            <div className="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Board of Directors</h2>
               <p className="text-gray-300 max-w-2xl mx-auto">
                 Meet the dedicated individuals who provide leadership and guidance to our organization.
@@ -150,12 +150,12 @@ const About = () => {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {boardMembers.map((member, index) => (
-                <Card key={index} className="overflow-hidden border border-white/10 bg-wk-darkgray text-white" data-aos="fade-up" data-aos-delay={index * 100}>
-                  <div className="h-[200px] overflow-hidden">
+                <Card key={index} className="overflow-hidden border border-white/10 bg-wk-darkgray text-white" data-aos="fade-up" data-aos-duration="800" data-aos-delay={index * 100}>
+                  <div className="h-[220px] overflow-hidden">
                     <img 
                       src={member.image} 
                       alt={member.name} 
-                      className="w-full h-full object-cover object-center"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
                   <CardContent className="pt-6">
@@ -172,7 +172,7 @@ const About = () => {
         {/* Team Members */}
         <section className="section-padding bg-wk-dark">
           <div className="container-custom">
-            <div className="text-center mb-12" data-aos="fade-up">
+            <div className="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Team</h2>
               <p className="text-gray-300 max-w-2xl mx-auto">
                 Meet the people who make our programs possible day in and day out.
@@ -181,12 +181,12 @@ const About = () => {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {teamMembers.map((member, index) => (
-                <Card key={index} className="overflow-hidden border border-white/10 bg-wk-darkgray text-white" data-aos="fade-up" data-aos-delay={index * 100}>
-                  <div className="h-[200px] overflow-hidden">
+                <Card key={index} className="overflow-hidden border border-white/10 bg-wk-darkgray text-white" data-aos="fade-up" data-aos-duration="800" data-aos-delay={index * 100}>
+                  <div className="h-[220px] overflow-hidden">
                     <img 
                       src={member.image} 
                       alt={member.name} 
-                      className="w-full h-full object-cover object-center"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
                   <CardContent className="pt-6">
