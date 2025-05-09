@@ -21,7 +21,7 @@ const Programs = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
           <div className="container-custom relative z-10">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Programs</h1>
               <p className="text-lg text-gray-300 mb-8">
                 Discover our specialized martial arts training programs designed to serve different segments 
@@ -35,7 +35,7 @@ const Programs = () => {
         <section id="breathe" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="rounded-lg overflow-hidden shadow-xl">
+              <div className="rounded-lg overflow-hidden shadow-xl" data-aos="fade-right">
                 <img 
                   src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=1200" 
                   alt="BREATHE Youth Anti-Bullying Program" 
@@ -43,7 +43,7 @@ const Programs = () => {
                 />
               </div>
               
-              <div>
+              <div data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-wk-gold mb-2">BREATHE</h2>
                 <h3 className="text-xl text-white mb-4">Youth Anti-Bullying Initiative</h3>
                 
@@ -58,7 +58,7 @@ const Programs = () => {
                   develop resilience, and build supportive peer relationships.
                 </p>
                 
-                <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
+                <Button asChild className="bg-wk-red hover:bg-red-700 text-white">
                   <Link to="/contact">Get Involved</Link>
                 </Button>
               </div>
@@ -70,7 +70,7 @@ const Programs = () => {
         <section id="senior-boxing" className="section-padding bg-wk-dark">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="order-2 md:order-1">
+              <div className="order-2 md:order-1" data-aos="fade-right">
                 <h2 className="text-3xl font-bold text-wk-gold mb-2">Senior Boxing</h2>
                 <h3 className="text-xl text-white mb-4">Fitness Program for Seniors</h3>
                 
@@ -84,12 +84,12 @@ const Programs = () => {
                   while also experiencing the mental benefits of stress reduction, increased focus, and social connection.
                 </p>
                 
-                <Button asChild className="bg-wk-red hover:bg-red-700 text-white">
+                <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
                   <Link to="/contact">Get Involved</Link>
                 </Button>
               </div>
               
-              <div className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
+              <div className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2" data-aos="fade-left">
                 <img 
                   src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80&w=1200" 
                   alt="Senior Boxing Program" 
@@ -104,15 +104,15 @@ const Programs = () => {
         <section id="self-defense" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="rounded-lg overflow-hidden shadow-xl">
+              <div className="rounded-lg overflow-hidden shadow-xl" data-aos="fade-right">
                 <img 
-                  src="https://images.unsplash.com/photo-1470468969717-61d5d54fd036?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0?auto=format&fit=crop&q=80&w=1200" 
                   alt="Women's Self Defense Program" 
                   className="w-full h-[400px] object-cover"
                 />
               </div>
               
-              <div>
+              <div data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-wk-gold mb-2">Women's Self Defense</h2>
                 <h3 className="text-xl text-white mb-4">Empowerment Through Training</h3>
                 
@@ -127,7 +127,7 @@ const Programs = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
+                  <Button asChild className="bg-wk-red hover:bg-red-700 text-white">
                     <Link to="/contact">Get Involved</Link>
                   </Button>
                 </div>

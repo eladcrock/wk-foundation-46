@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -51,7 +52,7 @@ const CallToAction = ({ compact = false }: CallToActionProps) => {
           </Button>
           <Button
             asChild
-            className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500 min-w-[180px] h-12 text-base"
+            className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold min-w-[180px] h-12 text-base"
           >
             <Link
               to="/donate"

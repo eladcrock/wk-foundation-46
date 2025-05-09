@@ -1,14 +1,21 @@
 
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // Close menu on route change and scroll to top
+  useEffect(() => {
+    setIsOpen(false);
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <nav className="bg-wk-dark shadow-md sticky top-0 z-50 text-white border-b border-white/10">
@@ -65,7 +72,7 @@ const Navbar = () => {
             <Link to="/contact" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Contact
             </Link>
-            <Button asChild className="bg-wk-purple hover:bg-purple-700 text-white">
+            <Button asChild className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold">
               <Link to="/donate">Donate</Link>
             </Button>
           </div>
@@ -78,39 +85,34 @@ const Navbar = () => {
               <Link 
                 to="/" 
                 className="text-gray-300 hover:text-wk-gold transition font-medium"
-                onClick={() => setIsOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/events" 
                 className="text-gray-300 hover:text-wk-gold transition font-medium"
-                onClick={() => setIsOpen(false)}
               >
                 Events
               </Link>
               <Link 
                 to="/programs" 
                 className="text-gray-300 hover:text-wk-gold transition font-medium"
-                onClick={() => setIsOpen(false)}
               >
                 Programs
               </Link>
               <Link 
                 to="/about" 
                 className="text-gray-300 hover:text-wk-gold transition font-medium"
-                onClick={() => setIsOpen(false)}
               >
                 About
               </Link>
               <Link 
                 to="/contact" 
                 className="text-gray-300 hover:text-wk-gold transition font-medium"
-                onClick={() => setIsOpen(false)}
               >
                 Contact
               </Link>
-              <Button asChild className="bg-wk-purple hover:bg-purple-700 text-white w-full">
+              <Button asChild className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold w-full">
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>

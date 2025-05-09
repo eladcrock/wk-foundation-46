@@ -1,5 +1,5 @@
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { 
   Facebook, 
   Instagram, 
@@ -10,9 +10,16 @@ import {
 } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
+import { useEffect } from "react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   
   return (
     <footer className="bg-wk-dark text-white pt-16 pb-8 border-t border-white/10">
@@ -65,18 +72,23 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-wk-gold">Contact Us</h4>
             <ul className="space-y-3">
-              <li className="flex items-center gap-2">
-                <Phone size={16} className="text-wk-gold" />
-                <span className="text-gray-300">(123) 456-7890</span>
+              <li className="group">
+                <a href="tel:+17074217200" className="flex items-center gap-2">
+                  <Phone size={16} className="text-wk-gold group-hover:text-wk-gold" />
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">(707) 421-7200</span>
+                </a>
               </li>
-              <li className="flex items-center gap-2">
-                <Mail size={16} className="text-wk-gold" />
-                <span className="text-gray-300">info@wkfoundation.org</span>
+              <li className="group">
+                <a href="mailto:Wkfoundation@gmail.com" className="flex items-center gap-2">
+                  <Mail size={16} className="text-wk-gold group-hover:text-wk-gold" />
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">Wkfoundation@gmail.com</span>
+                </a>
               </li>
-              <li className="flex items-center gap-2">
-                <MapPin size={16} className="text-wk-gold" />
-                <span className="text-gray-300">Suisun City, CA
-                </span>
+              <li className="group">
+                <a href="https://maps.google.com/?q=254D+Sunset+Ave,+Suisun+City,+CA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <MapPin size={16} className="text-wk-gold group-hover:text-wk-gold" />
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">254D Sunset Ave, Suisun City, CA</span>
+                </a>
               </li>
             </ul>
             <div className="mt-6 space-y-3">

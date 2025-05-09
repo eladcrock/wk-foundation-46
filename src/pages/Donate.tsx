@@ -40,7 +40,7 @@ const Donate = () => {
             />
           </div>
           <div className="container-custom relative z-10">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Support Our Mission</h1>
               <p className="text-lg text-gray-300 mb-8">
                 Your generosity helps us continue providing quality martial arts programs 
@@ -54,7 +54,7 @@ const Donate = () => {
         <section className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12">
-              <div>
+              <div data-aos="fade-right">
                 <h2 className="text-3xl font-bold text-white mb-6">Make a Difference</h2>
                 <p className="text-gray-300 mb-4">
                   Your donation directly supports our programs that serve youth, seniors, and women in our community. 
@@ -96,7 +96,7 @@ const Donate = () => {
                 </div>
               </div>
               
-              <div>
+              <div data-aos="fade-left">
                 <Card className="shadow-lg bg-wk-darkgray border border-white/10">
                   <CardContent className="pt-6">
                     <h3 className="text-2xl font-bold text-wk-gold mb-6">Donate Now</h3>
@@ -147,7 +147,7 @@ const Donate = () => {
                         </Button>
                         <Button 
                           variant="outline"
-                          className="flex items-center justify-center py-6 border-2 text-white"
+                          className="flex items-center justify-center py-6 border-2 border-wk-blue text-white"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19.5,7.17h-15a.5.5,0,0,0-.5.5v9.16a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V7.67A.5.5,0,0,0,19.5,7.17Z"></path>
@@ -180,7 +180,7 @@ const Donate = () => {
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      <span className="text-wk-dark">Mail a check to: Wahaiwa Kajukenbo Foundation, 123 Main St, Anytown, CA 12345</span>
+                      <span className="text-wk-dark">Mail a check to: Wahaiwa Kajukenbo Foundation, 254D Sunset Ave, Suisun City, CA, United States</span>
                     </li>
                     <li className="flex items-start">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

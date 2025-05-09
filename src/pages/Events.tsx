@@ -23,7 +23,7 @@ const Events = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
           <div className="container-custom relative z-10">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Upcoming Events</h1>
               <p className="text-lg text-gray-300 mb-8">
                 Join us for upcoming events where we celebrate martial arts, build community connections, 
@@ -36,7 +36,7 @@ const Events = () => {
         {/* Featured Event - Ohana Fest */}
         <section className="py-16 bg-wk-charcoal">
           <div className="container-custom">
-            <div className="bg-wk-darkgray rounded-xl shadow-xl overflow-hidden border border-white/10">
+            <div className="bg-wk-darkgray rounded-xl shadow-xl overflow-hidden border border-white/10" data-aos="fade-up">
               <div className="grid md:grid-cols-2">
                 <div className="min-h-[400px] relative overflow-hidden">
                   <img 
@@ -69,7 +69,7 @@ const Events = () => {
                     </div>
                   </div>
                   
-                  <Button asChild className="w-full sm:w-auto bg-wk-blue hover:bg-blue-600">
+                  <Button asChild className="w-full sm:w-auto bg-wk-red hover:bg-red-700">
                     <Link to="/events/ohana-fest">Event Details</Link>
                   </Button>
                 </div>
@@ -81,7 +81,7 @@ const Events = () => {
         {/* Other Upcoming Events */}
         <section className="py-16 bg-wk-dark">
           <div className="container-custom">
-            <h2 className="text-3xl font-bold text-white mb-8">Other Events</h2>
+            <h2 className="text-3xl font-bold text-white mb-8" data-aos="fade-up">Other Events</h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
@@ -95,7 +95,7 @@ const Events = () => {
                   id: 2,
                   title: "Self-Defense Workshop",
                   date: "November 12, 2023",
-                  image: "https://images.unsplash.com/photo-1593810450973-9471e1a22dd6?auto=format&fit=crop&q=80&w=800"
+                  image: "https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0?auto=format&fit=crop&q=80&w=800"
                 },
                 {
                   id: 3,
@@ -103,8 +103,13 @@ const Events = () => {
                   date: "November 18, 2023",
                   image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=800"
                 }
-              ].map((event) => (
-                <Card key={event.id} className="shadow-lg hover:shadow-xl transition-shadow border border-white/10 bg-wk-darkgray text-white">
+              ].map((event, index) => (
+                <Card 
+                  key={event.id} 
+                  className="shadow-lg hover:shadow-xl transition-shadow border border-white/10 bg-wk-darkgray text-white"
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                >
                   <CardHeader className="p-0">
                     <div className="h-[160px] overflow-hidden rounded-t-lg">
                       <img 
@@ -126,7 +131,7 @@ const Events = () => {
                     </div>
                   </CardContent>
                   <CardFooter>
-                    <Button asChild className="w-full bg-wk-blue hover:bg-blue-600">
+                    <Button asChild className="w-full bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
                       <Link to={`/events/fundraiser-${event.id}`}>Learn More</Link>
                     </Button>
                   </CardFooter>
