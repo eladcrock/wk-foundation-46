@@ -58,7 +58,7 @@ const Programs = () => {
                   develop resilience, and build supportive peer relationships.
                 </p>
                 
-                <Button asChild className="bg-wk-red hover:bg-red-700 text-white">
+                <Button asChild className="bg-wk-red hover:bg-red-700 text-white w-full">
                   <Link to="/contact">Get Involved</Link>
                 </Button>
               </div>
@@ -84,7 +84,7 @@ const Programs = () => {
                   while also experiencing the mental benefits of stress reduction, increased focus, and social connection.
                 </p>
                 
-                <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
+                <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full">
                   <Link to="/contact">Get Involved</Link>
                 </Button>
               </div>
@@ -126,11 +126,9 @@ const Programs = () => {
                   and physical techniques designed to work regardless of size or strength differences.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button asChild className="bg-wk-red hover:bg-red-700 text-white">
-                    <Link to="/contact">Get Involved</Link>
-                  </Button>
-                </div>
+                <Button asChild className="bg-wk-red hover:bg-red-700 text-white w-full">
+                  <Link to="/contact">Get Involved</Link>
+                </Button>
               </div>
             </div>
           </div>
