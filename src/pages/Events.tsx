@@ -16,7 +16,7 @@ const Events = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1574894078563-01e879b89809?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=2000" 
               alt="Upcoming Events" 
               className="w-full h-full object-cover opacity-10"
             />
@@ -41,7 +41,7 @@ const Events = () => {
                 <div className="min-h-[400px] relative overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=1200" 
-                    alt="Ohana Fest 2023" 
+                    alt="Ohana Fest 2025" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -51,7 +51,7 @@ const Events = () => {
                       <Calendar className="w-5 h-5 text-wk-gold mr-2" />
                       <span className="text-white font-medium">Featured Event</span>
                     </div>
-                    <h2 className="text-3xl font-bold text-white mb-3">Ohana Fest 2023</h2>
+                    <h2 className="text-3xl font-bold text-white mb-3">Ohana Fest 2025</h2>
                     <p className="text-gray-300 mb-6">
                       Join us for the annual Ohana Fest, a celebration of community, martial arts, and Hawaiian culture.
                       Featuring demonstrations, food, music, and activities for the whole family.
@@ -60,7 +60,7 @@ const Events = () => {
                     <div className="flex flex-wrap gap-6 mb-8">
                       <div>
                         <h4 className="font-semibold text-wk-gold mb-1">Date & Time</h4>
-                        <p className="text-gray-300">October 15, 2023 • 1:00 PM - 8:00 PM</p>
+                        <p className="text-gray-300">October 15, 2025 • 1:00 PM - 8:00 PM</p>
                       </div>
                       <div>
                         <h4 className="font-semibold text-wk-gold mb-1">Location</h4>
@@ -88,19 +88,19 @@ const Events = () => {
                 {
                   id: 1,
                   title: "Community Fundraiser",
-                  date: "November 6, 2023",
+                  date: "November 6, 2025",
                   image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=800"
                 },
                 {
                   id: 2,
                   title: "Self-Defense Workshop",
-                  date: "November 12, 2023",
+                  date: "November 12, 2025",
                   image: "https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0?auto=format&fit=crop&q=80&w=800"
                 },
                 {
                   id: 3,
                   title: "Junior Tournament",
-                  date: "November 18, 2023",
+                  date: "November 18, 2025",
                   image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=800"
                 }
               ].map((event, index) => (

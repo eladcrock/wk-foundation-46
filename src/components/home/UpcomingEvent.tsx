@@ -14,8 +14,8 @@ const UpcomingEvent = () => {
             data-aos-delay="200"
           >
             <img 
-              src="https://images.unsplash.com/photo-1574894078563-01e879b89809?auto=format&fit=crop&q=80&w=1200" 
-              alt="Ohana Fest 2023" 
+              src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=1200" 
+              alt="Ohana Fest 2025" 
               className="w-full h-[300px] object-cover"
             />
           </div>
@@ -27,7 +27,7 @@ const UpcomingEvent = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Ohana Fest 2023
+              Ohana Fest 2025
             </h2>
             
             <p className="text-gray-300 mb-6">
@@ -39,7 +39,7 @@ const UpcomingEvent = () => {
               <div className="flex gap-4 text-white">
                 <div>
                   <p className="text-sm font-medium text-wk-gold">Date</p>
-                  <p className="text-gray-200">October 15, 2023</p>
+                  <p className="text-gray-200">October 15, 2025</p>
                 </div>
                 <div className="border-l border-gray-600 pl-4">
                   <p className="text-sm font-medium text-wk-gold">Location</p>

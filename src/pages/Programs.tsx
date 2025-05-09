@@ -14,7 +14,7 @@ const Programs = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1609267258572-7097ce4a350e?auto=format&fit=crop&q=80&w=2000" 
+              src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&q=80&w=2000" 
               alt="Our Programs" 
               className="w-full h-full object-cover opacity-10"
             />
