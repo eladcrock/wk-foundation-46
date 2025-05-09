@@ -54,6 +54,11 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
+              <li>
+                <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
+                  Programs
+                </Link>
+              </li>
             </ul>
           </div>
           
@@ -70,14 +75,15 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} className="text-wk-gold" />
-                <span className="text-gray-300">Wahiawa, HI</span>
+                <span className="text-gray-300">Suisun City, CA
+                </span>
               </li>
             </ul>
             <div className="mt-6 space-y-3">
               <Button asChild className="bg-wk-red hover:bg-red-700 w-full">
                 <Link to="/contact">Get Involved</Link>
               </Button>
-              <Button asChild className="bg-wk-blue hover:bg-blue-600 text-white w-full">
+              <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full">
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>

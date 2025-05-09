@@ -47,10 +47,12 @@ const UpcomingEvent = () => {
                 </div>
               </div>
             </div>
-            
-            <Button asChild className="bg-wk-blue hover:bg-blue-600">
+            <div className="text-center">
+
+            <Button asChild className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500">
               <Link to="/events">Learn More</Link>
             </Button>
+            </div>
           </div>
         </div>
       </div>
