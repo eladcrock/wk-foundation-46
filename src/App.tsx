@@ -14,12 +14,13 @@ import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import NotFound from "./pages/NotFound";
 
-// Initialize AOS
+// Initialize AOS with consistent settings
 AOS.init({
-  duration: 800,
+  duration: 800, // Consistent animation duration across the site
   easing: 'ease-out',
   once: false, // Keep animation playing on every scroll
   offset: 100,
+  delay: 0, // No delay for immediate response
 });
 
 // ScrollToTop component to handle scrolling on route changes

@@ -31,7 +31,7 @@ const Footer = () => {
               Building strength, character and community through the traditions and 
               values of Kajukenbo martial arts training.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap items-center space-x-4">
               <a href="#" className="text-gray-400 hover:text-wk-gold transition-colors">
                 <Facebook size={20} />
               </a>
@@ -40,6 +40,20 @@ const Footer = () => {
               </a>
               <a href="#" className="text-gray-400 hover:text-wk-gold transition-colors">
                 <Twitter size={20} />
+              </a>
+              <a 
+                href="https://train4life.info" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="ml-2"
+                data-aos="fade-in"
+                data-aos-duration="800"
+              >
+                <img 
+                  src="/lovable-uploads/d164278b-fa3d-427c-9623-5bc54ef71660.png" 
+                  alt="Train 4 Life Logo" 
+                  className="h-10 w-auto mt-2" 
+                />
               </a>
             </div>
           </div>
