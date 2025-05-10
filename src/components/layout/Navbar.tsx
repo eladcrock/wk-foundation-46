@@ -21,8 +21,14 @@ const Navbar = () => {
     <nav className="bg-wk-dark shadow-md sticky top-0 z-50 text-white border-b border-white/10">
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-wk-gold">
-            WK Foundation
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png" 
+              alt="WKF Logo" 
+              className="h-10 md:h-12 w-auto"
+              data-aos="fade-in"
+              data-aos-duration="800"
+            />
           </Link>
           
           <div className="flex items-center gap-4 ml-auto">

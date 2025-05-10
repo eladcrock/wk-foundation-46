@@ -26,7 +26,15 @@ const Footer = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
-            <h3 className="text-2xl font-bold text-wk-gold mb-4">WK Foundation</h3>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png" 
+                alt="WKF Logo" 
+                className="h-10 w-auto mb-2"
+                data-aos="fade-in"
+                data-aos-duration="800"
+              />
+            </div>
             <p className="text-gray-300 mb-6">
               Building strength, character and community through the traditions and 
               values of Kajukenbo martial arts training.
