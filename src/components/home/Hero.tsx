@@ -40,7 +40,7 @@ const Hero = () => {
                 alt="Kajukenbo Training" 
                 className="w-full h-[400px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-wk-charcoal/50 to-transparent"></div> /* Reduced opacity from 70 to 50 */
+              <div className="absolute inset-0 bg-gradient-to-t from-wk-charcoal/50 to-transparent"></div> 
             </div>
           </div>
         </div>
