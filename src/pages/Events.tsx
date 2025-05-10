@@ -16,7 +16,7 @@ const Events = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=2000" 
+            src="https://hicksconventions.com/wp-content/uploads/shutterstock_772080394-1000x423.jpg"
               alt="Upcoming Events" 
               className="w-full h-full object-cover opacity-10"
             />

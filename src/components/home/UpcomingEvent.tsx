@@ -14,7 +14,7 @@ const UpcomingEvent = () => {
             data-aos-delay="200"
           >
             <img 
-              src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=1200" 
+            src="https://cdn.prod.website-files.com/67ec115a7cb123fc4a978884/67ed53f0739111102c22a0bc_Experience%20by%20Michael%20Ryan%20Kravetsky%20for%20Ohana%20Festival%202022.webp"
               alt="Ohana Fest 2025" 
               className="w-full h-[300px] object-cover"
             />
