@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import { 
   Facebook, 
@@ -27,13 +26,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
-              <img 
-                src="/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png" 
-                alt="WKF Logo" 
-                className="h-10 w-auto mb-2"
-                data-aos="fade-in"
-                data-aos-duration="800"
-              />
+              <div className="flex items-center justify-center bg-wk-darkgray rounded-md p-1">
+                <h1 className="text-wk-gold text-xl font-bold tracking-tighter">
+                  <span className="text-wk-red">W</span>
+                  <span className="text-white">K</span>
+                  <span className="text-wk-gold">F</span>
+                </h1>
+              </div>
             </div>
             <p className="text-gray-300 mb-6">
               Building strength, character and community through the traditions and 

@@ -22,13 +22,13 @@ const Navbar = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <img 
-              src="/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png" 
-              alt="WKF Logo" 
-              className="h-10 md:h-12 w-auto"
-              data-aos="fade-in"
-              data-aos-duration="800"
-            />
+            <div className="flex items-center justify-center bg-wk-darkgray rounded-md p-1">
+              <h1 className="text-wk-gold text-xl md:text-2xl font-bold tracking-tighter">
+                <span className="text-wk-red">W</span>
+                <span className="text-white">K</span>
+                <span className="text-wk-gold">F</span>
+              </h1>
+            </div>
           </Link>
           
           <div className="flex items-center gap-4 ml-auto">
