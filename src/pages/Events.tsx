@@ -18,7 +18,7 @@ const Events = () => {
             <img 
             src="https://hicksconventions.com/wp-content/uploads/shutterstock_772080394-1000x423.jpg"
               alt="Upcoming Events" 
-              className="w-full h-full object-cover opacity-10"
+              className="w-full h-full object-cover opacity-30"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
@@ -40,7 +40,7 @@ const Events = () => {
               <div className="grid md:grid-cols-2">
                 <div className="min-h-[400px] relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1551268300-a6d462fc6407?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://cdn.prod.website-files.com/67ec115a7cb123fc4a978884/67ed53f0739111102c22a0bc_Experience%20by%20Michael%20Ryan%20Kravetsky%20for%20Ohana%20Festival%202022.webp"
                     alt="Ohana Fest 2025" 
                     className="w-full h-full object-cover"
                   />

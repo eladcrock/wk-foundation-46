@@ -65,7 +65,7 @@ const About = () => {
             <img 
               src="https://images.unsplash.com/photo-1540539234-c14a20fb7c7b?auto=format&fit=crop&q=80&w=2000" 
               alt="About Us" 
-              className="w-full h-full object-cover opacity-10"
+              className="w-full h-full object-cover opacity-40"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>

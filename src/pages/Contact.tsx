@@ -86,7 +86,7 @@ const Contact = () => {
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDl_bFJ1dYotTQKkdqkcFvgsoIY-bS8CZtgQ&s" 
               alt="Get Involved" 
-              className="w-full h-full object-cover opacity-40" /* Increased opacity from 20 to 40 */
+              className="w-full h-full object-cover opacity-50" /* Increased opacity from 20 to 40 */
             />
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>

@@ -16,7 +16,7 @@ const Programs = () => {
             <img 
               src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&q=80&w=2000" 
               alt="Our Programs" 
-              className="w-full h-full object-cover opacity-10"
+              className="w-full h-full object-cover opacity-40"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
