@@ -24,19 +24,41 @@ const Donate = () => {
     setCustomAmount(e.target.value);
   };
   
+  const handlePayPalDonation = () => {
+    const amount = donationAmount === "custom" ? customAmount : donationAmount;
+    if (!amount || isNaN(Number(amount)) || Number(amount) <= 0) {
+      alert("Please enter a valid donation amount");
+      return;
+    }
+    
+    // Replace with your PayPal.me link or business PayPal URL
+    window.open(`https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_BUTTON_ID&amount=${amount}`, "_blank");
+  };
+  
+  const handleVenmoDonation = () => {
+    const amount = donationAmount === "custom" ? customAmount : donationAmount;
+    if (!amount || isNaN(Number(amount)) || Number(amount) <= 0) {
+      alert("Please enter a valid donation amount");
+      return;
+    }
+    
+    // Replace with your Venmo username
+    window.open(`https://venmo.com/YOUR_VENMO_USERNAME?txn=pay&amount=${amount}&note=Donation%20to%20WK%20Foundation`, "_blank");
+  };
+  
   const suggestedAmounts = ["25", "50", "100", "250", "custom"];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        {/* Hero Section */}
+        {/* Hero Section with improved overlay brightness */}
         <section className="bg-wk-dark py-16 md:py-24 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
               src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2000" 
               alt="Support Our Mission" 
-              className="w-full h-full object-cover opacity-10"
+              className="w-full h-full object-cover opacity-20" /* Increased opacity from 10 to 20 */
             />
           </div>
           <div className="container-custom relative z-10">
@@ -135,19 +157,19 @@ const Donate = () => {
                     
                     <div className="mb-6">
                       <h4 className="text-white font-medium mb-4">Payment Method</h4>
-                      <div className="grid grid-cols-2 gap-4">
+                      <div className="grid grid-cols-1 gap-4">
                         <Button 
-                          variant="outline"
-                          className="flex items-center justify-center py-6 border-2 border-wk-blue text-white"
+                          onClick={handlePayPalDonation}
+                          className="flex items-center justify-center py-6 bg-wk-blue text-white hover:bg-blue-600"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M7.08,10.28a.47.47,0,0,0-.46.52.45.45,0,0,0,.46.44.47.47,0,0,0,.46-.51A.44.44,0,0,0,7.08,10.28Zm9.12-3.55V9.85h3.92V18H9.51V9.85h5.13V8.53a1.73,1.73,0,0,0-1.73-1.73H9.8V3.92h6.13C21.59,3.92,21.59,6.73,16.2,6.73ZM5.6,6.73V9.85h.86V6.73H7.9V9.85h.85V6.73h.86v3.7a1.66,1.66,0,0,1,.52,1.21,1.74,1.74,0,0,1-1.72,1.73,1.15,1.15,0,0,1-.29,0A1.76,1.76,0,0,1,6.45,11.6a1.66,1.66,0,0,1,.52-1.21v-3.7Z"></path>
                           </svg>
-                          PayPal
+                          Donate with PayPal
                         </Button>
                         <Button 
-                          variant="outline"
-                          className="flex items-center justify-center py-6 border-2 border-wk-blue text-white"
+                          onClick={handleVenmoDonation}
+                          className="flex items-center justify-center py-6 border-2 border-white text-white hover:bg-white/10"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19.5,7.17h-15a.5.5,0,0,0-.5.5v9.16a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V7.67A.5.5,0,0,0,19.5,7.17Z"></path>
@@ -155,14 +177,10 @@ const Donate = () => {
                             <path d="M12,9.17a.44.44,0,0,0-.44.44v5.28a.44.44,0,0,0,.44.44.45.45,0,0,0,.45-.44V9.61A.45.45,0,0,0,12,9.17Z"></path><path d="M9.59,13.67a.43.43,0,0,0-.42,0,.45.45,0,0,0-.23.36v1.78h.09a.87.87,0,0,1-.09-.38A.81.81,0,0,1,9.59,14Z"></path>
                             <path d="M13.86,13.67a.42.42,0,0,0-.41,0,.44.44,0,0,0-.23.36v1.78h.09a.87.87,0,0,1-.09-.38A.81.81,0,0,1,13.86,14Z"></path>
                           </svg>
-                          Venmo
+                          Donate with Venmo
                         </Button>
                       </div>
                     </div>
-                    
-                    <Button className="w-full bg-wk-blue hover:bg-blue-600 text-white">
-                      Proceed to Payment
-                    </Button>
                     
                     <div className="mt-6 text-center text-sm text-gray-300">
                       <p>
