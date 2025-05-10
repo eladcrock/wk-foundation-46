@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Donate = () => {
   const [donationAmount, setDonationAmount] = useState("25");
@@ -52,13 +53,13 @@ const Donate = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        {/* Hero Section with improved overlay brightness */}
+        {/* Hero Section with brighter overlay */}
         <section className="bg-wk-dark py-16 md:py-24 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
               src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2000" 
               alt="Support Our Mission" 
-              className="w-full h-full object-cover opacity-20" /* Increased opacity from 10 to 20 */
+              className="w-full h-full object-cover opacity-40" /* Increased opacity from 20 to 40 */
             />
           </div>
           <div className="container-custom relative z-10">
@@ -160,7 +161,7 @@ const Donate = () => {
                       <div className="grid grid-cols-1 gap-4">
                         <Button 
                           onClick={handlePayPalDonation}
-                          className="flex items-center justify-center py-6 bg-wk-blue text-white hover:bg-blue-600"
+                          className="flex items-center justify-center py-6 bg-white text-wk-charcoal border-2 border-wk-darkgray hover:bg-white/90 transition-all"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M7.08,10.28a.47.47,0,0,0-.46.52.45.45,0,0,0,.46.44.47.47,0,0,0,.46-.51A.44.44,0,0,0,7.08,10.28Zm9.12-3.55V9.85h3.92V18H9.51V9.85h5.13V8.53a1.73,1.73,0,0,0-1.73-1.73H9.8V3.92h6.13C21.59,3.92,21.59,6.73,16.2,6.73ZM5.6,6.73V9.85h.86V6.73H7.9V9.85h.85V6.73h.86v3.7a1.66,1.66,0,0,1,.52,1.21,1.74,1.74,0,0,1-1.72,1.73,1.15,1.15,0,0,1-.29,0A1.76,1.76,0,0,1,6.45,11.6a1.66,1.66,0,0,1,.52-1.21v-3.7Z"></path>
@@ -198,7 +199,7 @@ const Donate = () => {
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      <span className="text-wk-dark">Mail a check to: Wahaiwa Kajukenbo Foundation, 254D Sunset Ave, Suisun City, CA, United States</span>
+                      <span className="text-wk-dark">Mail a check to: Wahaiwa Kajukenbo Foundation, 254D Sunset Ave, Suisun City, CA, United States, California</span>
                     </li>
                     <li className="flex items-start">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-wk-blue mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

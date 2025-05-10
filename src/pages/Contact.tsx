@@ -9,6 +9,7 @@ import { useToast } from "@/components/ui/use-toast";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import emailjs from '@emailjs/browser';
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -27,16 +28,20 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // EmailJS configuration variables - replace these with your actual values
+  const SERVICE_ID = 'YOUR_SERVICE_ID'; // Replace with your service ID
+  const TEMPLATE_ID = 'YOUR_TEMPLATE_ID'; // Replace with your template ID
+  const PUBLIC_KEY = 'YOUR_PUBLIC_KEY'; // Replace with your public key
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
     try {
-      // EmailJS configuration
-      // You can replace these with your own template ID and public key
+      // EmailJS integration with proper variables
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your service ID
-        'YOUR_TEMPLATE_ID', // Replace with your template ID
+        SERVICE_ID,
+        TEMPLATE_ID,
         {
           from_name: formData.name,
           reply_to: formData.email,
@@ -44,7 +49,7 @@ const Contact = () => {
           subject: formData.subject,
           message: formData.message,
         },
-        'YOUR_PUBLIC_KEY' // Replace with your public key
+        PUBLIC_KEY
       );
       
       toast({
@@ -75,13 +80,13 @@ const Contact = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        {/* Hero Section with improved overlay brightness */}
+        {/* Hero Section with brighter overlay */}
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDl_bFJ1dYotTQKkdqkcFvgsoIY-bS8CZtgQ&s" 
               alt="Get Involved" 
-              className="w-full h-full object-cover opacity-20" /* Increased opacity from 10 to 20 */
+              className="w-full h-full object-cover opacity-40" /* Increased opacity from 20 to 40 */
             />
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
@@ -110,11 +115,9 @@ const Contact = () => {
                 
                 <div className="space-y-6">
                   <div className="flex items-start transition-all hover:transform hover:translate-y-[-5px]" data-aos="fade-up" data-aos-delay="200">
-                    <a href="mailto:Wkfoundation@gmail.com" className="flex items-start group">
+                    <a href="mailto:Wkfoundation@gmail.com" className="flex items-start group w-full">
                       <div className="bg-wk-dark p-3 rounded-full mr-4 group-hover:bg-wk-blue transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
+                        <Mail className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-white">Email</h3>
@@ -124,11 +127,9 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start transition-all hover:transform hover:translate-y-[-5px]" data-aos="fade-up" data-aos-delay="250">
-                    <a href="tel:+17074217200" className="flex items-start group">
+                    <a href="tel:+17074217200" className="flex items-start group w-full">
                       <div className="bg-wk-dark p-3 rounded-full mr-4 group-hover:bg-wk-blue transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
+                        <Phone className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-white">Phone</h3>
@@ -138,16 +139,13 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start transition-all hover:transform hover:translate-y-[-5px]" data-aos="fade-up" data-aos-delay="300">
-                    <a href="https://maps.google.com/?q=254D+Sunset+Ave,+Suisun+City,+CA,+United+States" target="_blank" rel="noopener noreferrer" className="flex items-start group">
+                    <a href="https://maps.google.com/?q=254D+Sunset+Ave,+Suisun+City,+CA,+United+States,+California" target="_blank" rel="noopener noreferrer" className="flex items-start group w-full">
                       <div className="bg-wk-dark p-3 rounded-full mr-4 group-hover:bg-wk-blue transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
+                        <MapPin className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-white">Address</h3>
-                        <p className="text-gray-300">254D Sunset Ave, Suisun City, CA, United States</p>
+                        <p className="text-gray-300">254D Sunset Ave, Suisun City, CA, United States, California</p>
                       </div>
                     </a>
                   </div>

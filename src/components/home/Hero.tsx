@@ -9,9 +9,9 @@ const Hero = () => {
         <img 
           src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=2000" 
           alt="Martial Arts Community Training" 
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-40" /* Increased opacity from 20 to 40 */
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-wk-charcoal/90 to-wk-charcoal/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-wk-charcoal/70 to-wk-charcoal/30"></div> /* Reduced opacity from 90/40 to 70/30 */
       </div>
       
       <div className="container-custom relative z-10 py-16 md:py-24 lg:py-32">
@@ -28,7 +28,7 @@ const Hero = () => {
               <Button asChild size="lg" className="bg-wk-red hover:bg-red-700">
                 <Link to="/programs">Our Programs</Link>
               </Button>
-              <Button asChild size="lg" className="bg-wk-gold text-wk-charcoal font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-all">
+              <Button asChild size="lg" className="bg-white text-wk-charcoal border-2 border-wk-darkgray hover:bg-white/90 transition-all">
                 <Link to="/donate">Support Our Mission</Link>
               </Button>
             </div>
@@ -40,7 +40,7 @@ const Hero = () => {
                 alt="Kajukenbo Training" 
                 className="w-full h-[400px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-wk-charcoal/70 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-wk-charcoal/50 to-transparent"></div> /* Reduced opacity from 70 to 50 */
             </div>
           </div>
         </div>
