@@ -1,7 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import logo from "@/components/images/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // Close menu on route change and scroll to top
   useEffect(() => {
     setIsOpen(false);
     window.scrollTo(0, 0);
@@ -22,68 +21,60 @@ const Navbar = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <div className="flex items-center justify-center bg-gradient-to-r from-wk-darkgray to-wk-charcoal p-2 rounded-lg shadow-lg">
-              <div className="relative">
-                <div className="flex items-center space-x-1">
-                  <span className="text-wk-red text-2xl md:text-3xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>W</span>
-                  <span className="text-white text-2xl md:text-3xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>K</span>
-                  <span className="text-wk-gold text-2xl md:text-3xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>F</span>
-                </div>
-                <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-wk-red via-white to-wk-gold rounded-full"></div>
-              </div>
-            </div>
+            <img
+              src={logo}
+              alt="WK Foundation Logo"
+              className="h-14 w-auto"
+            />
           </Link>
-          
+
           <div className="flex items-center gap-4 ml-auto">
-            {/* T4L Logo */}
-            <a 
-              href="https://train4life.info" 
-              target="_blank" 
+            <a
+              href="https://train4life.info"
+              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
               aria-label="Visit Train 4 Life website"
             >
-              <img 
-                src="/lovable-uploads/d164278b-fa3d-427c-9623-5bc54ef71660.png" 
-                alt="Train 4 Life Logo" 
+              <img
+                src="/lovable-uploads/d164278b-fa3d-427c-9623-5bc54ef71660.png"
+                alt="Train 4 Life Logo"
                 className="h-8 w-auto"
                 data-aos="fade-in"
                 data-aos-duration="800"
               />
             </a>
-            
-            {/* Mobile Menu Button */}
-            <button 
-              className="md:hidden focus:outline-none text-white" 
+
+            <button
+              className="md:hidden focus:outline-none text-white"
               onClick={toggleMenu}
             >
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                className="h-6 w-6" 
-                fill="none" 
-                viewBox="0 0 24 24" 
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 {isOpen ? (
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M6 18L18 6M6 6l12 12" 
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
                   />
                 ) : (
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M4 6h16M4 12h16M4 18h16" 
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
                   />
                 )}
               </svg>
             </button>
           </div>
-          
-          {/* Desktop Menu */}
+
           <div className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-gray-300 hover:text-wk-gold transition font-medium">
               Home
@@ -105,39 +96,23 @@ const Navbar = () => {
             </Button>
           </div>
         </div>
-        
-        {/* Mobile Menu */}
+
         {isOpen && (
           <div className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-4">
-              <Link 
-                to="/" 
-                className="text-gray-300 hover:text-wk-gold transition font-medium"
-              >
+              <Link to="/" className="text-gray-300 hover:text-wk-gold transition font-medium">
                 Home
               </Link>
-              <Link 
-                to="/events" 
-                className="text-gray-300 hover:text-wk-gold transition font-medium"
-              >
+              <Link to="/events" className="text-gray-300 hover:text-wk-gold transition font-medium">
                 Events
               </Link>
-              <Link 
-                to="/programs" 
-                className="text-gray-300 hover:text-wk-gold transition font-medium"
-              >
+              <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition font-medium">
                 Programs
               </Link>
-              <Link 
-                to="/about" 
-                className="text-gray-300 hover:text-wk-gold transition font-medium"
-              >
+              <Link to="/about" className="text-gray-300 hover:text-wk-gold transition font-medium">
                 About
               </Link>
-              <Link 
-                to="/contact" 
-                className="text-gray-300 hover:text-wk-gold transition font-medium"
-              >
+              <Link to="/contact" className="text-gray-300 hover:text-wk-gold transition font-medium">
                 Contact
               </Link>
               <Button asChild className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold w-full">
