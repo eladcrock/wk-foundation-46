@@ -95,14 +95,13 @@ const Events = () => {
                   id: 2,
                   title: "Self-Defense Workshop",
                   date: "November 12, 2025",
-                  image: "https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0?auto=format&fit=crop&q=80&w=800"
+                  image :"https://media.npr.org/assets/img/2022/05/27/20220511_jessng_mengwencao-050_custom-dc50764275d3dc024efe3f922ae54100ca0e6e72.jpg?s=1100&c=50&f=jpeg"
                 },
                 {
                   id: 3,
                   title: "Junior Tournament",
                   date: "November 18, 2025",
-                  image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=800"
-                }
+                  image: "https://i.ytimg.com/vi/94G_fzq36BM/maxresdefault.jpg"  }
               ].map((event, index) => (
                 <Card 
                   key={event.id} 
