@@ -21,11 +21,16 @@ const Navbar = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <img
-              src={logo}
-              alt="WK Foundation Logo"
-              className="h-14 w-auto"
-            />
+          <div className="flex items-center justify-center bg-gradient-to-r from-wk-darkgray to-wk-charcoal p-2 rounded-lg shadow-lg">
+                <div className="relative">
+                  <div className="flex items-center space-x-1">
+                    <span className="text-wk-red text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>W</span>
+                    <span className="text-white text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>K</span>
+                    <span className="text-wk-gold text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>F</span>
+                  </div>
+                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-wk-red via-white to-wk-gold rounded-full"></div>
+                </div>
+              </div>
           </Link>
 
           <div className="flex items-center gap-4 ml-auto">

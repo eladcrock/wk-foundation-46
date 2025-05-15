@@ -11,8 +11,7 @@ const ProgramHighlights = () => {
       title: "BREATHE",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
-      image: "https://3.files.edl.io/7fae/22/05/26/134045-89c74227-8071-4692-acb1-d36410f8b604.png"
-    },
+      image: "https://tessais.org/wp-content/uploads/2019/10/Anti-Bullying-Image-1210x423.jpg "},
     {
       id: "senior-boxing",
       title: "Senior Boxing",
