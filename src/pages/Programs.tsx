@@ -135,7 +135,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <MapPin className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Location:</span>
-                    <span className="ml-2">Train 4 Life Center, 254 Unit D Sunset Ave, Suisun City</span>
+                    <span className="ml-2 flex-1">Train 4 Life Center, 254 Unit D Sunset Ave, Suisun City</span>
                   </div>
                   
                   <div className="flex items-center text-gray-300 mt-2">
