@@ -17,14 +17,14 @@ const ProgramHighlights = () => {
       title: "Senior Boxing",
       description: "Fitness Program for Seniors",
       body: "Stay active, build strength, and foster community with our specialized boxing program for seniors.",
-      image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80&w=800"
+      image: "https://www.shutterstock.com/image-photo/elderly-woman-her-trainer-gym-600nw-2415707205.jpg"
     },
     {
       id: "self-defense",
       title: "Women's Self Defense",
       description: "Empowerment Through Training",
       body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
-      image: "https://images.unsplash.com/photo-1470468969717-61d5d54fd036?auto=format&fit=crop&q=80&w=800"
+      image: "https://i0.wp.com/bhamnow.com/wp-content/uploads/2020/01/self-defense-class.jpg?resize=563%2C352&quality=89&ssl=1"
     },
   ];
 

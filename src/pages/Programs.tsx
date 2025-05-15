@@ -68,7 +68,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <School className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Availability:</span>
-                    <span className="ml-2">We're happy to come to your school, community organization, or event</span>
+                    <span className="ml-2 flex-1">We're happy to come to your school, community organization, or event</span>
                   </div>
                   
                   <div className="flex items-center text-gray-300">
@@ -155,7 +155,7 @@ const Programs = () => {
               
               <div className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2" data-aos="fade-left">
                 <img 
-                  src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://www.shutterstock.com/image-photo/elderly-woman-her-trainer-gym-600nw-2415707205.jpg" 
                   alt="Senior Boxing Program" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -170,7 +170,7 @@ const Programs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl" data-aos="fade-right">
                 <img 
-                  src="https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://i0.wp.com/bhamnow.com/wp-content/uploads/2020/01/self-defense-class.jpg?resize=563%2C352&quality=89&ssl=1" 
                   alt="Women's Self Defense Program" 
                   className="w-full h-[400px] object-cover"
                 />
