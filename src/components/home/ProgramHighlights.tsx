@@ -10,7 +10,7 @@ const ProgramHighlights = () => {
       title: "BREATHE",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
-      image: "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=800"
+      image: "https://3.files.edl.io/7fae/22/05/26/134045-89c74227-8071-4692-acb1-d36410f8b604.png"
     },
     {
       id: "senior-boxing",

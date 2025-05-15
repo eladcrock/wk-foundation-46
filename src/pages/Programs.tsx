@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, School, Users, MapPin, Calendar } from "lucide-react";
@@ -38,7 +37,7 @@ const Programs = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden shadow-xl" data-aos="fade-right">
                 <img 
-                  src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://3.files.edl.io/7fae/22/05/26/134045-89c74227-8071-4692-acb1-d36410f8b604.png" 
                   alt="BREATHE Youth Anti-Bullying Program" 
                   className="w-full h-[400px] object-cover"
                 />
