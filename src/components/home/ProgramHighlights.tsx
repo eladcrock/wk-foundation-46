@@ -8,7 +8,7 @@ const ProgramHighlights = () => {
   const programs = [
     {
       id: "breathe",
-      title: "BREATHE",
+      title: "B.R.E.A.T.H.E",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
       image: "https://tessais.org/wp-content/uploads/2019/10/Anti-Bullying-Image-1210x423.jpg "},

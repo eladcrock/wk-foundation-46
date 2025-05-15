@@ -43,15 +43,13 @@ const Footer = () => {
               values of Kajukenbo martial arts training.
             </p>
             <div className="flex flex-wrap items-center space-x-4">
-              <a href="#" className="text-gray-400 hover:text-wk-gold transition-colors">
+              <a href="https://www.facebook.com/wkfoundation707/" className="text-gray-400 hover:text-wk-gold transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-wk-gold transition-colors">
+              <a href="https://www.instagram.com/wkfoundationsolano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-400 hover:text-wk-gold transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-wk-gold transition-colors">
-                <Twitter size={20} />
-              </a>
+            
               <a 
                 href="https://train4life.info" 
                 target="_blank" 
