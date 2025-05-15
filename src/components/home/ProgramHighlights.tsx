@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const ProgramHighlights = () => {
   const programs = [
@@ -47,12 +48,14 @@ const ProgramHighlights = () => {
               data-aos-delay={100 * (index + 1)}
             >
               <CardHeader className="p-0">
-                <div className="h-[200px] overflow-hidden rounded-t-lg">
-                  <img 
-                    src={program.image} 
-                    alt={program.title} 
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
-                  />
+                <div className="rounded-t-lg overflow-hidden">
+                  <AspectRatio ratio={16/9}>
+                    <img 
+                      src={program.image} 
+                      alt={program.title} 
+                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <CardTitle className="text-wk-gold">{program.title}</CardTitle>
