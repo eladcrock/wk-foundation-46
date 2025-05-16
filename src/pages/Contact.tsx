@@ -79,8 +79,7 @@ const Contact = () => {
       <main className="flex-grow">
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
-            <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDl_bFJ1dYotTQKkdqkcFvgsoIY-bS8CZtgQ&s" 
+            <img src="https://www.suisun.com/files/sharedassets/suisuncity/v/1/community/images/suisun-city-6.jpg"
               alt="Get Involved" 
               className="w-full h-full object-cover opacity-50"
             />
