@@ -315,7 +315,7 @@ const Donate = () => {
                         />
                       </svg>
                       <span className="text-wk-dark">
-                        Mail a check to: Wahaiwa Kajukenbo Foundation, 254D
+                        Mail a check to: Wahaiwa Kajukenbo Foundation, 254 D
                         Sunset Ave, Suisun City, CA, United States, California
                       </span>
                     </li>
@@ -373,7 +373,11 @@ const Donate = () => {
             </div>
           </div>
         </section>
+        
+        
       </main>
+      
+      
       <Footer />
     </div>
   );

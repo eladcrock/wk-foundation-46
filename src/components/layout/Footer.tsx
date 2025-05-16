@@ -27,6 +27,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
+                        <Link to="/" className="flex items-center">
+              
               <div className="flex items-center justify-center bg-gradient-to-r from-wk-darkgray to-wk-charcoal p-2 rounded-lg shadow-lg">
                 <div className="relative">
                   <div className="flex items-center space-x-1">
@@ -37,6 +39,7 @@ const Footer = () => {
                   <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-wk-red via-white to-wk-gold rounded-full"></div>
                 </div>
               </div>
+            </Link>
             </div>
             <p className="text-gray-300 mb-6">
               Building strength, character and community through the traditions and 
@@ -102,15 +105,15 @@ const Footer = () => {
                 </a>
               </li>
               <li className="group">
-                <a href="mailto:Wkfoundation@gmail.com" className="flex items-center gap-2">
+                <a href="mailto:WKFboard@gmail.com" className="flex items-center gap-2">
                   <Mail size={16} className="text-wk-gold group-hover:text-wk-gold" />
-                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">Wkfoundation@gmail.com</span>
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">WKFboard@gmail.com</span>
                 </a>
               </li>
               <li className="group">
                 <a href="https://maps.google.com/?q=254D+Sunset+Ave,+Suisun+City,+CA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <MapPin size={16} className="text-wk-gold group-hover:text-wk-gold" />
-                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">254D Sunset Ave, Suisun City, CA</span>
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">254 D Sunset Ave, Suisun City, CA</span>
                 </a>
               </li>
             </ul>

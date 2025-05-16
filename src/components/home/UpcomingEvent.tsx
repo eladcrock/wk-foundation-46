@@ -39,11 +39,11 @@ const UpcomingEvent = () => {
               <div className="flex gap-4 text-white">
                 <div>
                   <p className="text-sm font-medium text-wk-gold">Date</p>
-                  <p className="text-gray-200">October 15, 2025</p>
+                  <p className="text-gray-200">Announced Early Summer</p>
                 </div>
                 <div className="border-l border-gray-600 pl-4">
                   <p className="text-sm font-medium text-wk-gold">Location</p>
-                  <p className="text-gray-200">City Park Amphitheater</p>
+                  <p className="text-gray-200">Suisun City </p>
                 </div>
               </div>
             </div>
@@ -57,6 +57,8 @@ const UpcomingEvent = () => {
         </div>
       </div>
     </section>
+    
+    
   );
 };
 

@@ -4,6 +4,8 @@ import { Phone, Mail, School, Users, MapPin, Calendar } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
+import { Card, CardContent,CardHeader, CardTitle } from "@/components/ui/card";
+
 
 const Programs = () => {
   return (
@@ -14,7 +16,7 @@ const Programs = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img
-              src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&q=80&w=2000"
+              src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/490557338_1190394909761982_8320938673800118017_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8MeURe_Fk9YQ7kNvwHa5A8U&_nc_oc=AdkIhqfc__si1shXw3hwGPq-BjIrWgXtJJWuon568VRHr1M0sSAkTkEMAX6kMZYD_q_rlXZKOJxYmNi_f5nVkZMA&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=cGtYLLU9c-A8D7THgel9tw&oh=00_AfJnNc1UaiOeF39y79qboZqE0cFJ25uwh7Vtfvo1FjAswQ&oe=682D5096"
               alt="Our Programs"
               className="w-full h-full object-cover opacity-40"
             />
@@ -263,7 +265,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <MapPin className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Location:</span>
-                    <span className="ml-2">254D Sunset Ave, Suisun City</span>
+                    <span className="ml-2">254 D Sunset Ave, Suisun City</span>
                   </div>
 
                   <div className="flex items-center text-gray-300">
@@ -300,6 +302,36 @@ const Programs = () => {
         </section>
 
         <CallToAction compact />
+        \{/* Video Section */}
+        <section className="py-16 bg-wk-dark">
+          <div className="container mx-auto">
+            <div
+              className="text-center mb-8"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-white">
+                Hear about our Impact
+              </h2>
+            </div>
+            <Card className="overflow-hidden">
+              <CardContent className="p-0">
+                <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                  <iframe
+                    src="https://www.youtube.com/embed/lGCscWvjGoo?si=N6MlcKmOvtUVK2ig"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                    className="absolute top-0 left-0 w-full h-full"
+                  ></iframe>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </div>

@@ -110,13 +110,13 @@ const Contact = () => {
                 
                 <div className="space-y-6">
                   <div className="flex items-start transition-all hover:transform hover:translate-y-[-5px]" data-aos="fade-up" data-aos-delay="200">
-                    <a href="mailto:Wkfoundation@gmail.com" className="flex items-start group w-full">
+                    <a href="mailto:WKFboard@gmail.com" className="flex items-start group w-full">
                       <div className="bg-wk-dark p-3 rounded-full mr-4 group-hover:bg-wk-blue transition-colors">
                         <Mail className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-white">Email</h3>
-                        <p className="text-gray-300">Wkfoundation@gmail.com</p>
+                        <p className="text-gray-300">WKFboard@gmail.com</p>
                       </div>
                     </a>
                   </div>
@@ -140,7 +140,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold text-white">Address</h3>
-                        <p className="text-gray-300">254D Sunset Ave, Suisun City, CA, United States, California</p>
+                        <p className="text-gray-300">254 D Sunset Ave, Suisun City, CA, United States, California</p>
                       </div>
                     </a>
                   </div>
