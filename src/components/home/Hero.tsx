@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative bg-wk-dark overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=2000" 
+           src="https://i.pinimg.com/736x/bc/82/ee/bc82ee7090ae65788dda3fda6562462a.jpg"
           alt="Martial Arts Community Training" 
           className="w-full h-full object-cover opacity-40" /* Increased opacity from 20 to 40 */
         />
@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div data-aos="fade-right" data-aos-delay="100">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Wahiawa Kajukenbo <span className="text-wk-gold">Foundation</span>
+            Wahiawa Kajukenbo <span className="text-wk-gold">Changing Lives</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Building strength, character and community through the traditions and values of Kajukenbo. 
