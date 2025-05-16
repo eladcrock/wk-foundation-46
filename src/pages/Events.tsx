@@ -132,7 +132,7 @@ const Events = () => {
                 },
                 {
                   id: 2,
-                  title: "Self-Defense Workshop",
+                  title: "Womens Self-Defense",
                   date: "Every 3rd Saturday of the Month",
                   image:
                     "https://media.npr.org/assets/img/2022/05/27/20220511_jessng_mengwencao-050_custom-dc50764275d3dc024efe3f922ae54100ca0e6e72.jpg?s=1100&c=50&f=jpeg",
