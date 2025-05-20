@@ -1,3 +1,4 @@
+// App.tsx
 
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -20,16 +21,15 @@ AOS.init({
   easing: 'ease-out',
   once: false, // Keep animation playing on every scroll
   offset: 100,
-  delay: 0, // No delay for immediate response
+  delay: 0,
 });
 
 // ScrollToTop component to handle scrolling on route changes
-function ScrollToTop() {
+function ScrollToTop(): null {
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // Refresh AOS on route change
     AOS.refresh();
   }, [pathname]);
 
@@ -52,6 +52,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
+          {/* Catch-all route for 404 */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
