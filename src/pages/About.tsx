@@ -6,60 +6,63 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const About = () => {
   const boardMembers = [
     {
-      name: "Jane Smith",
-      title: "Founder & President",
+      name: "Board Member",
+      title: "More Info Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?auto=format&fit=crop&q=80&w=400",
-      bio: "Jane has been practicing Kajukenbo for over 20 years and is dedicated to sharing its principles with the community.",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
+      bio: " ",
     },
     {
-      name: "John Davis",
-      title: "Vice President",
+      name: "Board Member",
+      title: "More Info Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400",
-      bio: "John brings over 15 years of nonprofit leadership experience to the foundation.",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
+      bio: " ",
     },
     {
-      name: "Sarah Johnson",
-      title: "Treasurer",
+      name: "Board Member",
+      title: "More Info Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
-      bio: "Sarah has a background in finance and is passionate about making martial arts accessible to all.",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
+      bio: " ",
     },
     {
-      name: "Michael Lee",
-      title: "Secretary",
+      name: "Board Member",
+      title: "More Info Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
-      bio: "Michael has been involved with the foundation since its inception and coordinates community outreach.",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
+      bio: " ",
     },
+    
+  
   ];
 
   const teamMembers = [
     {
-      name: "Lisa Wong",
-      title: "Program Director",
+      name: "Team Member ",
+      title: "Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
     },
     {
-      name: "Robert Taylor",
-      title: "Community Outreach",
+      name: "Team Member ",
+      title: "Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
     },
     {
-      name: "Emma Miller",
-      title: "Events Coordinator",
+      name: "Team Member ",
+      title: "Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400",
-    },
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
+    },    
     {
-      name: "David Chen",
-      title: "Volunteer Coordinator",
+      name: "Team Member ",
+      title: "Coming Soon",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400",
+      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
     },
+    ,
   ];
 
   return (
