@@ -2,39 +2,39 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
+import { Card, CardContent } from "../ui/card";
 
 const UpcomingEvent = () => {
   return (
-    <section className="bg-wk-dark section-padding">
+    <><section className="bg-wk-dark section-padding">
       <div className="container-custom">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div 
+          <div
             className="rounded-lg overflow-hidden shadow-lg order-2 md:order-1"
             data-aos="fade-right"
             data-aos-delay="200"
           >
-            <img 
-            src="https://cdn.prod.website-files.com/67ec115a7cb123fc4a978884/67ed53f0739111102c22a0bc_Experience%20by%20Michael%20Ryan%20Kravetsky%20for%20Ohana%20Festival%202022.webp"
-              alt="Ohana Fest 2025" 
-              className="w-full h-[300px] object-cover"
-            />
+            <img
+              src="https://cdn.prod.website-files.com/67ec115a7cb123fc4a978884/67ed53f0739111102c22a0bc_Experience%20by%20Michael%20Ryan%20Kravetsky%20for%20Ohana%20Festival%202022.webp"
+              alt="Ohana Fest 2025"
+              className="w-full h-[300px] object-cover" />
           </div>
-          
+
           <div className="order-1 md:order-2" data-aos="fade-left" data-aos-delay="300">
             <div className="inline-flex items-center bg-wk-darkgray px-4 py-2 rounded-full mb-6">
               <Calendar className="w-5 h-5 text-wk-gold mr-2" />
               <span className="text-white font-medium">Upcoming Event</span>
             </div>
-            
+
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Ohana Fest 2025
             </h2>
-            
+
             <p className="text-gray-300 mb-6">
-              Join us for a day of celebration, demonstration, and community building. 
+              Join us for a day of celebration, demonstration, and community building.
               Experience the art of Kajukenbo while connecting with other community members.
             </p>
-            
+
             <div className="bg-wk-darkgray p-4 rounded-lg mb-6 inline-block border border-white/10">
               <div className="flex gap-4 text-white">
                 <div>
@@ -49,14 +49,41 @@ const UpcomingEvent = () => {
             </div>
             <div className="text-center">
 
-            <Button asChild className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500">
-              <Link to="/events">Learn More</Link>
-            </Button>
+              <Button asChild className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500">
+                <Link to="/events">Learn More</Link>
+              </Button>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section><section className="py-16 bg-wk-dark">
+        <div className="container mx-auto">
+          <div
+            className="text-center mb-8"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white">
+              Hear about our Impact
+            </h2>
+          </div>
+          <Card className="overflow-hidden">
+            <CardContent className="p-0">
+              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  src="https://www.youtube.com/embed/lGCscWvjGoo?si=N6MlcKmOvtUVK2ig"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className="absolute top-0 left-0 w-full h-full"
+                ></iframe>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section></>
     
     
   );
