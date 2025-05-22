@@ -45,7 +45,7 @@ const Programs = () => {
                 data-aos="fade-right"
               >
                 <img
-                  src="https://t3.ftcdn.net/jpg/00/85/35/78/360_F_85357890_AKWH9087ypqCFhitFhTAWeh4uagRCuiC.jpg"
+                  src="https://fundraisingforacause.com/cdn/shop/products/PSIGN-BUZ_600x.jpg?v=1743518296"
                   alt="BREATHE Youth Anti-Bullying Program"
                   className="w-full h-[400px] object-cover"
                 />
