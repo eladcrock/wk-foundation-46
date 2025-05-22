@@ -90,6 +90,8 @@ const UpcomingEvent = () => {
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                   className="absolute top-0 left-0 w-full h-full"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
                 ></iframe>{" "}
               </div>
             </CardContent>
