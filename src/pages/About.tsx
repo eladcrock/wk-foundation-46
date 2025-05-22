@@ -26,13 +26,7 @@ const About = () => {
       "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
       bio: " ",
     },
-    {
-      name: "Board Member",
-      title: "More Info Coming Soon",
-      image:
-      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
-      bio: " ",
-    },
+
     
   
   ];
@@ -56,13 +50,7 @@ const About = () => {
       image:
       "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
     },    
-    {
-      name: "Team Member ",
-      title: "Coming Soon",
-      image:
-      "https://images.all-free-download.com/images/graphiclarge/portrait_image_sign_icon_flat_contrast_person_icon_outline_6921760.jpg",
-    },
-    ,
+
   ];
 
   return (
