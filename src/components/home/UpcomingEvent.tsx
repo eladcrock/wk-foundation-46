@@ -83,8 +83,8 @@ const UpcomingEvent = () => {
                 style={{ paddingBottom: "56.25%" }}
               >
                 <iframe
-  src="https://www.youtube.com/embed/lGCscWvjGoo?modestbranding=1&rel=0&controls=0&disablekb=1&iv_load_policy=3"
-  title="YouTube video player"
+                  src="https://www.youtube.com/embed/lGCscWvjGoo?modestbranding=1&rel=0&controls=0&disablekb=1&iv_load_policy=3"
+                  title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
