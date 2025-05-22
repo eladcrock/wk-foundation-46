@@ -302,7 +302,7 @@ const Programs = () => {
         </section>
 
         <CallToAction compact />
-        \{/* Video Section */}
+        {/* Video Section */}
         <section className="py-16 bg-wk-dark">
           <div className="container mx-auto">
             <div
