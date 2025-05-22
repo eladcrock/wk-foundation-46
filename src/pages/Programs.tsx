@@ -45,7 +45,7 @@ const Programs = () => {
                 data-aos="fade-right"
               >
                 <img
-                  src="https://fundraisingforacause.com/cdn/shop/products/PSIGN-BUZ_600x.jpg?v=1743518296"
+                  src="https://media.istockphoto.com/id/1315459620/vector/stop-bullying-sign-stop-bullying-and-child-abuse-in-the-school-verbal-social-physical.jpg?s=612x612&w=0&k=20&c=hvkqTeShIgzXrBKjxZhJHtY9ULSyNT9mr_O-ZYd6u1I="
                   alt="BREATHE Youth Anti-Bullying Program"
                   className="w-full h-[400px] object-cover"
                 />
