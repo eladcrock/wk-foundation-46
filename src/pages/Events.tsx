@@ -11,8 +11,8 @@ import {
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
+import SponsorCTA from "@/components/common/SponsorCTA";
 import { Calendar } from "lucide-react";
-import deck from "@components/images/deck.pdf"
 
 const Events = () => {
   return (
@@ -110,6 +110,11 @@ const Events = () => {
                   </Button>
                 </div>
               </div>
+            </div>
+            
+            {/* Sponsor CTA */}
+            <div className="mt-8" data-aos="fade-up" data-aos-delay="200">
+              <SponsorCTA />
             </div>
           </div>
         </section>

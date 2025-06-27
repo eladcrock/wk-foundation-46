@@ -11,6 +11,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
+import SponsorCTA from "../common/SponsorCTA";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,6 +25,11 @@ const Footer = () => {
   return (
     <footer className="bg-wk-dark text-white pt-16 pb-8 border-t border-white/10">
       <div className="container-custom">
+        {/* Sponsor CTA Section */}
+        <div className="mb-12">
+          <SponsorCTA variant="compact" />
+        </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">

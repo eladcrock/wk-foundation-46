@@ -1,7 +1,9 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
+import SponsorCTA from "../common/SponsorCTA";
 
 const UpcomingEvent = () => {
   return (
@@ -69,8 +71,14 @@ const UpcomingEvent = () => {
               </div>
             </div>
           </div>
+          
+          {/* Sponsor CTA Banner */}
+          <div className="mt-12" data-aos="fade-up" data-aos-delay="400">
+            <SponsorCTA variant="banner" />
+          </div>
         </div>
       </section>
+      
       <section className="py-16 bg-wk-dark">
         <div className="container mx-auto">
           <div
