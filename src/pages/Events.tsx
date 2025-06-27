@@ -12,6 +12,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
 import { Calendar } from "lucide-react";
+import deck from "@components/images/deck.pdf"
 
 const Events = () => {
   return (
@@ -81,7 +82,7 @@ const Events = () => {
                           Date & Time
                         </h4>
                         <p className="text-gray-300">
-                          October 15, 2025 • 1:00 PM - 8:00 PM
+                          September 20 10:00am -4:00pm
                         </p>
                       </div>
                       <div>
@@ -89,7 +90,7 @@ const Events = () => {
                           Location
                         </h4>
                         <p className="text-gray-300">
-                          City Park Amphitheater, 123 Main St
+                          Suisun Waterfront Harbor
                         </p>
                       </div>
                     </div>
@@ -99,7 +100,13 @@ const Events = () => {
                     asChild
                     className="w-full sm:w-auto bg-wk-red hover:bg-red-700"
                   >
-                    <Link to="/events/ohana-fest">Event Details</Link>
+                     <a
+                      href="/deck.pdf#pagemode=FullScreen"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Event Details
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -124,7 +131,7 @@ const Events = () => {
                   title: "Annual Toy Drive Fundraiser",
                   date: "Announced early November 2025",
                   image:
-                  "https://media.sketchfab.com/models/5a78675f36934f67a3cf55f49c7d56ad/thumbnails/358aef2210684655bf67f05a1619a56b/d4f173afe2874179824dd92709f3e36d.jpeg",
+                    "https://media.sketchfab.com/models/5a78675f36934f67a3cf55f49c7d56ad/thumbnails/358aef2210684655bf67f05a1619a56b/d4f173afe2874179824dd92709f3e36d.jpeg",
                   description:
                     "Help us bring holiday cheer to local families by contributing to our annual toy drive. All donations go directly to children in need.",
                   location: "T4L and sponsored locations",
@@ -146,13 +153,12 @@ const Events = () => {
                   title: "4th of July Fireworks Fundraiser",
                   date: "Announced June 2025",
                   image:
-                  "https://nationaltoday.com/wp-content/uploads/2020/07/4july-1.jpg",
+                    "https://nationaltoday.com/wp-content/uploads/2020/07/4july-1.jpg",
                   description:
                     "Support our free programs like Women's Self-Defense by volunteering at our fireworks booth.",
                   location: "Location TBD",
                   time: "9:00 AM - 9:00 PM",
                 },
-
               ].map((event, index) => (
                 <Card
                   key={event.id}
@@ -189,9 +195,7 @@ const Events = () => {
                       asChild
                       className="w-full bg-wk-gold hover:bg-yellow-500 text-wk-charcoal"
                     >
-                      <Link to={`/events/fundraiser-${event.id}`}>
-                        Learn More
-                      </Link>
+                      <Link to="/contact">Get Involved</Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -201,7 +205,6 @@ const Events = () => {
         </section>
 
         <CallToAction compact />
-        
       </main>
       <Footer />
     </div>

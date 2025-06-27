@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import logo from "@/components/images/logo.png";
+import t4l from "@/components/images/t4l.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = () => {
               aria-label="Visit Train 4 Life website"
             >
               <img
-                src="/lovable-uploads/d164278b-fa3d-427c-9623-5bc54ef71660.png"
+                src={t4l}
                 alt="Train 4 Life Logo"
                 className="h-8 w-auto"
                 data-aos="fade-in"

@@ -44,12 +44,12 @@ const UpcomingEvent = () => {
               <div className="bg-wk-darkgray p-4 rounded-lg mb-6 inline-block border border-white/10">
                 <div className="flex gap-4 text-white">
                   <div>
-                    <p className="text-sm font-medium text-wk-gold">Date</p>
-                    <p className="text-gray-200">Announced Early Summer</p>
+                    <p className="text-sm font-medium text-wk-gold">Date: </p>
+                    <p className="text-gray-200">Sep 20 10:00am -4:00pm</p>
                   </div>
                   <div className="border-l border-gray-600 pl-4">
                     <p className="text-sm font-medium text-wk-gold">Location</p>
-                    <p className="text-gray-200">Suisun City </p>
+                    <p className="text-gray-200">Suisun Waterfront Harbor </p>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,13 @@ const UpcomingEvent = () => {
                   asChild
                   className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500"
                 >
-                  <Link to="/events">Learn More</Link>
+                  <a
+                      href="/deck.pdf#pagemode=FullScreen"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Event Details
+                    </a>
                 </Button>
               </div>
             </div>
