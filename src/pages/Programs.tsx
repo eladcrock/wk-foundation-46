@@ -44,7 +44,7 @@ const Programs = () => {
                 data-aos="fade-right"
               >
                 <img
-                  src="https://media.istockphoto.com/id/1315459620/vector/stop-bullying-sign-stop-bullying-and-child-abuse-in-the-school-verbal-social-physical.jpg?s=612x612&w=0&k=20&c=hvkqTeShIgzXrBKjxZhJHtY9ULSyNT9mr_O-ZYd6u1I="
+                  src="/lovable-uploads/1e402292-1e25-40bf-8aac-5277d6070298.png"
                   alt="BREATHE Youth Anti-Bullying Program"
                   className="w-full h-[400px] object-cover"
                 />
@@ -190,7 +190,7 @@ const Programs = () => {
                 data-aos="fade-left"
               >
                 <img
-                  src="https://www.shutterstock.com/image-photo/elderly-woman-her-trainer-gym-600nw-2415707205.jpg"
+                  src="/lovable-uploads/9a7fda8f-78f1-4dbc-ad80-dfd2fe820111.png"
                   alt="Senior Boxing Program"
                   className="w-full h-[400px] object-cover"
                 />
@@ -208,7 +208,7 @@ const Programs = () => {
                 data-aos="fade-right"
               >
                 <img
-                  src="https://i0.wp.com/bhamnow.com/wp-content/uploads/2020/01/self-defense-class.jpg?resize=563%2C352&quality=89&ssl=1"
+                  src="/lovable-uploads/f17bd64e-bb10-4565-a854-1456c72a4233.png"
                   alt="Women's Self Defense Program"
                   className="w-full h-[400px] object-cover"
                 />

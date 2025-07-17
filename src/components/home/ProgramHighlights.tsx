@@ -11,20 +11,21 @@ const ProgramHighlights = () => {
       title: "B.R.E.A.T.H.E",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
-      image: "https://tessais.org/wp-content/uploads/2019/10/Anti-Bullying-Image-1210x423.jpg "},
+      image: "/lovable-uploads/1e402292-1e25-40bf-8aac-5277d6070298.png"
+    },
     {
       id: "senior-boxing",
       title: "Senior Boxing",
       description: "Fitness Program for Seniors",
       body: "Stay active, build strength, and foster community with our specialized boxing program for seniors.",
-      image: "https://www.shutterstock.com/image-photo/elderly-woman-her-trainer-gym-600nw-2415707205.jpg"
+      image: "/lovable-uploads/9a7fda8f-78f1-4dbc-ad80-dfd2fe820111.png"
     },
     {
       id: "self-defense",
       title: "Women's Self Defense",
       description: "Empowerment Through Training",
       body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
-      image: "https://i0.wp.com/bhamnow.com/wp-content/uploads/2020/01/self-defense-class.jpg?resize=563%2C352&quality=89&ssl=1"
+      image: "/lovable-uploads/f17bd64e-bb10-4565-a854-1456c72a4233.png"
     },
   ];
 
