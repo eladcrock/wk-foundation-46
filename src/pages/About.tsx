@@ -94,7 +94,7 @@ const About = () => {
                 data-aos-duration="800"
               >
                 <img
-                  src="https://s3-media0.fl.yelpcdn.com/bphoto/gfWv1mXofqESczSSshIjiQ/o.jpg"
+                  src="/lovable-uploads/de25fcc0-308b-46eb-8bb2-00fe0f1f9fb8.png"
                   alt="Mission Statement"
                   className="w-full h-[400px] object-cover" />
               </div>
@@ -106,10 +106,10 @@ const About = () => {
                 <p className="text-gray-300 mb-4">
                   {" "}
                   <p className="text-gray-300 mb-4">
-                    “To enrich the community, both parents and children, through
+                    "To enrich the community, both parents and children, through
                     the teaching of proper kajukenbo techniques, which entails
                     building and fine tuning the physical, mental and spiritual
-                    aspects of one’s own life.
+                    aspects of one's own life.
                   </p>
                   To educate, guide and challenge the future generation of
                   leaders, by offering an after school program, where children
@@ -126,9 +126,9 @@ const About = () => {
                   on Fellowship and Growth.
                 </p>
                 <p className="text-gray-300 mb-4">
-                  To carry on the legacy of the Ramos Family’s dedication,
+                  To carry on the legacy of the Ramos Family's dedication,
                   integrity, and excellence in teaching the God given Art of
-                  Kajukenbo”
+                  Kajukenbo"
                 </p>
               </div>
             </div>
@@ -164,8 +164,8 @@ const About = () => {
               </p>{" "}
               <p>
                 Today, Wahiawa Kajukenbo is an extension of the late Ahgung Tony
-                Ramos’ teachings, which is carried on by his eldest son,
-                GrandMaster Tony Ramos, and grandson, Sifu Anthony “Sonny”
+                Ramos' teachings, which is carried on by his eldest son,
+                GrandMaster Tony Ramos, and grandson, Sifu Anthony "Sonny"
                 Ramos.{" "}
               </p>
             </div>
@@ -260,7 +260,6 @@ const About = () => {
             </div>
           </div>
         </section>
-
 
         <CallToAction compact />
       </main>
