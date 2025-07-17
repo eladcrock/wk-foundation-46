@@ -1,5 +1,6 @@
 
 import Hero from "@/components/home/Hero";
+import AwardSection from "@/components/home/AwardSection";
 import ProgramHighlights from "@/components/home/ProgramHighlights";
 import UpcomingEvent from "@/components/home/UpcomingEvent";
 import CallToAction from "@/components/common/CallToAction";
@@ -12,6 +13,7 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <AwardSection />
         <ProgramHighlights />
         <UpcomingEvent />
         <CallToAction />
