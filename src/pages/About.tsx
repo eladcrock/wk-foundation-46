@@ -1,6 +1,8 @@
+
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
+import AwardSection from "@/components/home/AwardSection";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const About = () => {
@@ -172,7 +174,11 @@ const About = () => {
           </div>
         </section>
 
-        {/* Board of Directors */}
+        {/* Achievement Section */}
+        <AwardSection />
+
+        {/* Board of Directors - Commented Out */}
+        {/*
         <section className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div
@@ -216,8 +222,10 @@ const About = () => {
             </div>
           </div>
         </section>
+        */}
 
-        {/* Team Members */}
+        {/* Team Members - Commented Out */}
+        {/*
         <section className="section-padding bg-wk-dark">
           <div className="container-custom">
             <div
@@ -260,6 +268,7 @@ const About = () => {
             </div>
           </div>
         </section>
+        */}
 
         <CallToAction compact />
       </main>
