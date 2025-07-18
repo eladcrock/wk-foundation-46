@@ -16,9 +16,9 @@ const OhanaGallery = ({ variant = 'events' }: OhanaGalleryProps) => {
   // Gallery images for Ohana Fest
   const galleryImages = [
     {
-      src: "/lovable-uploads/ohana-fest-main.webp",
+      src: "/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png",
       alt: "Ohana Fest 2025 Main Event",
-      thumbnail: "/lovable-uploads/ohana-fest-main.webp"
+      thumbnail: "/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png"
     }
     // Add more images here when provided
   ];

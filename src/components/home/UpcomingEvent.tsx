@@ -18,11 +18,11 @@ const UpcomingEvent = () => {
               data-aos-delay="200"
             >
               <img
-                src="/lovable-uploads/ohana-fest-main.webp"
+                src="/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png"
                 alt="Ohana Fest 2025"
                 className="w-full h-[300px] object-cover"
                 onError={(e) => {
-                  console.log('Failed to load Ohana Fest image: /lovable-uploads/ohana-fest-main.webp');
+                  console.log('Failed to load Ohana Fest image: /lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png');
                   e.currentTarget.style.display = 'none';
                 }}
                 onLoad={() => console.log('Successfully loaded Ohana Fest image')}
