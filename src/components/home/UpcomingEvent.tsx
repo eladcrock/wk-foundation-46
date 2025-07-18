@@ -20,10 +20,8 @@ const UpcomingEvent = () => {
               <img
                 src="/lovable-uploads/OhanaFest2024_socialmedia-2.jpg"
                 alt="Ohana Fest 2025"
-                className="w-full h-[300px] object-cover"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                }}
+                className="w-full h-auto object-contain block rounded-lg"
+             
               />
             </div>
 

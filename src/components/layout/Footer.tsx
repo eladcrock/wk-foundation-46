@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import { 
   Facebook, 
@@ -33,32 +32,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
-                        <Link to="/" className="flex items-center">
               
-              <div className="flex items-center justify-center bg-gradient-to-r from-wk-darkgray to-wk-charcoal p-2 rounded-lg shadow-lg">
-                <div className="relative">
-                  <div className="flex items-center space-x-1">
-                    <span className="text-wk-red text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>W</span>
-                    <span className="text-white text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>K</span>
-                    <span className="text-wk-gold text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>F</span>
-                  </div>
-                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-wk-red via-white to-wk-gold rounded-full"></div>
-                </div>
-              </div>
-            </Link>
             </div>
-            <p className="text-gray-300 mb-6">
+            {/* <p className="text-gray-300 mb-5">
               Building strength, character and community through the traditions and 
               values of Kajukenbo martial arts training.
-            </p>
+            </p> */}
             <div className="flex flex-wrap items-center space-x-4">
+
+              
+              
               <a href="https://www.facebook.com/wkfoundation707/" className="text-gray-400 hover:text-wk-gold transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="https://www.instagram.com/wkfoundationsolano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-400 hover:text-wk-gold transition-colors">
                 <Instagram size={20} />
               </a>
-            
               <a 
                 href="https://train4life.info" 
                 target="_blank" 
@@ -67,38 +56,51 @@ const Footer = () => {
                 data-aos="fade-in"
                 data-aos-duration="800"
               >
+                
                 <img 
                   src="/lovable-uploads/tfl.png" 
                   alt="Train 4 Life Logo" 
                   className="h-10 w-auto mt-2" 
                 />
               </a>
+              <Link to="/" className="flex items-center">
+                <div className="flex items-center justify-center bg-gradient-to-r from-wk-darkgray to-wk-charcoal p-2 rounded-lg shadow-lg">
+                  <div className="relative">
+                    <div className="flex items-center space-x-1">
+                      <span className="text-wk-red text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>W</span>
+                      <span className="text-white text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>K</span>
+                      <span className="text-wk-gold text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>F</span>
+                    </div>
+                    <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-wk-red via-white to-wk-gold rounded-full"></div>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
           
-          <div>
-            <ul className="space-y-3">
-              <li>
-                <Link to="/" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/events" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition-colors flex items-center gap-2">
-                  Programs
-                </Link>
-              </li>
-            </ul>
+          <div  style={{ marginTop: "0rem" }}>
+          <ul className="flex justify-center md:justify-start space-x-4">
+  <li>
+    <Link to="/" className="text-gray-300 hover:text-wk-gold transition-colors">
+      Home
+    </Link>
+  </li>
+  <li>
+    <Link to="/events" className="text-gray-300 hover:text-wk-gold transition-colors">
+      Events
+    </Link>
+  </li>
+  <li>
+    <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors">
+      About Us
+    </Link>
+  </li>
+  <li>
+    <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition-colors">
+      Programs
+    </Link>
+  </li>
+</ul>
           </div>
           
           <div>
@@ -136,8 +138,18 @@ const Footer = () => {
         
         <Separator className="my-8 bg-gray-700" />
         
-        <div className="text-sm text-gray-400 flex justify-center">
-          <p>&copy; {currentYear} Wahiawa Kajukenbo Foundation. All rights reserved.</p>
+        <div className="text-sm text-gray-400 flex justify-center items-center">
+          <p>
+            &copy; {currentYear} Wahiawa Kajukenbo Foundation. <br/>Built by 
+            <a 
+              href="https://nimbuswolf.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-red-400 hover:text-wk-gold ml-1"
+            >
+              Nimbus Wolf Studios
+            </a>.
+          </p>
         </div>
       </div>
     </footer>

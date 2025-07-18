@@ -24,23 +24,17 @@ const AwardSection = () => {
             <p className="text-gray-300 text-lg">
               We are proud to announce that the Wahiawa Kajukenbo Foundation has
               won the city council award for Fairfield Parades walking division.
-              This recognition celebrates our commitment to community engagement.
-            </p>
+              This recognition celebrates our commitment to community engagement. </p>
           </div>
 
           {/* Image */}
-          <div
-            className="rounded-lg overflow-hidden shadow-lg flex items-center justify-center"
-            data-aos="fade-left"
-            data-aos-delay="300"
-          >
+     
             <img
               src="/lovable-uploads/parade.png"
               alt="City Council Award for Fairfield Parades Walking Division"
-              className="w-full h-auto object-contain block rounded-lg"
-              style={{ marginTop: "-5px" }}
-            />
-          </div>
+              className="w-full h-[400px] object-contain block rounded-lg"
+              style={{ marginTop: "-50px", marginBottom: "-50px" }}
+              />
         </div>
       </div>
     </section>

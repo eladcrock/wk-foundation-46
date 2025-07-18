@@ -52,12 +52,14 @@ const Events = () => {
               data-aos="fade-up"
             >
               <div className="grid md:grid-cols-2">
-                <div className="min-h-[400px] relative overflow-hidden">
+                <div className="min-h-[400px] relative overflow-hidden"     style={{ marginBottom: "-100px" }}>
                   <img
-                       src="/lovable-uploads/OhanaFest2024_socialmedia-2.jpg"
+                    src="/lovable-uploads/OhanaFest2024_socialmedia-2.jpg"
                     alt="Ohana Fest 2025"
-                    className="w-full h-full object-cover"
-                  />
+                    className="w-full h-auto object-contain block rounded-lg"
+                
+
+                    />
                 </div>
                 <div className="p-8 md:p-12 flex flex-col">
                   <div className="mb-auto">
