@@ -55,6 +55,11 @@ const ProgramHighlights = () => {
                         src={program.image} 
                         alt={program.title} 
                         className="max-w-full max-h-full object-contain transition-transform hover:scale-105 duration-700"
+                        onError={(e) => {
+                          console.log(`Failed to load image: ${program.image}`);
+                          e.currentTarget.style.display = 'none';
+                        }}
+                        onLoad={() => console.log(`Successfully loaded: ${program.image}`)}
                       />
                     </div>
                   </AspectRatio>

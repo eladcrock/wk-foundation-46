@@ -21,6 +21,11 @@ const UpcomingEvent = () => {
                 src="/lovable-uploads/ohana-fest-main.webp"
                 alt="Ohana Fest 2025"
                 className="w-full h-[300px] object-cover"
+                onError={(e) => {
+                  console.log('Failed to load Ohana Fest image: /lovable-uploads/ohana-fest-main.webp');
+                  e.currentTarget.style.display = 'none';
+                }}
+                onLoad={() => console.log('Successfully loaded Ohana Fest image')}
               />
             </div>
 
