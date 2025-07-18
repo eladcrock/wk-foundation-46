@@ -96,7 +96,7 @@ const About = () => {
                 data-aos-duration="800"
               >
                 <img
-                  src="/lovable-uploads/de25fcc0-308b-46eb-8bb2-00fe0f1f9fb8.png"
+                  src="/lovable-uploads/bear.png"
                   alt="Mission Statement"
                   className="w-full h-[400px] object-cover" />
               </div>

@@ -18,14 +18,12 @@ const UpcomingEvent = () => {
               data-aos-delay="200"
             >
               <img
-                src="/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png"
+                src="/lovable-uploads/OhanaFest2024_socialmedia-2.jpg"
                 alt="Ohana Fest 2025"
                 className="w-full h-[300px] object-cover"
                 onError={(e) => {
-                  console.log('Failed to load Ohana Fest image: /lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png');
                   e.currentTarget.style.display = 'none';
                 }}
-                onLoad={() => console.log('Successfully loaded Ohana Fest image')}
               />
             </div>
 
@@ -63,7 +61,7 @@ const UpcomingEvent = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button
+                {/* <Button
                   asChild
                   className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500"
                 >
@@ -74,7 +72,7 @@ const UpcomingEvent = () => {
                   >
                     Event Details
                   </a>
-                </Button>
+                </Button> */}
                 <OhanaGallery variant="home" />
               </div>
             </div>

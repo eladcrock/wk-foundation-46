@@ -68,7 +68,7 @@ const Footer = () => {
                 data-aos-duration="800"
               >
                 <img 
-                  src="/lovable-uploads/d164278b-fa3d-427c-9623-5bc54ef71660.png" 
+                  src="/lovable-uploads/tfl.png" 
                   alt="Train 4 Life Logo" 
                   className="h-10 w-auto mt-2" 
                 />

@@ -54,7 +54,7 @@ const Events = () => {
               <div className="grid md:grid-cols-2">
                 <div className="min-h-[400px] relative overflow-hidden">
                   <img
-                    src="/lovable-uploads/ohana-fest-main.webp"
+                       src="/lovable-uploads/OhanaFest2024_socialmedia-2.jpg"
                     alt="Ohana Fest 2025"
                     className="w-full h-full object-cover"
                   />

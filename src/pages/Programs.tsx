@@ -44,7 +44,7 @@ const Programs = () => {
                 data-aos="fade-right"
               >
                 <img
-                  src="/lovable-uploads/breathe-buddy-logo.png"
+                  src="/lovable-uploads/breathe.png"
                   alt="BREATHE Youth Anti-Bullying Program"
                   className="w-full max-w-[300px] h-auto object-contain"
                 />
@@ -190,7 +190,7 @@ const Programs = () => {
                 data-aos="fade-left"
               >
                 <img
-                  src="/lovable-uploads/senior-boxing-fitness.png"
+                  src="/lovable-uploads/seniorbox.png"
                   alt="Senior Boxing Program"
                   className="w-full max-w-[300px] h-auto object-contain"
                 />
@@ -208,7 +208,7 @@ const Programs = () => {
                 data-aos="fade-right"
               >
                 <img
-                  src="/lovable-uploads/womens-self-defense.png"
+                  src="/lovable-uploads/women.png"
                   alt="Women's Self Defense Program"
                   className="w-full max-w-[300px] h-auto object-contain"
                 />

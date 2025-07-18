@@ -31,7 +31,7 @@ const AwardSection = () => {
             data-aos-delay="300"
           >
             <img
-              src="/lovable-uploads/bc9c62f8-57a9-446c-9f03-c8b56b04707c.png"
+              src="/lovable-uploads/parade.png"
               alt="City Council Award for Fairfield Parades Walking Division"
               className="w-full h-[400px] object-cover"
             />

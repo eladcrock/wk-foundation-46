@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Images } from 'lucide-react';
@@ -15,12 +14,71 @@ const OhanaGallery = ({ variant = 'events' }: OhanaGalleryProps) => {
 
   // Gallery images for Ohana Fest
   const galleryImages = [
+   
     {
-      src: "/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png",
-      alt: "Ohana Fest 2025 Main Event",
-      thumbnail: "/lovable-uploads/df1622a9-be05-4cc3-944e-94d59db34f5e.png"
-    }
-    // Add more images here when provided
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-3.jpg",
+      alt: "Ohana Fest 2024 - Social Media 3",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-4.jpg",
+      alt: "Ohana Fest 2024 - Social Media 4",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-6.jpg",
+      alt: "Ohana Fest 2024 - Social Media 6",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-7.jpg",
+      alt: "Ohana Fest 2024 - Social Media 7",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-15.jpg",
+      alt: "Ohana Fest 2024 - Social Media 15",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-20.jpg",
+      alt: "Ohana Fest 2024 - Social Media 20",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-21.jpg",
+      alt: "Ohana Fest 2024 - Social Media 21",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-35.jpg",
+      alt: "Ohana Fest 2024 - Social Media 35",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-38.jpg",
+      alt: "Ohana Fest 2024 - Social Media 38",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-100.jpg",
+      alt: "Ohana Fest 2024 - Social Media 100",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-119.jpg",
+      alt: "Ohana Fest 2024 - Social Media 119",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-134.jpg",
+      alt: "Ohana Fest 2024 - Social Media 134",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-220.jpg",
+      alt: "Ohana Fest 2024 - Social Media 220",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-240.jpg",
+      alt: "Ohana Fest 2024 - Social Media 240",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-243.jpg",
+      alt: "Ohana Fest 2024 - Social Media 243",
+    },
+    {
+      src: "/lovable-uploads/OhanaFest2024_socialmedia-256.jpg",
+      alt: "Ohana Fest 2024 - Social Media 256",
+    },
   ];
 
   const openLightbox = (index: number) => {
@@ -46,7 +104,7 @@ const OhanaGallery = ({ variant = 'events' }: OhanaGalleryProps) => {
           open={lightboxOpen}
           close={() => setLightboxOpen(false)}
           index={currentImageIndex}
-          slides={galleryImages}
+          slides={galleryImages.map((image) => ({ src: image.src }))}
         />
       </>
     );
@@ -64,7 +122,7 @@ const OhanaGallery = ({ variant = 'events' }: OhanaGalleryProps) => {
               className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform"
             >
               <img
-                src={image.thumbnail}
+                src={image.src}
                 alt={image.alt}
                 className="w-full h-full object-cover"
               />
@@ -77,7 +135,7 @@ const OhanaGallery = ({ variant = 'events' }: OhanaGalleryProps) => {
         open={lightboxOpen}
         close={() => setLightboxOpen(false)}
         index={currentImageIndex}
-        slides={galleryImages}
+        slides={galleryImages.map((image) => ({ src: image.src }))}
       />
     </>
   );
