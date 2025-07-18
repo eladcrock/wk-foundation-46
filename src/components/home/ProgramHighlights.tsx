@@ -50,11 +50,13 @@ const ProgramHighlights = () => {
               <CardHeader className="p-0">
                 <div className="rounded-t-lg overflow-hidden bg-white">
                   <AspectRatio ratio={16/9}>
-                    <img 
-                      src={program.image} 
-                      alt={program.title} 
-                      className="w-full h-full object-contain p-6 transition-transform hover:scale-105 duration-700"
-                    />
+                    <div className="w-full h-full flex items-center justify-center p-8">
+                      <img 
+                        src={program.image} 
+                        alt={program.title} 
+                        className="max-w-full max-h-full object-contain transition-transform hover:scale-105 duration-700"
+                      />
+                    </div>
                   </AspectRatio>
                 </div>
                 <div className="p-6">
