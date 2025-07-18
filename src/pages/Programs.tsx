@@ -40,13 +40,13 @@ const Programs = () => {
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-white p-8"
+                className="rounded-lg overflow-hidden shadow-xl bg-white p-8 flex items-center justify-center"
                 data-aos="fade-right"
               >
                 <img
                   src="/lovable-uploads/breathe-buddy-logo.png"
                   alt="BREATHE Youth Anti-Bullying Program"
-                  className="w-full h-[300px] object-contain"
+                  className="w-full max-w-[300px] h-auto object-contain"
                 />
               </div>
 
@@ -186,13 +186,13 @@ const Programs = () => {
               </div>
 
               <div
-                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2 bg-white p-8"
+                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2 bg-white p-8 flex items-center justify-center"
                 data-aos="fade-left"
               >
                 <img
                   src="/lovable-uploads/senior-boxing-fitness.png"
                   alt="Senior Boxing Program"
-                  className="w-full h-[300px] object-contain"
+                  className="w-full max-w-[300px] h-auto object-contain"
                 />
               </div>
             </div>
@@ -204,13 +204,13 @@ const Programs = () => {
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-white p-8"
+                className="rounded-lg overflow-hidden shadow-xl bg-white p-8 flex items-center justify-center"
                 data-aos="fade-right"
               >
                 <img
                   src="/lovable-uploads/womens-self-defense.png"
                   alt="Women's Self Defense Program"
-                  className="w-full h-[300px] object-contain"
+                  className="w-full max-w-[300px] h-auto object-contain"
                 />
               </div>
 

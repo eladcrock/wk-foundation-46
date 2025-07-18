@@ -48,12 +48,12 @@ const ProgramHighlights = () => {
               data-aos-delay={100 * (index + 1)}
             >
               <CardHeader className="p-0">
-                <div className="rounded-t-lg overflow-hidden">
+                <div className="rounded-t-lg overflow-hidden bg-white">
                   <AspectRatio ratio={16/9}>
                     <img 
                       src={program.image} 
                       alt={program.title} 
-                      className="w-full h-full object-contain p-4 bg-white transition-transform hover:scale-105 duration-700"
+                      className="w-full h-full object-contain p-6 transition-transform hover:scale-105 duration-700"
                     />
                   </AspectRatio>
                 </div>
