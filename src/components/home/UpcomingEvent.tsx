@@ -1,9 +1,9 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
 import SponsorCTA from "../common/SponsorCTA";
+import OhanaGallery from "../events/OhanaGallery";
 
 const UpcomingEvent = () => {
   return (
@@ -17,7 +17,7 @@ const UpcomingEvent = () => {
               data-aos-delay="200"
             >
               <img
-                src="https://cdn.prod.website-files.com/67ec115a7cb123fc4a978884/67ed53f0739111102c22a0bc_Experience%20by%20Michael%20Ryan%20Kravetsky%20for%20Ohana%20Festival%202022.webp"
+                src="/lovable-uploads/ohana-fest-main.webp"
                 alt="Ohana Fest 2025"
                 className="w-full h-[300px] object-cover"
               />
@@ -55,19 +55,21 @@ const UpcomingEvent = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-center">
+              
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   asChild
                   className="bg-wk-gold text-wk-charcoal hover:bg-yellow-500"
                 >
                   <a
-                      href="/deck.pdf#pagemode=FullScreen"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Event Details
-                    </a>
+                    href="/deck.pdf#pagemode=FullScreen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Event Details
+                  </a>
                 </Button>
+                <OhanaGallery variant="home" />
               </div>
             </div>
           </div>

@@ -11,21 +11,21 @@ const ProgramHighlights = () => {
       title: "B.R.E.A.T.H.E",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
-      image: "/lovable-uploads/1e402292-1e25-40bf-8aac-5277d6070298.png"
+      image: "/lovable-uploads/breathe-buddy-logo.png"
     },
     {
       id: "senior-boxing",
       title: "Senior Boxing",
       description: "Fitness Program for Seniors",
       body: "Stay active, build strength, and foster community with our specialized boxing program for seniors.",
-      image: "/lovable-uploads/9a7fda8f-78f1-4dbc-ad80-dfd2fe820111.png"
+      image: "/lovable-uploads/senior-boxing-fitness.png"
     },
     {
       id: "self-defense",
       title: "Women's Self Defense",
       description: "Empowerment Through Training",
       body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
-      image: "/lovable-uploads/f17bd64e-bb10-4565-a854-1456c72a4233.png"
+      image: "/lovable-uploads/womens-self-defense.png"
     },
   ];
 
@@ -53,7 +53,7 @@ const ProgramHighlights = () => {
                     <img 
                       src={program.image} 
                       alt={program.title} 
-                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
+                      className="w-full h-full object-contain p-4 bg-white transition-transform hover:scale-105 duration-700"
                     />
                   </AspectRatio>
                 </div>

@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
@@ -12,6 +13,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
 import SponsorCTA from "@/components/common/SponsorCTA";
+import OhanaGallery from "@/components/events/OhanaGallery";
 import { Calendar } from "lucide-react";
 
 const Events = () => {
@@ -53,7 +55,7 @@ const Events = () => {
               <div className="grid md:grid-cols-2">
                 <div className="min-h-[400px] relative overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/67ec115a7cb123fc4a978884/67ed53f0739111102c22a0bc_Experience%20by%20Michael%20Ryan%20Kravetsky%20for%20Ohana%20Festival%202022.webp"
+                    src="/lovable-uploads/ohana-fest-main.webp"
                     alt="Ohana Fest 2025"
                     className="w-full h-full object-cover"
                   />
@@ -98,7 +100,7 @@ const Events = () => {
 
                   <Button
                     asChild
-                    className="w-full sm:w-auto bg-wk-red hover:bg-red-700"
+                    className="w-full sm:w-auto bg-wk-red hover:bg-red-700 mb-4"
                   >
                      <a
                       href="/deck.pdf#pagemode=FullScreen"
@@ -109,6 +111,11 @@ const Events = () => {
                     </a>
                   </Button>
                 </div>
+              </div>
+              
+              {/* Add Gallery Section */}
+              <div className="p-8">
+                <OhanaGallery />
               </div>
             </div>
             

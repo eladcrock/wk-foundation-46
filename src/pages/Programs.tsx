@@ -40,13 +40,13 @@ const Programs = () => {
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div
-                className="rounded-lg overflow-hidden shadow-xl"
+                className="rounded-lg overflow-hidden shadow-xl bg-white p-8"
                 data-aos="fade-right"
               >
                 <img
-                  src="/lovable-uploads/1e402292-1e25-40bf-8aac-5277d6070298.png"
+                  src="/lovable-uploads/breathe-buddy-logo.png"
                   alt="BREATHE Youth Anti-Bullying Program"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[300px] object-contain"
                 />
               </div>
 
@@ -186,13 +186,13 @@ const Programs = () => {
               </div>
 
               <div
-                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2"
+                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2 bg-white p-8"
                 data-aos="fade-left"
               >
                 <img
-                  src="/lovable-uploads/9a7fda8f-78f1-4dbc-ad80-dfd2fe820111.png"
+                  src="/lovable-uploads/senior-boxing-fitness.png"
                   alt="Senior Boxing Program"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[300px] object-contain"
                 />
               </div>
             </div>
@@ -204,13 +204,13 @@ const Programs = () => {
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div
-                className="rounded-lg overflow-hidden shadow-xl"
+                className="rounded-lg overflow-hidden shadow-xl bg-white p-8"
                 data-aos="fade-right"
               >
                 <img
-                  src="/lovable-uploads/f17bd64e-bb10-4565-a854-1456c72a4233.png"
+                  src="/lovable-uploads/womens-self-defense.png"
                   alt="Women's Self Defense Program"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[300px] object-contain"
                 />
               </div>
 
