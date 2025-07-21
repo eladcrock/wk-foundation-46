@@ -62,29 +62,31 @@ const About = () => {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-wk-dark py-16 md:py-24 relative">
-          <div className="absolute inset-0 z-0">
-            <img
-              src="https://train4life.info/wp-content/uploads/2025/02/RP1_5075-Enhanced-NR-scaled.jpg"
-              alt="About Us"
-              className="w-full h-full object-cover opacity-40" />
-            <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
-          </div>
-          <div className="container-custom relative z-10">
-            <div
-              className="max-w-3xl mx-auto text-center"
-              data-aos="fade-up"
-              data-aos-duration="800"
-            >
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                About Us
-              </h1>
-              <p className="text-lg text-gray-300 mb-8">
-                Learn about our mission, history, and the dedicated team behind
-                the Wahiawa Kajukenbo Foundation.
-              </p>
-            </div>
-          </div>
-        </section>
+  <div className="absolute inset-0 z-0">
+    <img
+      src="https://train4life.info/wp-content/uploads/2025/02/RP1_5075-Enhanced-NR-scaled.jpg"
+      alt="About Us"
+      className="w-full h-full object-cover opacity-40"
+      style={{ objectPosition: "center" }}
+    />
+    <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
+  </div>
+  <div className="container-custom relative z-10">
+    <div
+      className="max-w-3xl mx-auto text-center"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
+      <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+        About Us
+      </h1>
+      <p className="text-lg text-gray-300 mb-8">
+        Learn about our mission, history, and the dedicated team behind the
+        Wahiawa Kajukenbo Foundation.
+      </p>
+    </div>
+  </div>
+</section>
 
         {/* Mission Statement */}
         <section className="section-padding bg-wk-charcoal">

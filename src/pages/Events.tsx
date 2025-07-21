@@ -24,9 +24,10 @@ const Events = () => {
         <section className="bg-wk-dark py-16 md:py-24 relative">
           <div className="absolute inset-0 z-0">
             <img
-              src="https://hicksconventions.com/wp-content/uploads/shutterstock_772080394-1000x423.jpg"
+              src="/lovable-uploads/ohanaHero.jpg"
               alt="Upcoming Events"
-              className="w-full h-full object-cover opacity-30"
+              className="w-full h-full object-cover opacity-70"
+              style={{ objectPosition: "center" }}
             />
             <div className="absolute inset-0 bg-gradient-to-b from-wk-dark/0 to-wk-dark"></div>
           </div>
@@ -43,7 +44,6 @@ const Events = () => {
             </div>
           </div>
         </section>
-
         {/* Featured Event - Ohana Fest */}
         <section className="py-16 bg-wk-charcoal">
           <div className="container-custom">
@@ -52,14 +52,15 @@ const Events = () => {
               data-aos="fade-up"
             >
               <div className="grid md:grid-cols-2">
-                <div className="min-h-[400px] relative overflow-hidden"     style={{ marginBottom: "-100px" }}>
+                <div
+                  className="min-h-[400px] relative overflow-hidden"
+                  style={{ marginBottom: "-100px" }}
+                >
                   <img
                     src="/lovable-uploads/OhanaFest2024_socialmedia-2.jpg"
                     alt="Ohana Fest 2025"
                     className="w-full h-auto object-contain block rounded-lg"
-                
-
-                    />
+                  />
                 </div>
                 <div className="p-8 md:p-12 flex flex-col">
                   <div className="mb-auto">
@@ -103,7 +104,7 @@ const Events = () => {
                     asChild
                     className="w-full sm:w-auto bg-wk-red hover:bg-red-700 mb-4"
                   >
-                     <a
+                    <a
                       href="/deck.pdf#pagemode=FullScreen"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -113,13 +114,13 @@ const Events = () => {
                   </Button>
                 </div>
               </div>
-              
+
               {/* Add Gallery Section */}
               <div className="p-8">
                 <OhanaGallery />
               </div>
             </div>
-            
+
             {/* Sponsor CTA */}
             <div className="mt-8" data-aos="fade-up" data-aos-delay="200">
               <SponsorCTA />

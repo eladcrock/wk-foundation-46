@@ -7,27 +7,28 @@ const Donate = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <section className="bg-wk-dark py-16 md:py-24 relative overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://static.wixstatic.com/media/4f8116_f841597e0e0e435e8a331a29e2db03ec~mv2.jpg/v1/fill/w_684,h_353,al_c,lg_1,q_80,enc_avif,quality_auto/helping-hands.jpg"
-            alt="Support Our Mission"
-            className="w-full h-full object-cover opacity-40"
-          />
-        </div>
-        <div className="container-custom relative z-10">
-          <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Support Our Mission
-            </h1>
-            <p className="text-lg text-gray-300 mb-8">
-              Your generosity helps us continue providing quality martial arts
-              programs to our community and supports our mission of building
-              strength, character, and community.
-            </p>
-          </div>
-        </div>
-      </section>
+      <section className="bg-wk-dark py-16 md:py-24 relative">
+  <div className="absolute inset-0 z-0">
+    <img
+      src="https://static.wixstatic.com/media/4f8116_f841597e0e0e435e8a331a29e2db03ec~mv2.jpg/v1/fill/w_684,h_353,al_c,lg_1,q_80,enc_avif,quality_auto/helping-hands.jpg"
+      alt="Support Our Mission"
+      className="w-full h-full object-cover opacity-40"
+      style={{ objectPosition: "center" }}
+    />
+  </div>
+  <div className="container-custom relative z-10">
+    <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
+      <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+        Support Our Mission
+      </h1>
+      <p className="text-lg text-gray-300 mb-8">
+        Your generosity helps us continue providing quality martial arts
+        programs to our community and supports our mission of building
+        strength, character, and community.
+      </p>
+    </div>
+  </div>
+</section>
 
       <section className="section-padding bg-wk-charcoal">
         <div className="container-custom">

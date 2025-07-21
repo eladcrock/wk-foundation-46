@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -21,16 +20,11 @@ const Navbar = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-          <div className="flex items-center justify-center bg-gradient-to-r from-wk-darkgray to-wk-charcoal p-2 rounded-lg shadow-lg">
-                <div className="relative">
-                  <div className="flex items-center space-x-1">
-                    <span className="text-wk-red text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>W</span>
-                    <span className="text-white text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>K</span>
-                    <span className="text-wk-gold text-xl font-bold tracking-tight" style={{textShadow: "0px 1px 2px rgba(0,0,0,0.5)"}}>F</span>
-                  </div>
-                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-wk-red via-white to-wk-gold rounded-full"></div>
-                </div>
-              </div>
+              <img
+                src="/lovable-uploads/WKFlogo.png"
+                alt="WKF Logo"
+                className="h-20 w-auto"
+              />
           </Link>
 
           <div className="flex items-center gap-4 ml-auto">
@@ -81,22 +75,40 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-gray-300 hover:text-wk-gold transition font-medium">
+            <Link
+              to="/"
+              className="text-gray-300 hover:text-wk-gold transition font-medium"
+            >
               Home
             </Link>
-            <Link to="/events" className="text-gray-300 hover:text-wk-gold transition font-medium">
+            <Link
+              to="/events"
+              className="text-gray-300 hover:text-wk-gold transition font-medium"
+            >
               Events
             </Link>
-            <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition font-medium">
+            <Link
+              to="/programs"
+              className="text-gray-300 hover:text-wk-gold transition font-medium"
+            >
               Programs
             </Link>
-            <Link to="/about" className="text-gray-300 hover:text-wk-gold transition font-medium">
+            <Link
+              to="/about"
+              className="text-gray-300 hover:text-wk-gold transition font-medium"
+            >
               About
             </Link>
-            <Link to="/contact" className="text-gray-300 hover:text-wk-gold transition font-medium">
+            <Link
+              to="/contact"
+              className="text-gray-300 hover:text-wk-gold transition font-medium"
+            >
               Contact
             </Link>
-            <Button asChild className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold">
+            <Button
+              asChild
+              className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold"
+            >
               <Link to="/donate">Donate</Link>
             </Button>
           </div>
@@ -105,22 +117,40 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-4">
-              <Link to="/" className="text-gray-300 hover:text-wk-gold transition font-medium">
+              <Link
+                to="/"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
+              >
                 Home
               </Link>
-              <Link to="/events" className="text-gray-300 hover:text-wk-gold transition font-medium">
+              <Link
+                to="/events"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
+              >
                 Events
               </Link>
-              <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition font-medium">
+              <Link
+                to="/programs"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
+              >
                 Programs
               </Link>
-              <Link to="/about" className="text-gray-300 hover:text-wk-gold transition font-medium">
+              <Link
+                to="/about"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
+              >
                 About
               </Link>
-              <Link to="/contact" className="text-gray-300 hover:text-wk-gold transition font-medium">
+              <Link
+                to="/contact"
+                className="text-gray-300 hover:text-wk-gold transition font-medium"
+              >
                 Contact
               </Link>
-              <Button asChild className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold w-full">
+              <Button
+                asChild
+                className="bg-transparent hover:bg-wk-gold/20 text-wk-gold border border-wk-gold w-full"
+              >
                 <Link to="/donate">Donate</Link>
               </Button>
             </div>
