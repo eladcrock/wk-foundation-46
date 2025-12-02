@@ -15,8 +15,8 @@ const SponsorCTA = ({ variant = "default", className = "" }: SponsorCTAProps) =>
           <div className="flex items-center gap-3">
             <Star className="text-wk-gold w-6 h-6" />
             <div>
-              <h3 className="text-white font-semibold">Become an Ohana Fest 2025 Sponsor</h3>
-              <p className="text-gray-300 text-sm">Help us make this year's festival unforgettable</p>
+              <h3 className="text-white font-semibold">Become a 2026 Ohana Fest sponsor and lock in your support</h3>
+              <p className="text-gray-300 text-sm">Be part of the community's largest annual celebration</p>
             </div>
           </div>
           <Button
@@ -64,7 +64,7 @@ const SponsorCTA = ({ variant = "default", className = "" }: SponsorCTAProps) =>
     <div className={`bg-wk-darkgray border border-wk-gold/30 rounded-xl p-6 text-center ${className}`}>
       <Star className="text-wk-gold w-8 h-8 mx-auto mb-4" />
       <h3 className="text-xl font-bold text-white mb-2">
-        Sponsor Ohana Fest 2025
+        Sponsor Ohana Fest 2026
       </h3>
       <p className="text-gray-300 mb-4">
         Join us as a sponsor and help make this community celebration possible. 

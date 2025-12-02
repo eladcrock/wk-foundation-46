@@ -199,7 +199,7 @@ const Events = () => {
                   <div className="text-6xl mb-4">📸</div>
                   <h4 className="text-xl font-bold text-white mb-2">Coming Soon!</h4>
                   <p className="text-gray-300">
-                    Ohana Fest 2025 photos will be available after the event in September.
+                    Ohana Fest 2025 photos will be available very soon.
                   </p>
                 </div>
               </div>
@@ -253,7 +253,7 @@ const Events = () => {
                 {
                   id: 3,
                   title: "4th of July Fireworks Fundraiser",
-                  date: "Announced June 2025",
+                  date: "Announced June 2026",
                   image:
                     "https://nationaltoday.com/wp-content/uploads/2020/07/4july-1.jpg",
                   description:

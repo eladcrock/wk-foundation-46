@@ -23,7 +23,7 @@ const ProgramHighlights = () => {
       title: "Women's Self Defense",
       description: "Empowerment Through Training",
       body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
-      image: "/lovable-uploads/women.png"
+      image: "/lovable-uploads/womens2026.png"
     },
     {
       id: "chiropractic",
@@ -40,7 +40,7 @@ const ProgramHighlights = () => {
         <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Programs</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Serving our community with specialized martial arts programs designed for all ages and abilities.
+            very soonour community with specialized martial arts programs designed for all ages and abilities.
           </p>
         </div>
         
