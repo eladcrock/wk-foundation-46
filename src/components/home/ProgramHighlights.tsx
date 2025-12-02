@@ -10,14 +10,14 @@ const ProgramHighlights = () => {
       title: "B.R.E.A.T.H.E",
       description: "Youth Anti-Bullying Initiative",
       body: "Empowering young people with confidence, discipline, and the skills to stand up against bullying.",
-      image: "/lovable-uploads/breathe.png"
+      image: "/lovable-uploads/breathe-flyer.png"
     },
     {
       id: "senior-boxing",
       title: "Senior Boxing",
       description: "Fitness Program for Seniors",
       body: "Stay active, build strength, and foster community with our specialized boxing program for seniors.",
-      image: "/lovable-uploads/seniorbox.png"
+      image: "/lovable-uploads/senior-fitness-flyer.png"
     },
     {
       id: "self-defense",
@@ -25,6 +25,13 @@ const ProgramHighlights = () => {
       description: "Empowerment Through Training",
       body: "Learn practical self-defense techniques while building confidence in a supportive environment.",
       image: "/lovable-uploads/women.png"
+    },
+    {
+      id: "chiropractic",
+      title: "Chiropractic Care",
+      description: "Donation Based Services",
+      body: "Chiropractic care available to all T4L community members. All services are donation based.",
+      image: "/lovable-uploads/chiropractic-care-flyer.jpg"
     },
   ];
 
