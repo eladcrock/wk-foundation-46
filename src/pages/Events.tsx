@@ -243,9 +243,9 @@ const Events = () => {
                   id: 2,
                   title: "Senior Boxing Fitness",
                   date: "Every Thursday",
-                  image: "/lovable-uploads/senior-fitness-flyer.png",
+                  image: "/lovable-uploads/seniorbox.png",
                   description:
-                    "Free boxing-inspired fitness class designed specifically for seniors. No experience required!",
+                    "Free boxing-inspired fitness class designed specifically for seniors. No experience required! Donations welcome.",
                   location: "Train 4 Life Center",
                   time: "11:00 AM",
                   link: "/programs#senior-boxing"
@@ -257,7 +257,7 @@ const Events = () => {
                   image:
                     "https://nationaltoday.com/wp-content/uploads/2020/07/4july-1.jpg",
                   description:
-                    "Support our free programs like Women's Self-Defense by volunteering at our fireworks booth.",
+                    "Support our free programs by volunteering at our fireworks booth.",
                   location: "Location TBD",
                   time: "9:00 AM - 9:00 PM",
                   link: "/contact"
@@ -270,11 +270,11 @@ const Events = () => {
                   data-aos-delay={index * 100}
                 >
                   <CardHeader className="p-0">
-                    <div className="h-[200px] overflow-hidden">
+                    <div className={`h-[200px] overflow-hidden ${event.id === 3 ? '' : 'bg-wk-charcoal flex items-center justify-center'}`}>
                       <img
                         src={event.image}
                         alt={event.title}
-                        className="w-full h-full object-cover"
+                        className={`w-full h-full ${event.id === 3 ? 'object-cover' : 'object-contain'}`}
                       />
                     </div>
                     <div className="p-6">
