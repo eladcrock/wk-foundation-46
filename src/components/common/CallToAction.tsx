@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 interface CallToActionProps {
   compact?: boolean;
@@ -62,6 +62,23 @@ const CallToAction = ({ compact = false }: CallToActionProps) => {
             </Link>
           </Button>
         </div>
+        
+        {/* New Service Highlight */}
+        {!compact && (
+          <div
+            className="mt-10 inline-flex items-center gap-3 bg-wk-darkgray/50 px-6 py-3 rounded-full border border-wk-gold/30"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <Sparkles className="w-5 h-5 text-wk-gold" />
+            <span className="text-gray-300">
+              <span className="text-white font-medium">New!</span> Donation-based Chiropractic Care now available
+            </span>
+            <Link to="/programs#chiropractic" className="text-wk-gold hover:text-yellow-400 font-medium">
+              Learn more →
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
