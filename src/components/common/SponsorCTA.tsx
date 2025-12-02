@@ -41,7 +41,7 @@ const SponsorCTA = ({ variant = "default", className = "" }: SponsorCTAProps) =>
     return (
       <div className={`text-center ${className}`}>
         <p className="text-gray-300 mb-3">
-          Interested in sponsoring Ohana Fest 2025?
+          Interested in sponsoring Ohana Fest 2026?
         </p>
         <Button
           asChild
