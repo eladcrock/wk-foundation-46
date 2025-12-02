@@ -40,13 +40,13 @@ const Programs = () => {
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-white p-8 flex items-center justify-center"
+                className="rounded-lg overflow-hidden shadow-xl"
                 data-aos="fade-right"
               >
                 <img
-                  src="/lovable-uploads/breathe.png"
+                  src="/lovable-uploads/breathe-flyer.png"
                   alt="BREATHE Youth Anti-Bullying Program"
-                  className="w-full max-w-[300px] h-auto object-contain"
+                  className="w-full h-auto object-contain"
                 />
               </div>
 
@@ -186,13 +186,13 @@ const Programs = () => {
               </div>
 
               <div
-                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2 bg-white p-8 flex items-center justify-center"
+                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2"
                 data-aos="fade-left"
               >
                 <img
-                  src="/lovable-uploads/seniorbox.png"
+                  src="/lovable-uploads/senior-fitness-flyer.png"
                   alt="Senior Boxing Program"
-                  className="w-full max-w-[300px] h-auto object-contain"
+                  className="w-full h-auto object-contain"
                 />
               </div>
             </div>
@@ -295,6 +295,79 @@ const Programs = () => {
                 >
                   <Link to="/contact">Register Now</Link>
                 </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Chiropractic Care */}
+        <section id="chiropractic" className="section-padding bg-wk-dark">
+          <div className="container-custom">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="order-2 md:order-1" data-aos="fade-right">
+                <h2 className="text-3xl font-bold text-wk-gold mb-2">
+                  Chiropractic Care
+                </h2>
+                <h3 className="text-xl text-white mb-4 flex items-center">
+                  <span className="mr-2">Donation Based Services</span>
+                  <span className="bg-gray-600 text-white text-sm font-bold px-2 py-1 rounded-full">
+                    DONATION
+                  </span>
+                </h3>
+
+                <p className="text-gray-300 mb-4">
+                  Chiropractic Care is available to ALL members of the T4L Community. 
+                  All services are donation based.
+                </p>
+
+                <p className="text-gray-300 mb-6">
+                  We will be on site every other week. Book your initial appointment 
+                  and make sure to click under "Train 4 Life."
+                </p>
+
+                <div className="space-y-4 mb-6">
+                  <div className="flex items-center text-gray-300">
+                    <Users className="h-5 w-5 mr-2 text-wk-gold" />
+                    <span className="font-medium">Target Audience:</span>
+                    <span className="ml-2">T4L Community Members</span>
+                  </div>
+
+                  <div className="flex items-center text-gray-300">
+                    <Calendar className="h-5 w-5 mr-2 text-wk-gold" />
+                    <span className="font-medium">Schedule:</span>
+                    <span className="ml-2">Every other week</span>
+                  </div>
+
+                  <div className="flex items-center text-gray-300">
+                    <MapPin className="h-5 w-5 mr-2 text-wk-gold" />
+                    <span className="font-medium">Location:</span>
+                    <span className="ml-2">Train 4 Life Center</span>
+                  </div>
+
+                  <div className="bg-gray-600/20 border border-gray-500/30 rounded-lg p-3 text-sm">
+                    <p className="font-medium text-white">
+                      All services are donation based
+                    </p>
+                  </div>
+                </div>
+
+                <Button
+                  asChild
+                  className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full"
+                >
+                  <a href="https://www.fremontcachiropractor.com" target="_blank" rel="noopener noreferrer">Book Appointment</a>
+                </Button>
+              </div>
+
+              <div
+                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2"
+                data-aos="fade-left"
+              >
+                <img
+                  src="/lovable-uploads/chiropractic-care-flyer.jpg"
+                  alt="Chiropractic Care Program"
+                  className="w-full h-auto object-contain"
+                />
               </div>
             </div>
           </div>
