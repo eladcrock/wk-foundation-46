@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const ProgramHighlights = () => {
   const programs = [
@@ -45,37 +44,24 @@ const ProgramHighlights = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {programs.map((program, index) => (
             <Card 
               key={program.id} 
-              className="shadow-lg hover:shadow-xl transition-shadow border border-white/10 bg-wk-darkgray text-white"
+              className="shadow-lg hover:shadow-xl transition-all duration-300 border border-white/10 bg-wk-darkgray text-white overflow-hidden group"
               data-aos="fade-up"
               data-aos-delay={100 * (index + 1)}
             >
-              <CardHeader className="p-0">
-                <div className="rounded-t-lg overflow-hidden bg-white">
-                  <AspectRatio ratio={16/9}>
-                    <div className="w-full h-full flex items-center justify-center p-8">
-                      <img 
-                        src={program.image} 
-                        alt={program.title} 
-                        className="max-w-full max-h-full object-contain transition-transform hover:scale-105 duration-700"
-                      />
-                    </div>
-                  </AspectRatio>
-                </div>
-                <div className="p-6">
-                  <CardTitle className="text-wk-gold">{program.title}</CardTitle>
-                  <CardDescription className="text-gray-300">{program.description}</CardDescription>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300">{program.body}</p>
-              </CardContent>
-              <CardFooter>
-                <Button asChild className="w-full bg-wk-gold hover:bg-yellow-500 text-wk-charcoal">
-                  <Link to={`/programs#${program.id}`}>Learn More</Link>
+              <div className="overflow-hidden">
+                <img 
+                  src={program.image} 
+                  alt={program.title} 
+                  className="w-full h-auto object-cover transition-transform group-hover:scale-105 duration-700"
+                />
+              </div>
+              <CardFooter className="p-4">
+                <Button asChild className="w-full bg-wk-gold hover:bg-yellow-500 text-wk-charcoal font-semibold">
+                  <Link to={`/programs#${program.id}`}>{program.title}</Link>
                 </Button>
               </CardFooter>
             </Card>
