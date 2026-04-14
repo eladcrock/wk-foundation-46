@@ -134,9 +134,10 @@ const Footer = () => {
         
         <Separator className="my-8 bg-gray-700" />
         
-        <div className="text-sm text-gray-400 flex justify-center items-center">
+        <div className="text-sm text-gray-400 flex flex-col items-center gap-2">
+          <Link to="/privacy" className="text-gray-400 hover:text-wk-gold transition-colors">Privacy Policy</Link>
           <p>
-            &copy; {currentYear} Wahiawa Kajukenbo Foundation. <br/>Built by 
+            &copy; {currentYear} Wahiawa Kajukenbo Foundation. <br/>Built by
             <a 
               href="https://nimbuswolf.com" 
               target="_blank" 
