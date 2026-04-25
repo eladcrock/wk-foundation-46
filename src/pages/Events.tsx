@@ -205,15 +205,15 @@ const Events = () => {
               </div>
             </div>
 
-            {/* Ohana Fest Info Grid */}
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-wk-darkgray rounded-xl p-6 border border-white/10" data-aos="fade-right">
+            {/* Ohana Fest Info */}
+            <div className="mb-12">
+              <div className="bg-wk-darkgray rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up">
                 <h3 className="text-xl font-bold text-wk-gold mb-4">About Ohana Fest</h3>
-                <p className="text-gray-300 mb-4">
-                  Join us for the annual Ohana Fest at Suisun Waterfront Harbor. 
+                <p className="text-gray-300 mb-6">
+                  Join us for the annual Ohana Fest at Suisun Waterfront Harbor.
                   Experience the art of Kajukenbo while connecting with community members.
                 </p>
-                <div className="space-y-3">
+                <div className="grid sm:grid-cols-3 gap-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-white">Date</h4>
                     <p className="text-gray-300">Saturday, September 12, 2026 · 10am – 4pm</p>
@@ -229,7 +229,7 @@ const Events = () => {
                 </div>
                 <Button
                   asChild
-                  className="w-full mt-6 bg-wk-gold hover:bg-yellow-500 text-wk-charcoal"
+                  className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal"
                 >
                   <a
                     href="/deck.pdf#pagemode=FullScreen"
@@ -239,25 +239,6 @@ const Events = () => {
                     View Event Details
                   </a>
                 </Button>
-              </div>
-
-              <div className="bg-wk-darkgray rounded-xl p-6 border border-white/10" data-aos="fade-left">
-                <div className="flex items-center gap-2 mb-4">
-                  <Camera className="w-5 h-5 text-wk-gold" />
-                  <h3 className="text-xl font-bold text-wk-gold">Ohana Fest 2025 Recap</h3>
-                </div>
-                <div className="bg-wk-charcoal rounded-lg overflow-hidden aspect-video">
-                  <video
-                    src="https://www.dropbox.com/scl/fi/80yc8wj51hwzy2ynhcgmu/OHANA-FEST-2025-new-song.mp4?rlkey=6wph5bvepnp28w2vd8518jg5r&raw=1"
-                    controls
-                    playsInline
-                    preload="metadata"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <p className="text-gray-300 text-sm mt-3">
-                  Relive the highlights from Ohana Fest 2025 — full photo gallery coming soon.
-                </p>
               </div>
             </div>
 
