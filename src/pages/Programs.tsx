@@ -264,7 +264,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <MapPin className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Location:</span>
-                    <span className="ml-2">254 D Sunset Ave, Suisun City</span>
+                    <span className="ml-2">821 Texas Street, Fairfield, CA 94533</span>
                   </div>
 
                   <div className="flex items-center text-gray-300">

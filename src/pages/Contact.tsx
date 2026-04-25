@@ -133,13 +133,13 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start transition-all hover:transform hover:translate-y-[-5px]" data-aos="fade-up" data-aos-delay="300">
-                    <a href="https://maps.google.com/?q=254D+Sunset+Ave,+Suisun+City,+CA,+United+States,+California" target="_blank" rel="noopener noreferrer" className="flex items-start group w-full">
+                    <a href="https://maps.google.com/?q=821+Texas+Street,+Fairfield,+CA+94533" target="_blank" rel="noopener noreferrer" className="flex items-start group w-full">
                       <div className="bg-wk-dark p-3 rounded-full mr-4 group-hover:bg-wk-blue transition-colors">
                         <MapPin className="h-6 w-6 text-wk-gold group-hover:text-white transition-colors" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-white">Address</h3>
-                        <p className="text-gray-300">254 D Sunset Ave, Suisun City, CA, United States, California</p>
+                        <p className="text-gray-300">821 Texas Street, Fairfield, CA 94533</p>
                       </div>
                     </a>
                   </div>

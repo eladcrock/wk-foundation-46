@@ -115,9 +115,9 @@ const Footer = () => {
                 </a>
               </li>
               <li className="group">
-                <a href="https://maps.google.com/?q=254D+Sunset+Ave,+Suisun+City,+CA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <a href="https://maps.google.com/?q=821+Texas+Street,+Fairfield,+CA+94533" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <MapPin size={16} className="text-wk-gold group-hover:text-wk-gold" />
-                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">254 D Sunset Ave, Suisun City, CA</span>
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">821 Texas Street, Fairfield, CA 94533</span>
                 </a>
               </li>
             </ul>

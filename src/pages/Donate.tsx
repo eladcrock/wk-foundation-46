@@ -190,8 +190,7 @@ const Donate = () => {
                       />
                     </svg>
                     <span className="text-wk-dark">
-                      Mail a check to: Wahaiwa Kajukenbo Foundation, 254 D Sunset
-                      Ave, Suisun City, CA, United States, California
+                      Mail a check to: Wahiawa Kajukenbo Foundation, 821 Texas Street, Fairfield, CA 94533
                     </span>
                   </li>
                   <li className="flex items-start">
