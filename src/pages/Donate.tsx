@@ -146,13 +146,15 @@ const Donate = () => {
                     </p>
                   </div>
 
-                  <div className="w-full" style={{ height: "900px" }}>
+                  <div className="w-full bg-white" style={{ height: "1100px" }}>
                     <iframe
                       title="Donation form powered by Zeffy"
                       src="https://www.zeffy.com/embed/donation-form/donate-to-change-lives-12790"
-                      allow="payment *"
+                      allow="payment *; clipboard-write *"
                       allowTransparency={true}
-                      className="w-full h-full border-0"
+                      loading="lazy"
+                      className="w-full h-full border-0 block"
+                      scrolling="no"
                     />
                   </div>
 
