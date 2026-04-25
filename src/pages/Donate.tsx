@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import UpcomingEventsCTA from "@/components/common/UpcomingEventsCTA";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 
@@ -255,6 +256,10 @@ const Donate = () => {
           </div>
         </div>
       </section>
+      <UpcomingEventsCTA
+        heading="Show Up & Support"
+        subheading="Beyond donating, you can show up and join us at these upcoming events."
+      />
       <Footer />
     </div>
   );
