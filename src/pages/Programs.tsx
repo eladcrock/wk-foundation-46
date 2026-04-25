@@ -38,15 +38,15 @@ const Programs = () => {
         {/* BREATHE Program */}
         <section id="breathe" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
               <div
-                className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px]"
+                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full"
                 data-aos="fade-right"
               >
                 <img
                   src="/lovable-uploads/breathe-flyer.png"
                   alt="BREATHE Youth Anti-Bullying Program"
-                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
+                  className="w-full h-full object-contain"
                 />
               </div>
 
