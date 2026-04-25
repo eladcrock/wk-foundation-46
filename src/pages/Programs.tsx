@@ -71,6 +71,54 @@ const Programs = () => {
                   and become Buddy advocates.
                 </p>
 
+                {/* FSUSD Pilot Program Highlight */}
+                <div className="bg-wk-darkgray border-l-4 border-wk-gold rounded-lg p-5 mb-6">
+                  <div className="inline-block bg-wk-gold text-wk-charcoal text-xs font-bold px-2 py-1 rounded mb-2">
+                    NEW PILOT PROGRAM
+                  </div>
+                  <h4 className="text-lg font-bold text-white mb-2">
+                    FSUSD Partnership: Dan O. Root Health & Wellness B.R.E.A.T.H.E. Sessions
+                  </h4>
+                  <p className="text-gray-300 text-sm mb-3">
+                    We've launched a pilot social-emotional learning and physical education program
+                    in collaboration with Fairfield-Suisun Unified School District. The B.R.E.A.T.H.E.
+                    framework — <span className="text-wk-gold">B</span>ig feelings are OK,
+                    <span className="text-wk-gold"> R</span>elax your body,
+                    <span className="text-wk-gold"> E</span>xhale and breathe,
+                    <span className="text-wk-gold"> A</span>sk for help,
+                    <span className="text-wk-gold"> T</span>hink of a better choice,
+                    <span className="text-wk-gold"> H</span>ave kindness,
+                    <span className="text-wk-gold"> E</span>veryone matters — gives elementary
+                    students practical tools to manage big emotions through movement and mindful
+                    breathing. Our goal: prove the impact and expand district-wide via grant funding.
+                  </p>
+                  <p className="text-gray-300 text-sm mb-3">
+                    Led by <span className="text-white font-medium">Sonny Ramos</span> (5th degree
+                    black belt, Kajukenbo) and <span className="text-white font-medium">Ady Ancheta </span>
+                    (3rd degree black belt, Kajukenbo) — siblings with 24+ years of martial arts
+                    and youth instruction experience.
+                  </p>
+                  <p className="text-gray-400 text-xs italic">
+                    Proudly sponsored by A Honu Day (Utah). Photos from our sessions coming soon!
+                  </p>
+                </div>
+
+                {/* Preschool Program */}
+                <div className="bg-wk-darkgray border-l-4 border-wk-red rounded-lg p-5 mb-6">
+                  <div className="inline-block bg-wk-red text-white text-xs font-bold px-2 py-1 rounded mb-2">
+                    PRESCHOOL EDITION
+                  </div>
+                  <h4 className="text-lg font-bold text-white mb-2">
+                    B.R.E.A.T.H.E. for Preschoolers — featuring Buddy the Bulldog
+                  </h4>
+                  <p className="text-gray-300 text-sm">
+                    A playful, age-appropriate version focused on positive character, kindness,
+                    sharing, and being a good "buddy." Through storytelling, movement, and
+                    visits from Buddy the Bulldog, our youngest learners build empathy and
+                    early social-emotional skills in a safe, supportive environment.
+                  </p>
+                </div>
+
                 <div className="space-y-4 mb-6">
                   <div className="flex items-center text-gray-300">
                     <Users className="h-5 w-5 mr-2 text-wk-gold" />
@@ -133,7 +181,8 @@ const Programs = () => {
                 <p className="text-gray-300 mb-4">
                   This engaging and energetic class is designed specifically for
                   seniors to enhance overall fitness, balance, and coordination
-                  through boxing-inspired workouts.
+                  through boxing-inspired workouts. Led by Professional MMA fighter
+                  <span className="text-wk-gold font-medium"> Blake Perry</span>.
                 </p>
 
                 <p className="text-gray-300 mb-6">
@@ -237,6 +286,16 @@ const Programs = () => {
                   also learn about situational awareness which will help you
                   avoid dangerous situations.
                 </p>
+
+                <div className="bg-wk-red/20 border border-wk-red/40 rounded-lg p-4 mb-6">
+                  <div className="inline-block bg-wk-red text-white text-xs font-bold px-2 py-1 rounded mb-2">
+                    SPECIAL EVENT
+                  </div>
+                  <p className="text-white font-semibold mb-1">Preschool Mommies & Staff Workshop</p>
+                  <p className="text-gray-300 text-sm">
+                    A special 2-hour women's self-defense session — May 22, 2pm – 4pm.
+                  </p>
+                </div>
 
                 <div className="space-y-4 mb-6">
                   <div className="flex flex-col text-gray-300 mb-3">
