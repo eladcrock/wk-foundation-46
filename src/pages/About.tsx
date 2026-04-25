@@ -2,6 +2,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
+import UpcomingEventsCTA from "@/components/common/UpcomingEventsCTA";
 import AwardSection from "@/components/home/AwardSection";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -272,6 +273,7 @@ const About = () => {
         </section>
         */}
 
+        <UpcomingEventsCTA />
         <CallToAction compact />
       </main>
      {/* Video Section */}

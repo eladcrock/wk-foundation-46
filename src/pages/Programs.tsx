@@ -4,6 +4,7 @@ import { Phone, Mail, School, Users, MapPin, Calendar } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
+import UpcomingEventsCTA from "@/components/common/UpcomingEventsCTA";
 import { Card, CardContent,CardHeader, CardTitle } from "@/components/ui/card";
 
 
@@ -422,6 +423,7 @@ const Programs = () => {
           </div>
         </section>
 
+        <UpcomingEventsCTA />
         <CallToAction compact />
         {/* Video Section */}
         <section className="py-16 bg-wk-dark">
