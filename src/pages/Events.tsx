@@ -202,15 +202,20 @@ const Events = () => {
               <div className="bg-wk-darkgray rounded-xl p-6 border border-white/10" data-aos="fade-left">
                 <div className="flex items-center gap-2 mb-4">
                   <Camera className="w-5 h-5 text-wk-gold" />
-                  <h3 className="text-xl font-bold text-wk-gold">2025 Photos</h3>
+                  <h3 className="text-xl font-bold text-wk-gold">Ohana Fest 2025 Recap</h3>
                 </div>
-                <div className="bg-wk-charcoal rounded-lg p-8 text-center">
-                  <div className="text-6xl mb-4">📸</div>
-                  <h4 className="text-xl font-bold text-white mb-2">Coming Soon!</h4>
-                  <p className="text-gray-300">
-                    Ohana Fest 2025 photos will be available very soon.
-                  </p>
+                <div className="bg-wk-charcoal rounded-lg overflow-hidden aspect-video">
+                  <video
+                    src="https://www.dropbox.com/scl/fi/80yc8wj51hwzy2ynhcgmu/OHANA-FEST-2025-new-song.mp4?rlkey=6wph5bvepnp28w2vd8518jg5r&raw=1"
+                    controls
+                    playsInline
+                    preload="metadata"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
+                <p className="text-gray-300 text-sm mt-3">
+                  Relive the highlights from Ohana Fest 2025 — full photo gallery coming soon.
+                </p>
               </div>
             </div>
 
