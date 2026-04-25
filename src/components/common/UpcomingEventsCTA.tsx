@@ -19,7 +19,8 @@ const events = [
     description:
       "Support our free programs by volunteering at our fireworks booth. Volunteers must be 18+.",
     cta: { label: "Volunteer", to: "/contact" },
-    accent: "wk-red",
+    badgeBg: "bg-wk-red/20",
+    badgeText: "text-wk-red",
   },
   {
     id: "ohana-fest",
@@ -30,7 +31,8 @@ const events = [
     description:
       "Our signature celebration of community, martial arts, and Hawaiian culture. Stay for Concert in the Park right after!",
     cta: { label: "View Details", to: "/events" },
-    accent: "wk-gold",
+    badgeBg: "bg-wk-gold/20",
+    badgeText: "text-wk-gold",
   },
 ];
 
@@ -49,15 +51,13 @@ const UpcomingEventsCTA = ({
           data-aos-delay={index * 100}
         >
           <div className="flex items-center gap-2 mb-3">
-            <div
-              className={`inline-flex items-center px-3 py-1 rounded-full bg-${event.accent}/20`}
-            >
+            <div className={`inline-flex items-center px-3 py-1 rounded-full ${event.badgeBg}`}>
               {event.id === "ohana-fest" ? (
-                <Calendar className={`w-4 h-4 text-${event.accent} mr-1.5`} />
+                <Calendar className={`w-4 h-4 ${event.badgeText} mr-1.5`} />
               ) : (
-                <Sparkles className={`w-4 h-4 text-${event.accent} mr-1.5`} />
+                <Sparkles className={`w-4 h-4 ${event.badgeText} mr-1.5`} />
               )}
-              <span className={`text-${event.accent} text-xs font-semibold uppercase tracking-wide`}>
+              <span className={`${event.badgeText} text-xs font-semibold uppercase tracking-wide`}>
                 {event.badge}
               </span>
             </div>
