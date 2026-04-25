@@ -163,6 +163,48 @@ const Events = () => {
               </p>
             </div>
 
+            {/* Featured 2025 Recap Video + 2026 CTA */}
+            <div className="mb-12 grid lg:grid-cols-5 gap-8 items-center" data-aos="fade-up">
+              <div className="lg:col-span-3 rounded-xl overflow-hidden bg-wk-charcoal border border-white/10 shadow-2xl aspect-video">
+                <video
+                  src="https://www.dropbox.com/scl/fi/80yc8wj51hwzy2ynhcgmu/OHANA-FEST-2025-new-song.mp4?rlkey=6wph5bvepnp28w2vd8518jg5r&raw=1"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="lg:col-span-2 bg-gradient-to-br from-wk-darkgray to-wk-charcoal rounded-xl p-6 md:p-8 border border-wk-gold/30">
+                <div className="inline-flex items-center bg-wk-red/20 px-3 py-1 rounded-full mb-3">
+                  <Sparkles className="w-4 h-4 text-wk-red mr-1.5" />
+                  <span className="text-wk-red text-xs font-semibold uppercase tracking-wide">Save the Date</span>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
+                  Don't Miss Ohana Fest 2026!
+                </h3>
+                <p className="text-gray-300 mb-4">
+                  Watch the 2025 recap and see what awaits you next year. Saturday, September 12, 2026 · 10am–4pm at Suisun City Waterfront — followed by Concert in the Park.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button
+                    asChild
+                    className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal font-semibold"
+                  >
+                    <a href="/deck.pdf#pagemode=FullScreen" target="_blank" rel="noopener noreferrer">
+                      View Event Details
+                    </a>
+                  </Button>
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="border-wk-gold text-wk-gold hover:bg-wk-gold hover:text-wk-charcoal"
+                  >
+                    <Link to="/contact">Become a Sponsor</Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+
             {/* Ohana Fest Info Grid */}
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-wk-darkgray rounded-xl p-6 border border-white/10" data-aos="fade-right">
