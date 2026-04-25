@@ -135,36 +135,42 @@ const Donate = () => {
             </div>
 
             <div data-aos="fade-left">
-              <Card className="shadow-lg bg-wk-darkgray border border-white/10">
-                <CardContent className="pt-6">
-                  <h3 className="text-2xl font-bold text-wk-gold mb-6">
-                    Donate Now
-                  </h3>
+              <Card className="shadow-lg bg-wk-darkgray border border-white/10 overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="p-6 pb-0">
+                    <h3 className="text-2xl font-bold text-wk-gold mb-2">
+                      Donate Now
+                    </h3>
+                    <p className="text-sm text-gray-300 mb-4">
+                      Secure donations powered by Zeffy — 100% of your gift goes to WK Foundation.
+                    </p>
+                  </div>
 
-                  <a
-                    href="https://www.paypal.com/donate/?hosted_button_id=YBPJ46WPSN9NU"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center py-6 bg-white text-wk-charcoal border-2 border-wk-darkgray hover:bg-white/90 transition-all rounded-md"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 mr-2"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M7.08,10.28a.47.47,0,0,0-.46.52.45.45,0,0,0,.46.44.47.47,0,0,0,.46-.51A.44.44,0,0,0,7.08,10.28Zm9.12-3.55V9.85h3.92V18H9.51V9.85h5.13V8.53a1.73,1.73,0,0,0-1.73-1.73H9.8V3.92h6.13C21.59,3.92,21.59,6.73,16.2,6.73ZM5.6,6.73V9.85h.86V6.73H7.9V9.85h.85V6.73h.86v3.7a1.66,1.66,0,0,1,.52,1.21,1.74,1.74,0,0,1-1.72,1.73,1.15,1.15,0,0,1-.29,0A1.76,1.76,0,0,1,6.45,11.6a1.66,1.66,0,0,1,.52-1.21v-3.7Z"></path>
-                    </svg>
-                    Donate with PayPal
-                  </a>
+                  <div className="w-full" style={{ height: "900px" }}>
+                    <iframe
+                      title="Donation form powered by Zeffy"
+                      src="https://www.zeffy.com/embed/donation-form/donate-to-change-lives-12790"
+                      allow="payment *"
+                      allowTransparency={true}
+                      className="w-full h-full border-0"
+                    />
+                  </div>
 
-                  <div className="mt-6 text-center text-sm text-gray-300">
+                  <div className="p-6 pt-4 text-center text-sm text-gray-300 border-t border-white/10">
                     <p>
-                      Wahaiwa Kajukenbo Foundation is a registered 501(c)(3)
+                      Wahiawa Kajukenbo Foundation is a registered 501(c)(3)
                       nonprofit organization.
                       <br />
                       All donations are tax-deductible.
                     </p>
+                    <a
+                      href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-12790"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-3 text-wk-gold hover:underline font-medium"
+                    >
+                      Open donation form in a new tab →
+                    </a>
                   </div>
                 </CardContent>
               </Card>

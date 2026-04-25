@@ -45,7 +45,8 @@ const Events = () => {
           </div>
         </section>
 
-        {/* Featured Event - Toy Drive */}
+        {/* Featured Event - Toy Drive (HIDDEN: off-season — re-enable next holiday season) */}
+        {false && (
         <section className="py-16 bg-wk-charcoal">
           <div className="container-custom">
             <div
@@ -115,9 +116,14 @@ const Events = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        )}
 
-            {/* Chiropractic Care CTA */}
-            <div className="mt-8 bg-gradient-to-r from-wk-darkgray to-wk-charcoal rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up" data-aos-delay="200">
+        {/* Chiropractic + Sponsor CTAs (kept visible after hiding toy drive) */}
+        <section className="py-16 bg-wk-charcoal">
+          <div className="container-custom">
+            <div className="bg-gradient-to-r from-wk-darkgray to-wk-charcoal rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up">
               <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="flex items-center gap-4">
                   <div className="bg-wk-gold/20 p-3 rounded-full">
@@ -134,8 +140,7 @@ const Events = () => {
               </div>
             </div>
 
-            {/* Sponsor CTA */}
-            <div className="mt-8" data-aos="fade-up" data-aos-delay="300">
+            <div className="mt-8" data-aos="fade-up" data-aos-delay="200">
               <SponsorCTA />
             </div>
           </div>
