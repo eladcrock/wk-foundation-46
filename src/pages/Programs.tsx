@@ -156,7 +156,7 @@ const Programs = () => {
         {/* Senior Boxing */}
         <section id="senior-boxing" className="section-padding bg-wk-dark">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="order-2 md:order-1" data-aos="fade-right">
                 <h2 className="text-3xl font-bold text-wk-gold mb-2">
                   Senior Boxing Fitness
@@ -225,13 +225,13 @@ const Programs = () => {
               </div>
 
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full order-1 md:order-2"
+                className="rounded-lg shadow-xl order-1 md:order-2 flex items-center justify-center min-h-[400px] p-4"
                 data-aos="fade-left"
               >
                 <img
                   src="/lovable-uploads/senior-fitness-flyer.png"
                   alt="Senior Boxing Program"
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
                 />
               </div>
             </div>
@@ -241,15 +241,15 @@ const Programs = () => {
         {/* Women's Self Defense */}
         <section id="self-defense" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full"
+                className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px]"
                 data-aos="fade-right"
               >
                 <img
                   src="/lovable-uploads/womens2026.png"
                   alt="Women's Self Defense Program"
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
                 />
               </div>
 
