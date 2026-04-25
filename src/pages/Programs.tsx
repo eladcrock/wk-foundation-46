@@ -38,15 +38,15 @@ const Programs = () => {
         {/* BREATHE Program */}
         <section id="breathe" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full"
+                className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px]"
                 data-aos="fade-right"
               >
                 <img
                   src="/lovable-uploads/breathe-flyer.png"
                   alt="BREATHE Youth Anti-Bullying Program"
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
                 />
               </div>
 
@@ -58,17 +58,10 @@ const Programs = () => {
                   Bully Response Education Aimed Towards Helping Everyone
                 </h3>
 
-                <p className="text-gray-300 mb-4">
-                  Be Buddies Not Bullies. Our program is geared towards helping
-                  school-aged children respond to bullying, recognize why people
-                  bully, and learn how to report bullying appropriately.
-                </p>
-
                 <p className="text-gray-300 mb-6">
-                  Bullying is a growing issue that can threaten a child's
-                  physical and emotional safety at school and in the community.
-                  Through our program, children feel empowered to make a change
-                  and become Buddy advocates.
+                  Be Buddies, Not Bullies. We empower school-aged children to
+                  recognize, respond to, and report bullying — building safer
+                  schools and stronger communities.
                 </p>
 
                 {/* FSUSD Pilot Program Highlight */}
@@ -77,29 +70,28 @@ const Programs = () => {
                     NEW PILOT PROGRAM
                   </div>
                   <h4 className="text-lg font-bold text-white mb-2">
-                    FSUSD Partnership: Dan O. Root Health & Wellness B.R.E.A.T.H.E. Sessions
+                    FSUSD Partnership · Dan O. Root Health & Wellness
                   </h4>
                   <p className="text-gray-300 text-sm mb-3">
-                    We've launched a pilot social-emotional learning and physical education program
-                    in collaboration with Fairfield-Suisun Unified School District. The B.R.E.A.T.H.E.
-                    framework — <span className="text-wk-gold">B</span>ig feelings are OK,
-                    <span className="text-wk-gold"> R</span>elax your body,
-                    <span className="text-wk-gold"> E</span>xhale and breathe,
-                    <span className="text-wk-gold"> A</span>sk for help,
-                    <span className="text-wk-gold"> T</span>hink of a better choice,
-                    <span className="text-wk-gold"> H</span>ave kindness,
-                    <span className="text-wk-gold"> E</span>veryone matters — gives elementary
-                    students practical tools to manage big emotions through movement and mindful
-                    breathing. Our goal: prove the impact and expand district-wide via grant funding.
+                    A pilot social-emotional learning program with Fairfield-Suisun
+                    Unified School District. The B.R.E.A.T.H.E. framework gives
+                    elementary students tools to manage big emotions through movement
+                    and breathing:
                   </p>
+                  <ul className="text-gray-300 text-sm mb-3 space-y-1">
+                    <li><span className="text-wk-gold font-bold">B</span>ig feelings are OK</li>
+                    <li><span className="text-wk-gold font-bold">R</span>elax your body</li>
+                    <li><span className="text-wk-gold font-bold">E</span>xhale and breathe</li>
+                    <li><span className="text-wk-gold font-bold">A</span>sk for help</li>
+                    <li><span className="text-wk-gold font-bold">T</span>hink of a better choice</li>
+                    <li><span className="text-wk-gold font-bold">H</span>ave kindness</li>
+                    <li><span className="text-wk-gold font-bold">E</span>veryone matters</li>
+                  </ul>
                   <p className="text-gray-300 text-sm mb-3">
-                    Led by <span className="text-white font-medium">Sonny Ramos</span> (5th degree
-                    black belt, Kajukenbo) and <span className="text-white font-medium">Ady Ancheta </span>
-                    (3rd degree black belt, Kajukenbo) — siblings with 24+ years of martial arts
-                    and youth instruction experience.
+                    Led by <span className="text-white font-medium">Sonny Ramos</span> &amp; <span className="text-white font-medium">Ady Ancheta</span> — Kajukenbo black belts with 24+ years of youth instruction experience.
                   </p>
                   <p className="text-gray-400 text-xs italic">
-                    Proudly sponsored by A Honu Day (Utah). Photos from our sessions coming soon!
+                    Sponsored by A Honu Day (Utah). Session photos coming soon.
                   </p>
                 </div>
 
@@ -109,13 +101,11 @@ const Programs = () => {
                     PRESCHOOL EDITION
                   </div>
                   <h4 className="text-lg font-bold text-white mb-2">
-                    B.R.E.A.T.H.E. for Preschoolers — featuring Buddy the Bulldog
+                    B.R.E.A.T.H.E. for Preschoolers — with Buddy the Bulldog
                   </h4>
                   <p className="text-gray-300 text-sm">
-                    A playful, age-appropriate version focused on positive character, kindness,
-                    sharing, and being a good "buddy." Through storytelling, movement, and
-                    visits from Buddy the Bulldog, our youngest learners build empathy and
-                    early social-emotional skills in a safe, supportive environment.
+                    A playful, age-appropriate version teaching kindness, sharing,
+                    and being a good buddy through storytelling and movement.
                   </p>
                 </div>
 
@@ -166,7 +156,7 @@ const Programs = () => {
         {/* Senior Boxing */}
         <section id="senior-boxing" className="section-padding bg-wk-dark">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="order-2 md:order-1" data-aos="fade-right">
                 <h2 className="text-3xl font-bold text-wk-gold mb-2">
                   Senior Boxing Fitness
@@ -235,13 +225,13 @@ const Programs = () => {
               </div>
 
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full order-1 md:order-2"
+                className="rounded-lg shadow-xl order-1 md:order-2 flex items-center justify-center min-h-[400px] p-4"
                 data-aos="fade-left"
               >
                 <img
                   src="/lovable-uploads/senior-fitness-flyer.png"
                   alt="Senior Boxing Program"
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
                 />
               </div>
             </div>
@@ -251,15 +241,15 @@ const Programs = () => {
         {/* Women's Self Defense */}
         <section id="self-defense" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full"
+                className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px]"
                 data-aos="fade-right"
               >
                 <img
                   src="/lovable-uploads/womens2026.png"
                   alt="Women's Self Defense Program"
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
                 />
               </div>
 
@@ -362,7 +352,7 @@ const Programs = () => {
         {/* Chiropractic Care */}
         <section id="chiropractic" className="section-padding bg-wk-dark">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="order-2 md:order-1" data-aos="fade-right">
                 <h2 className="text-3xl font-bold text-wk-gold mb-2">
                   Chiropractic Care
@@ -419,13 +409,13 @@ const Programs = () => {
               </div>
 
               <div
-                className="rounded-lg overflow-hidden shadow-xl bg-wk-darkgray flex items-center justify-center aspect-[4/5] w-full order-1 md:order-2"
+                className="rounded-lg overflow-hidden shadow-xl order-1 md:order-2 flex items-center justify-center min-h-[400px]"
                 data-aos="fade-left"
               >
                 <img
                   src="/lovable-uploads/chiropractic-care-flyer.jpg"
                   alt="Chiropractic Care Program"
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
                 />
               </div>
             </div>
