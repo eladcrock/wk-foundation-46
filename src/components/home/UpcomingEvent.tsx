@@ -51,7 +51,7 @@ const UpcomingEvent = () => {
                   </div>
                   <div className="border-l border-gray-600 pl-4">
                     <p className="text-sm font-medium text-wk-gold">Drop-off Location</p>
-                    <p className="text-gray-200">254D Sunset Ave, Suisun City</p>
+                    <p className="text-gray-200">821 Texas Street, Fairfield</p>
                   </div>
                 </div>
               </div>

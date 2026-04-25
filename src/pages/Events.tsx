@@ -91,7 +91,7 @@ const Events = () => {
                           Drop-off Location
                         </h4>
                         <p className="text-gray-300">
-                          254D Sunset Ave, Suisun City
+                          821 Texas Street, Fairfield, CA 94533
                         </p>
                       </div>
                     </div>
@@ -168,12 +168,16 @@ const Events = () => {
                 </p>
                 <div className="space-y-3">
                   <div>
-                    <h4 className="font-semibold text-white">Typical Date</h4>
-                    <p className="text-gray-300">September (Third Saturday)</p>
+                    <h4 className="font-semibold text-white">Date</h4>
+                    <p className="text-gray-300">Saturday, September 12, 2026 · 10am – 4pm</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Location</h4>
-                    <p className="text-gray-300">Suisun Waterfront Harbor</p>
+                    <p className="text-gray-300">Suisun City Waterfront</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-white">After Party</h4>
+                    <p className="text-gray-300">In collaboration with the City of Suisun — stay for Concert in the Park immediately after!</p>
                   </div>
                 </div>
                 <Button
@@ -234,8 +238,8 @@ const Events = () => {
                   date: "Every 3rd Saturday of the Month",
                   image: "/lovable-uploads/women.png",
                   description:
-                    "Empower yourself with practical self-defense techniques taught by experienced instructors. Open to all skill levels.",
-                  location: "254D Sunset Ave, Suisun City",
+                    "Empower yourself with practical self-defense techniques taught by experienced instructors. Open to all skill levels. Special 2-hour program for preschool moms/staff scheduled May 22, 2pm–4pm.",
+                  location: "821 Texas Street, Fairfield",
                   time: "Starting at 9am",
                   link: "/programs#self-defense"
                 },
@@ -245,7 +249,7 @@ const Events = () => {
                   date: "Every Thursday",
                   image: "/lovable-uploads/seniorbox.png",
                   description:
-                    "Free boxing-inspired fitness class designed specifically for seniors. No experience required! Donations welcome.",
+                    "Free boxing-inspired fitness class led by Professional MMA fighter Blake Perry. No experience required! Donations welcome.",
                   location: "Train 4 Life Center",
                   time: "11:00 AM",
                   link: "/programs#senior-boxing"
@@ -253,13 +257,13 @@ const Events = () => {
                 {
                   id: 3,
                   title: "4th of July Fireworks Fundraiser",
-                  date: "Announced June 2026",
+                  date: "June 27 – July 4, 2026",
                   image:
                     "https://nationaltoday.com/wp-content/uploads/2020/07/4july-1.jpg",
                   description:
-                    "Support our free programs by volunteering at our fireworks booth.",
-                  location: "Location TBD",
-                  time: "9:00 AM - 9:00 PM",
+                    "We've secured the booth at the Black Bear parking lot! Support our free programs by volunteering. Volunteers must be 18+.",
+                  location: "Black Bear Parking Lot",
+                  time: "9:00 AM - 9:00 PM daily",
                   link: "/contact"
                 },
               ].map((event, index) => (

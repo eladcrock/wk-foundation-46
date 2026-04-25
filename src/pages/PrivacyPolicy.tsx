@@ -130,7 +130,7 @@ const PrivacyPolicy = () => {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-300 space-y-3">
                   <p>If you have questions about this Privacy Policy or wish to exercise your California privacy rights, contact us:</p>
-                  <p>Wahiawa Kajukenbo Foundation<br />254 D Sunset Ave, Suisun City, CA<br />Email: <a href="mailto:WKFboard@gmail.com" className="text-wk-gold hover:underline">WKFboard@gmail.com</a><br />Phone: <a href="tel:+17074217200" className="text-wk-gold hover:underline">(707) 421-7200</a></p>
+                  <p>Wahiawa Kajukenbo Foundation<br />821 Texas Street, Fairfield, CA 94533<br />Email: <a href="mailto:WKFboard@gmail.com" className="text-wk-gold hover:underline">WKFboard@gmail.com</a><br />Phone: <a href="tel:+17074217200" className="text-wk-gold hover:underline">(707) 421-7200</a></p>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
