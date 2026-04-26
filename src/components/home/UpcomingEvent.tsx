@@ -75,7 +75,7 @@ const UpcomingEvent = () => {
           </div>
           
           {/* Chiropractic Care CTA */}
-          <div className="mt-12 bg-gradient-to-r from-wk-darkgray to-wk-charcoal rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up" data-aos-delay="400">
+          <div className="mt-12 bg-gradient-to-r from-wk-darkgray to-wk-charcoal rounded-lg p-6 md:p-8 border border-white/10" data-aos="fade-up" data-aos-delay="400">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-4">
                 <div className="bg-wk-gold/20 p-3 rounded-full">
