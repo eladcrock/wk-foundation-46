@@ -83,7 +83,7 @@ const Contact = () => {
         SERVICE_ID,
         TEMPLATE_ID,
         templateParams,
-        { publicKey: PUBLIC_KEY }
+        PUBLIC_KEY
       );
 
       if (res.status !== 200) {
