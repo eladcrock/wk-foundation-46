@@ -5,6 +5,7 @@ import ProgramHighlights from "@/components/home/ProgramHighlights";
 import UpcomingEventsCTA from "@/components/common/UpcomingEventsCTA";
 import OhanaFestCTA from "@/components/common/OhanaFestCTA";
 import FireworksVolunteerCTA from "@/components/common/FireworksVolunteerCTA";
+import MommyAndMeCTA from "@/components/common/MommyAndMeCTA";
 // Toy Drive featured event hidden for the off-season — re-enable next year.
 // import UpcomingEvent from "@/components/home/UpcomingEvent";
 import CallToAction from "@/components/common/CallToAction";
@@ -18,6 +19,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <OhanaFestCTA />
+        <MommyAndMeCTA />
         <FireworksVolunteerCTA />
         <ProgramHighlights />
         <UpcomingEventsCTA />
