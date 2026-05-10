@@ -40,15 +40,31 @@ const Programs = () => {
         <section id="breathe" className="section-padding bg-wk-charcoal">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-              <div
-                className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px]"
-                data-aos="fade-right"
-              >
-                <img
-                  src="/lovable-uploads/breathe-flyer.png"
-                  alt="BREATHE Youth Anti-Bullying Program"
-                  className="w-full h-auto object-contain max-h-[600px] mx-auto"
-                />
+              <div data-aos="fade-right" className="space-y-6">
+                <div className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px]">
+                  <img
+                    src="/lovable-uploads/breathe-flyer.png"
+                    alt="BREATHE Youth Anti-Bullying Program"
+                    className="w-full h-auto object-contain max-h-[600px] mx-auto"
+                  />
+                </div>
+                <div className="space-y-4">
+                  <p className="text-xs uppercase tracking-wider text-wk-gold font-semibold">
+                    From our FSUSD pilot sessions
+                  </p>
+                  <img
+                    src="/lovable-uploads/breathe-session-1.jpg"
+                    alt="B.R.E.A.T.H.E. session at Dan O. Root Health & Wellness"
+                    className="w-full h-auto object-cover rounded-lg shadow-lg"
+                    loading="lazy"
+                  />
+                  <img
+                    src="/lovable-uploads/breathe-session-2.jpg"
+                    alt="B.R.E.A.T.H.E. session at Dan O. Root Health & Wellness"
+                    className="w-full h-auto object-cover rounded-lg shadow-lg"
+                    loading="lazy"
+                  />
+                </div>
               </div>
 
               <div data-aos="fade-left">
@@ -94,20 +110,6 @@ const Programs = () => {
                   <p className="text-gray-400 text-xs italic">
                     Sponsored by A Honu Day (Utah).
                   </p>
-                  <div className="grid grid-cols-2 gap-3 mt-4">
-                    <img
-                      src="/lovable-uploads/breathe-session-1.jpg"
-                      alt="B.R.E.A.T.H.E. session at Dan O. Root"
-                      className="w-full h-40 object-cover rounded-lg"
-                      loading="lazy"
-                    />
-                    <img
-                      src="/lovable-uploads/breathe-session-2.jpg"
-                      alt="B.R.E.A.T.H.E. session at Dan O. Root"
-                      className="w-full h-40 object-cover rounded-lg"
-                      loading="lazy"
-                    />
-                  </div>
                 </div>
 
                 {/* Preschool Program */}
