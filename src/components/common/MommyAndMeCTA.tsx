@@ -20,7 +20,7 @@ const MommyAndMeCTA = ({ variant = "section" }: MommyAndMeCTAProps) => {
             </div>
             <div>
               <h3 className="text-xl font-bold text-white">
-                Mommy &amp; Me Self-Defense
+                Preschool Mommies &amp; Staff Workshop
               </h3>
               <p className="text-gray-300">
                 May 22 · 2pm – 4pm · For preschool moms &amp; staff
@@ -56,7 +56,7 @@ const MommyAndMeCTA = ({ variant = "section" }: MommyAndMeCTAProps) => {
                 </span>
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                Mommy &amp; Me Self-Defense Workshop
+                Preschool Mommies &amp; Staff Self-Defense Workshop
               </h2>
               <p className="text-wk-gold font-medium mb-2">
                 Thursday, May 22 · 2pm – 4pm
