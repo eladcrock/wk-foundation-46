@@ -17,9 +17,9 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <OhanaFestCTA />
         <AwardSection />
         <ProgramHighlights />
-        <OhanaFestCTA />
         <FireworksVolunteerCTA />
         <UpcomingEventsCTA />
         {/* <UpcomingEvent /> */}
