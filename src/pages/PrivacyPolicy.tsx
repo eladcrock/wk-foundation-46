@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
                     <li><strong className="text-white">Right to Opt-Out:</strong> You may opt out of the sale or sharing of your personal information. <em>We do not sell your personal information.</em></li>
                     <li><strong className="text-white">Right to Non-Discrimination:</strong> We will not discriminate against you for exercising your privacy rights.</li>
                   </ul>
-                  <p>To exercise any of these rights, contact us at <a href="mailto:WKFboard@gmail.com" className="text-wk-gold hover:underline">WKFboard@gmail.com</a> or call <a href="tel:+17074217200" className="text-wk-gold hover:underline">(707) 421-7200</a>. We will respond within 45 days.</p>
+                  <p>To exercise any of these rights, contact us at <a href="mailto:WKFboard@gmail.com" className="text-wk-gold hover:underline">WKFboard@gmail.com</a> or call <a href="tel:+17074398897" className="text-wk-gold hover:underline">(707) 439-8897</a>. We will respond within 45 days.</p>
                 </AccordionContent>
               </AccordionItem>
 
@@ -130,7 +130,7 @@ const PrivacyPolicy = () => {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-300 space-y-3">
                   <p>If you have questions about this Privacy Policy or wish to exercise your California privacy rights, contact us:</p>
-                  <p>Wahiawa Kajukenbo Foundation<br />821 Texas Street, Fairfield, CA 94533<br />Email: <a href="mailto:WKFboard@gmail.com" className="text-wk-gold hover:underline">WKFboard@gmail.com</a><br />Phone: <a href="tel:+17074217200" className="text-wk-gold hover:underline">(707) 421-7200</a></p>
+                  <p>Wahiawa Kajukenbo Foundation<br />821 Texas Street, Fairfield, CA 94533<br />Email: <a href="mailto:WKFboard@gmail.com" className="text-wk-gold hover:underline">WKFboard@gmail.com</a><br />Phone: <a href="tel:+17074398897" className="text-wk-gold hover:underline">(707) 439-8897</a></p>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

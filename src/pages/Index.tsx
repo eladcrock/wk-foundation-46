@@ -3,6 +3,8 @@ import Hero from "@/components/home/Hero";
 import AwardSection from "@/components/home/AwardSection";
 import ProgramHighlights from "@/components/home/ProgramHighlights";
 import UpcomingEventsCTA from "@/components/common/UpcomingEventsCTA";
+import OhanaFestCTA from "@/components/common/OhanaFestCTA";
+import FireworksVolunteerCTA from "@/components/common/FireworksVolunteerCTA";
 // Toy Drive featured event hidden for the off-season — re-enable next year.
 // import UpcomingEvent from "@/components/home/UpcomingEvent";
 import CallToAction from "@/components/common/CallToAction";
@@ -17,6 +19,8 @@ const Index = () => {
         <Hero />
         <AwardSection />
         <ProgramHighlights />
+        <OhanaFestCTA />
+        <FireworksVolunteerCTA />
         <UpcomingEventsCTA />
         {/* <UpcomingEvent /> */}
         <CallToAction />

@@ -87,6 +87,11 @@ const Footer = () => {
     </Link>
   </li>
   <li>
+    <Link to="/ohana-fest" className="text-wk-gold hover:text-yellow-300 transition-colors font-semibold">
+      Ohana Fest
+    </Link>
+  </li>
+  <li>
     <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors">
       About Us
     </Link>
@@ -103,9 +108,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 text-wk-gold">Contact Us</h4>
             <ul className="space-y-3">
               <li className="group">
-                <a href="tel:+17074217200" className="flex items-center gap-2">
+                <a href="tel:+17074398897" className="flex items-center gap-2">
                   <Phone size={16} className="text-wk-gold group-hover:text-wk-gold" />
-                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">(707) 421-7200</span>
+                  <span className="text-gray-300 group-hover:text-wk-gold transition-colors">(707) 439-8897</span>
                 </a>
               </li>
               <li className="group">

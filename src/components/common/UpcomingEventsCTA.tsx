@@ -30,7 +30,7 @@ const events = [
     location: "Suisun City Waterfront",
     description:
       "Our signature celebration of community, martial arts, and Hawaiian culture. Stay for Concert in the Park right after!",
-    cta: { label: "View Details", to: "/events" },
+    cta: { label: "View Details", to: "/ohana-fest" },
     badgeBg: "bg-wk-gold/20",
     badgeText: "text-wk-gold",
   },

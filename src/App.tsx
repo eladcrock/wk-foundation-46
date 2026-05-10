@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import Index from "./pages/Index";
 import Events from "./pages/Events";
+import OhanaFest from "./pages/OhanaFest";
 import Programs from "./pages/Programs";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -49,6 +50,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/ohana-fest" element={<OhanaFest />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
