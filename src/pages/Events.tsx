@@ -121,31 +121,6 @@ const Events = () => {
         </section>
         )}
 
-        {/* Chiropractic + Sponsor CTAs (kept visible after hiding toy drive) */}
-        <section className="py-16 bg-wk-charcoal">
-          <div className="container-custom">
-            <div className="bg-gradient-to-r from-wk-darkgray to-wk-charcoal rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up">
-              <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div className="flex items-center gap-4">
-                  <div className="bg-wk-gold/20 p-3 rounded-full">
-                    <Sparkles className="w-8 h-8 text-wk-gold" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-white">New! Chiropractic Care at T4L</h3>
-                    <p className="text-gray-300">Donation-based chiropractic services available every other week</p>
-                  </div>
-                </div>
-                <Button asChild className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal whitespace-nowrap">
-                  <Link to="/programs#chiropractic">Learn More</Link>
-                </Button>
-              </div>
-            </div>
-
-            <div className="mt-8" data-aos="fade-up" data-aos-delay="200">
-              <SponsorCTA />
-            </div>
-          </div>
-        </section>
 
         {/* Ohana Fest Highlight - links to dedicated page */}
         <OhanaFestCTA />
