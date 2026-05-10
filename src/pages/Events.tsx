@@ -12,8 +12,9 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CallToAction from "@/components/common/CallToAction";
 import SponsorCTA from "@/components/common/SponsorCTA";
-import OhanaGallery from "@/components/events/OhanaGallery";
-import { Calendar, Gift, Sparkles, Camera } from "lucide-react";
+import OhanaFestCTA from "@/components/common/OhanaFestCTA";
+import FireworksVolunteerCTA from "@/components/common/FireworksVolunteerCTA";
+import { Calendar, Gift, Sparkles } from "lucide-react";
 
 const Events = () => {
   return (
@@ -146,112 +147,11 @@ const Events = () => {
           </div>
         </section>
 
-        {/* Annual Events - Ohana Fest */}
-        <section className="py-16 bg-wk-dark">
-          <div className="container-custom">
-            <div className="text-center mb-12" data-aos="fade-up">
-              <div className="inline-flex items-center bg-wk-gold/20 px-4 py-2 rounded-full mb-4">
-                <Calendar className="w-5 h-5 text-wk-gold mr-2" />
-                <span className="text-wk-gold font-medium">Annual Event</span>
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Ohana Fest
-              </h2>
-              <p className="text-gray-300 max-w-2xl mx-auto">
-                Our signature annual celebration of community, martial arts, and Hawaiian culture. 
-                Featuring demonstrations, food, music, and activities for the whole family.
-              </p>
-            </div>
+        {/* Ohana Fest Highlight - links to dedicated page */}
+        <OhanaFestCTA />
 
-            {/* Featured 2025 Recap Video + 2026 CTA */}
-            <div className="mb-12 grid lg:grid-cols-5 gap-8 items-center" data-aos="fade-up">
-              <div className="lg:col-span-3 rounded-xl overflow-hidden bg-wk-charcoal border border-white/10 shadow-2xl aspect-video">
-                <video
-                  src="https://www.dropbox.com/scl/fi/80yc8wj51hwzy2ynhcgmu/OHANA-FEST-2025-new-song.mp4?rlkey=6wph5bvepnp28w2vd8518jg5r&raw=1"
-                  controls
-                  playsInline
-                  preload="metadata"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="lg:col-span-2 bg-gradient-to-br from-wk-darkgray to-wk-charcoal rounded-xl p-6 md:p-8 border border-wk-gold/30">
-                <div className="inline-flex items-center bg-wk-red/20 px-3 py-1 rounded-full mb-3">
-                  <Sparkles className="w-4 h-4 text-wk-red mr-1.5" />
-                  <span className="text-wk-red text-xs font-semibold uppercase tracking-wide">Save the Date</span>
-                </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                  Don't Miss Ohana Fest 2026!
-                </h3>
-                <p className="text-gray-300 mb-4">
-                  Watch the 2025 recap and see what awaits you next year. Saturday, September 12, 2026 · 10am–4pm at Suisun City Waterfront — followed by Concert in the Park.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <Button
-                    asChild
-                    className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal font-semibold"
-                  >
-                    <a href="/deck.pdf#pagemode=FullScreen" target="_blank" rel="noopener noreferrer">
-                      View Event Details
-                    </a>
-                  </Button>
-                  <Button
-                    asChild
-                    variant="outline"
-                    className="border-wk-gold text-wk-gold hover:bg-wk-gold hover:text-wk-charcoal"
-                  >
-                    <Link to="/contact">Become a Sponsor</Link>
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            {/* Ohana Fest Info */}
-            <div className="mb-12">
-              <div className="bg-wk-darkgray rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up">
-                <h3 className="text-xl font-bold text-wk-gold mb-4">About Ohana Fest</h3>
-                <p className="text-gray-300 mb-6">
-                  Join us for the annual Ohana Fest at Suisun Waterfront Harbor.
-                  Experience the art of Kajukenbo while connecting with community members.
-                </p>
-                <div className="grid sm:grid-cols-3 gap-4 mb-6">
-                  <div>
-                    <h4 className="font-semibold text-white">Date</h4>
-                    <p className="text-gray-300">Saturday, September 12, 2026 · 10am – 4pm</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-white">Location</h4>
-                    <p className="text-gray-300">Suisun City Waterfront</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-white">After Party</h4>
-                    <p className="text-gray-300">In collaboration with the City of Suisun — stay for Concert in the Park immediately after!</p>
-                  </div>
-                </div>
-                <Button
-                  asChild
-                  className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal"
-                >
-                  <a
-                    href="/deck.pdf#pagemode=FullScreen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Event Details
-                  </a>
-                </Button>
-              </div>
-            </div>
-
-            {/* Archive Gallery */}
-            <div className="bg-wk-darkgray rounded-xl p-6 md:p-8 border border-white/10" data-aos="fade-up">
-              <div className="flex items-center gap-2 mb-6">
-                <Camera className="w-5 h-5 text-wk-gold" />
-                <h3 className="text-xl font-bold text-white">Ohana Fest 2024 Archive</h3>
-              </div>
-              <OhanaGallery />
-            </div>
-          </div>
-        </section>
+        {/* Fireworks Booth Volunteers Wanted */}
+        <FireworksVolunteerCTA />
 
         {/* Other Upcoming Events */}
         <section className="py-16 bg-wk-charcoal">
@@ -292,7 +192,7 @@ const Events = () => {
                   title: "4th of July Fireworks Fundraiser",
                   date: "June 27 – July 4, 2026",
                   image:
-                    "https://nationaltoday.com/wp-content/uploads/2020/07/4july-1.jpg",
+                    "/lovable-uploads/volunteers-wanted-fireworks-2026.png",
                   description:
                     "We've secured the booth at the Black Bear parking lot! Support our free programs by volunteering. Volunteers must be 18+.",
                   location: "Black Bear Parking Lot",
