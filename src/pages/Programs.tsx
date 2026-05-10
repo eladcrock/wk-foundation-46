@@ -92,8 +92,22 @@ const Programs = () => {
                     Led by <span className="text-white font-medium">Sonny Ramos</span> &amp; <span className="text-white font-medium">Ady Ancheta</span> — Kajukenbo black belts with 24+ years of youth instruction experience.
                   </p>
                   <p className="text-gray-400 text-xs italic">
-                    Sponsored by A Honu Day (Utah). Session photos coming soon.
+                    Sponsored by A Honu Day (Utah).
                   </p>
+                  <div className="grid grid-cols-2 gap-3 mt-4">
+                    <img
+                      src="/lovable-uploads/breathe-session-1.jpg"
+                      alt="B.R.E.A.T.H.E. session at Dan O. Root"
+                      className="w-full h-40 object-cover rounded-lg"
+                      loading="lazy"
+                    />
+                    <img
+                      src="/lovable-uploads/breathe-session-2.jpg"
+                      alt="B.R.E.A.T.H.E. session at Dan O. Root"
+                      className="w-full h-40 object-cover rounded-lg"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
 
                 {/* Preschool Program */}
@@ -139,7 +153,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <Phone className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Phone:</span>
-                    <span className="ml-2">(707) 803-9539</span>
+                    <span className="ml-2">(707) 439-8897</span>
                   </div>
                 </div>
 
@@ -326,7 +340,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <Phone className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Phone:</span>
-                    <span className="ml-2">707-439-8897</span>
+                    <span className="ml-2">(707) 439-8897</span>
                   </div>
 
                   <div className="bg-red-600/20 border border-red-600/30 rounded-lg p-3 text-sm">
@@ -344,6 +358,77 @@ const Programs = () => {
                   className="bg-wk-red hover:bg-red-700 text-white w-full"
                 >
                   <Link to="/contact">Register Now</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Ahgung Award */}
+        <section id="ahgung-award" className="section-padding bg-wk-charcoal">
+          <div className="container-custom">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
+              <div
+                className="rounded-lg overflow-hidden shadow-xl flex items-center justify-center min-h-[400px] bg-white/5"
+                data-aos="fade-right"
+              >
+                <img
+                  src="/lovable-uploads/ahgung-award-flyer.png"
+                  alt="Ahgung Award — WK Foundation Youth Scholarship"
+                  className="w-full h-auto object-contain max-h-[700px] mx-auto"
+                />
+              </div>
+
+              <div data-aos="fade-left">
+                <h2 className="text-3xl font-bold text-wk-gold mb-2">
+                  Ahgung Award
+                </h2>
+                <h3 className="text-xl text-white mb-4 flex items-center">
+                  <span className="mr-2">Youth Scholarship</span>
+                  <span className="bg-wk-gold text-wk-charcoal text-sm font-bold px-2 py-1 rounded-full">
+                    $100 × 4
+                  </span>
+                </h3>
+
+                <p className="text-gray-300 mb-4">
+                  WK Foundation is proud to offer four <span className="text-wk-gold font-medium">$100 awards</span> to
+                  any active Train 4 Life student between the ages of <span className="text-white font-medium">5–18 years old</span>.
+                </p>
+
+                <div className="space-y-4 mb-6">
+                  <div className="bg-wk-darkgray border-l-4 border-wk-gold rounded-lg p-4">
+                    <p className="font-semibold text-white mb-1">Ages 5–10</p>
+                    <p className="text-gray-300 text-sm">
+                      A parent, teacher, or community adult (such as a coach or pastor) can
+                      nominate a student. A letter of recommendation must be submitted clearly
+                      stating why the student is deserving of the award.
+                    </p>
+                  </div>
+
+                  <div className="bg-wk-darkgray border-l-4 border-wk-red rounded-lg p-4">
+                    <p className="font-semibold text-white mb-1">Ages 11–18</p>
+                    <p className="text-gray-300 text-sm">
+                      Submit an essay (max 300 words) describing the altruistic character you
+                      possess, how you are involved in the community, and your hopes/plans for
+                      making a positive change.
+                    </p>
+                  </div>
+
+                  <div className="bg-wk-gold/20 border border-wk-gold/40 rounded-lg p-3 text-sm">
+                    <p className="font-medium text-wk-gold">
+                      Deadline: Friday, May 1st
+                    </p>
+                    <p className="text-gray-300 text-xs mt-1">
+                      For all letters of recommendation and essays.
+                    </p>
+                  </div>
+                </div>
+
+                <Button
+                  asChild
+                  className="bg-wk-gold hover:bg-yellow-500 text-wk-charcoal w-full"
+                >
+                  <Link to="/contact">Nominate or Apply</Link>
                 </Button>
               </div>
             </div>
