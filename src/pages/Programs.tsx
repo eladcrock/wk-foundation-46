@@ -92,8 +92,22 @@ const Programs = () => {
                     Led by <span className="text-white font-medium">Sonny Ramos</span> &amp; <span className="text-white font-medium">Ady Ancheta</span> — Kajukenbo black belts with 24+ years of youth instruction experience.
                   </p>
                   <p className="text-gray-400 text-xs italic">
-                    Sponsored by A Honu Day (Utah). Session photos coming soon.
+                    Sponsored by A Honu Day (Utah).
                   </p>
+                  <div className="grid grid-cols-2 gap-3 mt-4">
+                    <img
+                      src="/lovable-uploads/breathe-session-1.jpg"
+                      alt="B.R.E.A.T.H.E. session at Dan O. Root"
+                      className="w-full h-40 object-cover rounded-lg"
+                      loading="lazy"
+                    />
+                    <img
+                      src="/lovable-uploads/breathe-session-2.jpg"
+                      alt="B.R.E.A.T.H.E. session at Dan O. Root"
+                      className="w-full h-40 object-cover rounded-lg"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
 
                 {/* Preschool Program */}
