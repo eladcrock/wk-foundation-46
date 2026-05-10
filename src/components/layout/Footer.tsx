@@ -74,36 +74,37 @@ const Footer = () => {
             </div>
           </div>
           
-          <div  style={{ marginTop: "0rem" }}>
-          <ul className="flex justify-center md:justify-start space-x-4">
-  <li>
-    <Link to="/" className="text-gray-300 hover:text-wk-gold transition-colors">
-      Home
-    </Link>
-  </li>
-  <li>
-    <Link to="/events" className="text-gray-300 hover:text-wk-gold transition-colors">
-      Events
-    </Link>
-  </li>
-  <li>
-    <Link to="/ohana-fest" className="text-wk-gold hover:text-yellow-300 transition-colors font-semibold">
-      Ohana Fest
-    </Link>
-  </li>
-  <li>
-    <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors">
-      About Us
-    </Link>
-  </li>
-  <li>
-    <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition-colors">
-      Programs
-    </Link>
-  </li>
-</ul>
+          <div>
+            <h4 className="text-lg font-semibold mb-4 text-wk-gold">Quick Links</h4>
+            <ul className="flex flex-wrap gap-x-4 gap-y-2">
+              <li>
+                <Link to="/" className="text-gray-300 hover:text-wk-gold transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/events" className="text-gray-300 hover:text-wk-gold transition-colors">
+                  Events
+                </Link>
+              </li>
+              <li>
+                <Link to="/ohana-fest" className="text-wk-gold hover:text-yellow-300 transition-colors font-semibold">
+                  Ohana Fest
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/programs" className="text-gray-300 hover:text-wk-gold transition-colors">
+                  Programs
+                </Link>
+              </li>
+            </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4 text-wk-gold">Contact Us</h4>
             <ul className="space-y-3">
