@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import VolunteersWantedPopup from "./components/common/VolunteersWantedPopup";
 
 // Initialize AOS with consistent settings
 AOS.init({
