@@ -19,6 +19,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <OhanaFestCTA />
+        <MommyAndMeCTA />
         <FireworksVolunteerCTA />
         <ProgramHighlights />
         <UpcomingEventsCTA />
