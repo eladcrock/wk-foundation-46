@@ -226,11 +226,14 @@ const Programs = () => {
                     </span>
                   </div>
 
-                  <div className="bg-yellow-300/20 border border-yellow-400/30 rounded-lg p-3 text-sm">
+                  <Link
+                    to="/donate"
+                    className="block bg-yellow-300/20 border border-yellow-400/30 hover:bg-yellow-300/30 hover:border-yellow-400/50 transition-colors rounded-lg p-3 text-sm"
+                  >
                     <p className="font-medium text-yellow-300">
-                      Donations are welcomed
+                      Donations are welcomed →
                     </p>
-                  </div>
+                  </Link>
                 </div>
 
                 <Button
@@ -345,14 +348,17 @@ const Programs = () => {
                     <span className="ml-2">(707) 439-8897</span>
                   </div>
 
-                  <div className="bg-red-600/20 border border-red-600/30 rounded-lg p-3 text-sm">
+                  <Link
+                    to="/donate"
+                    className="block bg-red-600/20 border border-red-600/30 hover:bg-red-600/30 hover:border-red-600/50 transition-colors rounded-lg p-3 text-sm"
+                  >
                     <p className="font-medium text-white">
-                      Donations Always Welcomed
+                      Donations Always Welcomed →
                     </p>
                     <p className="text-gray-300 text-xs mt-1">
                       For seminars for small businesses and private groups
                     </p>
-                  </div>
+                  </Link>
                 </div>
 
                 <Button
