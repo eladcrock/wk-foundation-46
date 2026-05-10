@@ -52,6 +52,9 @@ const OhanaFest = () => {
               <div className="lg:col-span-3 rounded-xl overflow-hidden bg-wk-charcoal border border-white/10 shadow-2xl aspect-video">
                 <video
                   src="https://www.dropbox.com/scl/fi/80yc8wj51hwzy2ynhcgmu/OHANA-FEST-2025-new-song.mp4?rlkey=6wph5bvepnp28w2vd8518jg5r&raw=1"
+                  autoPlay
+                  muted
+                  loop
                   controls
                   playsInline
                   preload="metadata"
