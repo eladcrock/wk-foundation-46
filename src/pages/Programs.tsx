@@ -139,7 +139,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <Phone className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Phone:</span>
-                    <span className="ml-2">(707) 803-9539</span>
+                    <span className="ml-2">(707) 439-8897</span>
                   </div>
                 </div>
 
@@ -326,7 +326,7 @@ const Programs = () => {
                   <div className="flex items-center text-gray-300">
                     <Phone className="h-5 w-5 mr-2 text-wk-gold" />
                     <span className="font-medium">Phone:</span>
-                    <span className="ml-2">707-439-8897</span>
+                    <span className="ml-2">(707) 439-8897</span>
                   </div>
 
                   <div className="bg-red-600/20 border border-red-600/30 rounded-lg p-3 text-sm">
