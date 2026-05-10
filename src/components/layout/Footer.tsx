@@ -75,8 +75,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-wk-gold">Quick Links</h4>
-            <ul className="flex flex-wrap gap-x-4 gap-y-2">
+            <ul className="flex flex-wrap gap-x-4 gap-y-2 md:mt-2">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-wk-gold transition-colors">
                   Home
