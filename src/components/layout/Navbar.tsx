@@ -88,6 +88,12 @@ const Navbar = () => {
               Events
             </Link>
             <Link
+              to="/ohana-fest"
+              className="text-wk-gold hover:text-yellow-300 transition font-semibold"
+            >
+              Ohana Fest
+            </Link>
+            <Link
               to="/programs"
               className="text-gray-300 hover:text-wk-gold transition font-medium"
             >
@@ -128,6 +134,12 @@ const Navbar = () => {
                 className="text-gray-300 hover:text-wk-gold transition font-medium"
               >
                 Events
+              </Link>
+              <Link
+                to="/ohana-fest"
+                className="text-wk-gold hover:text-yellow-300 transition font-semibold"
+              >
+                Ohana Fest
               </Link>
               <Link
                 to="/programs"

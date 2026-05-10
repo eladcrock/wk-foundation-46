@@ -87,6 +87,11 @@ const Footer = () => {
     </Link>
   </li>
   <li>
+    <Link to="/ohana-fest" className="text-wk-gold hover:text-yellow-300 transition-colors font-semibold">
+      Ohana Fest
+    </Link>
+  </li>
+  <li>
     <Link to="/about" className="text-gray-300 hover:text-wk-gold transition-colors">
       About Us
     </Link>
